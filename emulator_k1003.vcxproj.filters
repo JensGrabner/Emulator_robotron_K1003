@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K1003_sys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_8008.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run_CPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\button_003_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_004_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_005_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_006_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_007_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_013_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_014_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_015_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_016_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_017_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_023_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_024_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_025_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_026_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_027_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_053_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_054_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_055_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_056_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_057_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_063_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_064_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_065_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_066_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_067_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_071_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_073_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_074_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_075_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_076_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_077_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_101_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_103_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_104_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_105_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_106_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_107_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_111_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_113_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_114_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_115_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_116_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_117_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_121_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_123_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_124_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_125_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_126_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_127_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_131_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_133_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_135_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_137_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_141_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_142_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_143_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_144_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_145_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_146_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_147_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_151_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_152_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_153_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_154_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_155_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_156_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_157_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_161_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_162_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_163_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_164_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_165_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_166_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_167_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\K1003_txt_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_bes_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_komp_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_stop_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_k_p_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_p_k_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_1_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_2_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_3_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_4_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_5_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_6_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_7_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_00_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_01_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_02_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_05_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_06_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_07_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_10_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_11_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_12_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_13_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_14_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_15_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_16_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_133_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_135_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\prg_137_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_003_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_004_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_005_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_006_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_007_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_013_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_014_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_015_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_016_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_017_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_023_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_024_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_025_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_026_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_027_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_053_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_054_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_055_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_056_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_057_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_063_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_064_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_065_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_066_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_067_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_073_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_103_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_113_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_133_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_135_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_137_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_143_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_144_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_145_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_146_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_147_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_153_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_154_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_155_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_156_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_157_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_163_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_164_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_165_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_166_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt_167_920.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="emulator_k1003.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="run_CPU.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K1003_sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_8008.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
