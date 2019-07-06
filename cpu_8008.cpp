@@ -97,8 +97,15 @@ void cpu_8008::InitProcessor()
 	// Key_number = 89;  // Test Pi() - Start o.k.
 
 	uint8_t i;
-	for (i = 0; i < 16; i++) {
+	for (i = 0; i < 8; i++) {
 		dispBuffer[i] = 0;
+		dispBuffer[i + 8] = 0;
+		raw1[i] = 0;
+		raw2[i] = 0;
+		INreg[i] = 0;
+		OUTreg[i] = 0;
+		OUTreg[i + 8] = 0;
+		OUTreg[i + 16] = 0;
 	}
 	my_runCPU->start_CPU(this);
 }
