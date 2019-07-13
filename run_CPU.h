@@ -1,8 +1,7 @@
 #ifndef __HEADER_RUN_CPU__
 #define __HEADER_RUN_CPU__
-// #include <QApplication>
-#include <QThread> 
 #include <cstdint>
+#include <QThread> 
 
 #include "Display.h"
 #include "K1003_sys.h"

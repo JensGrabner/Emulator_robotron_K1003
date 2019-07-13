@@ -4911,83 +4911,87 @@ void Display::DisplayDigit() {
 				break;
 			}
 
-			switch (dispBuffer[i] & andOperator_127) {
-			case 0:
-			case 7:
-			case 64:
-				break;
-
-			case 6:    // '1'
-				setPoint(xPos + 0, 1);
-				setPoint(xPos + 0, 4);
-				setPoint(xPos + 2, 4);
-				break;
-
-			case 16:   // 'i'
-				setPoint(xPos + 1, 0);
-				setPoint(xPos + 0, 4);
-				setPoint(xPos + 2, 4);
-				setPoint(xPos + 0, 2);
-				break;
-
-			case 127:  // '8'
-				clearPoint(xPos + 0, 2);
-				clearPoint(xPos + 2, 2);
-				break;
-
-			case 115:  // 'P'
-				clearPoint(xPos + 2, 0);
-				clearPoint(xPos + 2, 2);
-				break;
-
-			case 63:   // '0'
-				clearPoint(xPos + 0, 4);
-				clearPoint(xPos + 2, 0);
-				clearPoint(xPos + 0, 0);
-				clearPoint(xPos + 2, 4);
-				break;
-
-			case 70:   // '+'
-				clearPoint(xPos + 1, 0);
-				clearPoint(xPos + 1, 4);
-				break;
-
-			case 91:   // '2'
-				clearPoint(xPos + 0, 2);
-				clearPoint(xPos + 2, 2);
-			case 102:  // '4'
-				clearPoint(xPos + 2, 0);
-				break;
-
-			case 92:   // 'o'
-				clearPoint(xPos + 0, 4);
-			case 79:   // '3'
-				clearPoint(xPos + 0, 2);
-			case 109:  // '5'
-				clearPoint(xPos + 2, 4);
-			case 113:  // 'F'
-			case 121:  // 'E'
-				clearPoint(xPos + 2, 2);
-				break;
-
-			case 125:  // '6'
-				clearPoint(xPos + 0, 0);
-				clearPoint(xPos + 2, 2);
-				break;
-
-			case 111:  // '9'
-				clearPoint(xPos + 2, 4);
-			case 84:
-			case 80:   // 'r'
-				clearPoint(xPos + 0, 2);
-				break;
-
-			default:
-				ui->label->setText("Buffer");
-				break;
-			}
 			andOperator *= 2;
 		}
+
+		switch (dispBuffer[i] & andOperator_127) {
+		case 0:
+		case 7:
+		case 64:
+		case 56:
+		case 118:
+			break;
+
+		case 6:    // '1'
+			setPoint(xPos + 0, 1);
+			setPoint(xPos + 0, 4);
+			setPoint(xPos + 2, 4);
+			break;
+
+		case 16:   // 'i'
+			setPoint(xPos + 1, 0);
+			setPoint(xPos + 0, 4);
+			setPoint(xPos + 2, 4);
+			setPoint(xPos + 0, 2);
+			break;
+
+		case 127:  // '8'
+			clearPoint(xPos + 0, 2);
+			clearPoint(xPos + 2, 2);
+			break;
+
+		case 115:  // 'P'
+			clearPoint(xPos + 2, 0);
+			clearPoint(xPos + 2, 2);
+			break;
+
+		case 63:   // '0'
+			clearPoint(xPos + 0, 4);
+			clearPoint(xPos + 2, 0);
+			clearPoint(xPos + 0, 0);
+			clearPoint(xPos + 2, 4);
+			break;
+
+		case 70:   // '+'
+			clearPoint(xPos + 1, 0);
+			clearPoint(xPos + 1, 4);
+			break;
+
+		case 91:   // '2'
+			clearPoint(xPos + 0, 2);
+			clearPoint(xPos + 2, 2);
+		case 102:  // '4'
+			clearPoint(xPos + 2, 0);
+			break;
+
+		case 92:   // 'o'
+			clearPoint(xPos + 0, 4);
+		case 79:   // '3'
+			clearPoint(xPos + 0, 2);
+		case 109:  // '5'
+			clearPoint(xPos + 2, 4);
+		case 113:  // 'F'
+		case 121:  // 'E'
+			clearPoint(xPos + 2, 2);
+			break;
+
+		case 125:  // '6'
+			clearPoint(xPos + 0, 0);
+			clearPoint(xPos + 2, 2);
+			break;
+
+		case 111:  // '9'
+			clearPoint(xPos + 2, 4);
+		case 84:
+		case 80:   // 'r'
+			clearPoint(xPos + 0, 2);
+			break;
+
+		default:
+			ui->label->setText("Buffer");
+			break;
+		}
+
 		andOperator = 1;
 		xPos += 4;
 	}
