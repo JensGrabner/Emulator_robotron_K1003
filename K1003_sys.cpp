@@ -10,8 +10,6 @@ K1003_sys::K1003_sys()
 	myCPU->set_K1003(this);
 	myCPU->set_Display(myDisplay);
 	myCPU->set_UI(ui);
-
-
 }
 
 K1003_sys::~K1003_sys()
@@ -54,17 +52,13 @@ void K1003_sys::stop_CPU()
 
 void K1003_sys::CPU_hlt(uint16_t PC_n)
 {
-	ui->label->setText("CPU_hlt: " + QString::number(PC_n, 10)); // o.k.
+	ui->label->setText("hlt " + QString::number(PC_n, 10)); // o.k.
+	myCPU->stop_CPU();
 }
 
 void K1003_sys::K1003_is_on()
 {
-	// PC = 0;
 	ui->label->setText("K1003_on");
-
-	// nxt = myCPU-> memory(PC);	// next 8008 machine code
-	// PC = myCPU->iSet(nxt);
-	// ui->label->setText(QString::number(PC));
 }
 
 void K1003_sys::Test()

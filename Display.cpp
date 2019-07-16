@@ -9,8 +9,8 @@ Display::Display(Ui::MainWindow* newUi)
 	ui = newUi;
 
 	myCalculator = new Calculator();
-	myCalculator->setDisplay(this);
-	myCalculator->setUI(ui);
+	// myCalculator->setDisplay(this);
+	// myCalculator->setUI(ui);
 
 	myK1003 = new K1003_sys();
 	myK1003->setDisplay(this);
@@ -5058,7 +5058,7 @@ void Display::dispBufferTest() {
 			if ((utf8_text[textPos] >= '0') || (utf8_text[textPos] <= '9')) {
 				// ui->label->setText("Overflow");
 
-				myCalculator->abortOperation();
+				// myCalculator->abortOperation();
 				return;
 			}
 		}
@@ -5082,7 +5082,7 @@ void Display::digitClicked_0()
 		myK1003->KeyPressed(90); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(0);
+		// myCalculator->digitClicked(0);
 	}
 }
 
@@ -5092,7 +5092,7 @@ void Display::digitClicked_1()
 		myK1003->KeyPressed(77); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(1);
+		// myCalculator->digitClicked(1);
 	}
 }
 
@@ -5102,7 +5102,7 @@ void Display::digitClicked_2()
 		myK1003->KeyPressed(78); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(2);
+		// myCalculator->digitClicked(2);
 	}
 }
 
@@ -5112,7 +5112,7 @@ void Display::digitClicked_3()
 		myK1003->KeyPressed(79); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(3);
+		// myCalculator->digitClicked(3);
 	}
 }
 
@@ -5122,7 +5122,7 @@ void Display::digitClicked_4()
 		myK1003->KeyPressed(65); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(4);
+		// myCalculator->digitClicked(4);
 	}
 }
 
@@ -5132,7 +5132,7 @@ void Display::digitClicked_5()
 		myK1003->KeyPressed(66); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(5);
+		// myCalculator->digitClicked(5);
 	}
 }
 
@@ -5142,7 +5142,7 @@ void Display::digitClicked_6()
 		myK1003->KeyPressed(67); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(6);
+		// myCalculator->digitClicked(6);
 	}
 }
 
@@ -5152,7 +5152,7 @@ void Display::digitClicked_7()
 		myK1003->KeyPressed(53); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(7);
+		// myCalculator->digitClicked(7);
 	}
 }
 
@@ -5162,7 +5162,7 @@ void Display::digitClicked_8()
 		myK1003->KeyPressed(54); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(8);
+		// myCalculator->digitClicked(8);
 	}
 }
 
@@ -5172,7 +5172,7 @@ void Display::digitClicked_9()
 		myK1003->KeyPressed(55); // o.k.
 	}
 	else {
-		myCalculator->digitClicked(9);
+		// myCalculator->digitClicked(9);
 	}
 }
 
@@ -5182,7 +5182,7 @@ void Display::pointClicked()
 		myK1003->KeyPressed(91); // o.k.
 	}
 	else {
-		myCalculator->pointClicked();
+		// myCalculator->pointClicked();
 	}
 }
 
@@ -5192,7 +5192,7 @@ void Display::unaryOperatorClicked_1_x()
 		myK1003->KeyPressed(39); // o.k.
 	}
 	else {
-		myCalculator->unaryOperatorClicked('x');
+		// myCalculator->unaryOperatorClicked('x');
 	}
 }
 
@@ -5202,7 +5202,7 @@ void Display::unaryOperatorClicked_pow_2()
 		myK1003->KeyPressed(51); // o.k.
 	}
 	else {
-		myCalculator->unaryOperatorClicked('p');
+		// myCalculator->unaryOperatorClicked('p');
 	}
 }
 
@@ -5212,7 +5212,7 @@ void Display::unaryOperatorClicked_sqrt()
 		myK1003->KeyPressed(63); // o.k.
 	}
 	else {
-		myCalculator->unaryOperatorClicked('s');
+		// myCalculator->unaryOperatorClicked('s');
 	}
 }
 
@@ -5222,7 +5222,7 @@ void Display::clear()
 		myK1003->KeyPressed(41); // o.k.
 	}
 	else {
-		myCalculator->clear();
+		// myCalculator->clear();
 	}
 }
 
@@ -5232,7 +5232,7 @@ void Display::changeSignClicked()
 		myK1003->KeyPressed(42); // o.k.
 	}
 	else {
-		myCalculator->changeSignClicked();
+		// myCalculator->changeSignClicked();
 	}
 }
 
@@ -5242,7 +5242,7 @@ void Display::OperatorClicked_Div()
 		myK1003->KeyPressed(44); //
 	}
 	else {
-		myCalculator->multiplicativeOperatorClicked('/');
+		// myCalculator->multiplicativeOperatorClicked('/');
 	}
 }
 
@@ -5252,7 +5252,7 @@ void Display::OperatorClicked_Mul()
 		myK1003->KeyPressed(56); //
 	}
 	else {
-		myCalculator->multiplicativeOperatorClicked('*');
+		// myCalculator->multiplicativeOperatorClicked('*');
 	}
 }
 
@@ -5262,7 +5262,7 @@ void Display::OperatorClicked_Sub()
 		myK1003->KeyPressed(68); //
 	}
 	else {
-		myCalculator->additiveOperatorClicked('-');
+		// myCalculator->additiveOperatorClicked('-');
 	}
 }
 
@@ -5272,7 +5272,7 @@ void Display::OperatorClicked_Add()
 		myK1003->KeyPressed(80); //
 	}
 	else {
-		myCalculator->additiveOperatorClicked('+');
+		// myCalculator->additiveOperatorClicked('+');
 	}
 }
 
@@ -5282,7 +5282,7 @@ void Display::equalClicked()
 		myK1003->KeyPressed(92); //
 	}
 	else {
-		myCalculator->equalClicked();
+		// myCalculator->equalClicked();
 	}
 }
 
@@ -5293,7 +5293,7 @@ void Display::PiClicked()
 		// myK1003->PiClicked(); // o.k.
 	}
 	else {
-		myCalculator->unaryOperatorClicked('t');
+		// myCalculator->unaryOperatorClicked('t');
 	}
 }
 

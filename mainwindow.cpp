@@ -683,9 +683,6 @@ MainWindow::~MainWindow()
 	delete ui;
 }
 
-// Somewhere in MainWindow
-// run_CPU thread; 
-
 void MainWindow::Button_003_pressed()
 {
 	if (ui->checkBox_grd_on->isChecked() == true) {
