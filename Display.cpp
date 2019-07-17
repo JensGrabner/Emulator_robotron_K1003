@@ -4835,6 +4835,13 @@ void Display::DisplayDigit() {
 	clearPointAll();
 
 	for (uint8_t i = 0; i < 16; i += 1) {
+		if ((dispBuffer[i] & andOperator_127) == 64) {
+			if ((dispBuffer[i + 1] & andOperator_127) == 0) {
+				dispBuffer[i + 1] = dispBuffer[i];
+				dispBuffer[i] = 0;
+			}
+		}
+
 		for (uint8_t j = 0; j < 8; j += 1) {
 			switch (dispBuffer[i] & andOperator) {
 			case 0:
@@ -4917,7 +4924,7 @@ void Display::DisplayDigit() {
 		switch (dispBuffer[i] & andOperator_127) {
 		case 0:
 		case 7:
-		case 64:
+		case 64:   // '-'
 		case 56:
 		case 118:
 			break;
@@ -4970,9 +4977,13 @@ void Display::DisplayDigit() {
 			clearPoint(xPos + 0, 2);
 		case 109:  // '5'
 			clearPoint(xPos + 2, 4);
-		case 113:  // 'F'
 		case 121:  // 'E'
 			clearPoint(xPos + 2, 2);
+			break;
+
+		case 113:  // 'F'
+			clearPoint(xPos + 2, 2);
+			myK1003->stop_CPU();;
 			break;
 
 		case 125:  // '6'

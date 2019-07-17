@@ -128,9 +128,9 @@ uint16_t cpu_8008::iSet(uint8_t m_nxt)
 	case 42:
 	case 50:
 	case 255:
-		hlt();
+		// hlt();
 		myK1003->CPU_hlt(PC);
-		PC = 0;
+		myK1003->stop_CPU();
 		break;
 
 	case 2:

@@ -21,6 +21,7 @@ public:
 
 	uint8_t Button_007_count = 0;
 	uint8_t Button_017_count = 0;
+	uint8_t Button_167_count = 0;
 
 
 private slots:
