@@ -878,6 +878,16 @@ void MainWindow::Button_006_pressed()
 	ui->toolButton_006->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_006p_920.png)"));
 
+	if (Button_007_count > 0) {
+		myDisplay->KeyPressed(84);  // 84
+		_sleep(2);
+	}
+
+	if (Button_017_count > 0) {
+		myDisplay->KeyPressed(85);  // 85
+		_sleep(2);
+	}
+
 	myDisplay->KeyPressed(72);
 
 	// ui->label->setText("Pressed");
@@ -888,6 +898,19 @@ void MainWindow::Button_006_released()
 	ui->toolButton_006->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_006_920.png)"));
 
+	if (Button_007_count > 0) {
+		Button_007_count = 0;
+
+		ui->toolButton_007->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_007_920.png)"));
+	}
+
+	if (Button_017_count > 0) {
+		Button_017_count = 0;
+
+		ui->toolButton_017->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_017_920.png)"));
+	}
 	// ui->label->setText("Released");
 };
 
@@ -895,6 +918,16 @@ void MainWindow::Button_016_pressed()
 {
 	ui->toolButton_016->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_016p_920.png)"));
+
+	if (Button_007_count > 0) {
+		myDisplay->KeyPressed(84);  // 84
+		_sleep(2);
+	}
+
+	if (Button_017_count > 0) {
+		myDisplay->KeyPressed(85);  // 85
+		_sleep(2);
+	}
 
 	myDisplay->KeyPressed(73);
 
@@ -906,6 +939,19 @@ void MainWindow::Button_016_released()
 	ui->toolButton_016->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_016_920.png)"));
 
+	if (Button_007_count > 0) {
+		Button_007_count = 0;
+
+		ui->toolButton_007->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_007_920.png)"));
+	}
+
+	if (Button_017_count > 0) {
+		Button_017_count = 0;
+
+		ui->toolButton_017->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_017_920.png)"));
+	}
 	// ui->label->setText("Released");
 };
 
@@ -913,6 +959,16 @@ void MainWindow::Button_026_pressed()
 {
 	ui->toolButton_026->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_026p_920.png)"));
+
+	if (Button_007_count > 0) {
+		myDisplay->KeyPressed(84);  // 84
+		_sleep(2);
+	}
+
+	if (Button_017_count > 0) {
+		myDisplay->KeyPressed(85);  // 85
+		_sleep(2);
+	}
 
 	myDisplay->KeyPressed(74);
 
@@ -924,29 +980,51 @@ void MainWindow::Button_026_released()
 	ui->toolButton_026->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_026_920.png)"));
 
+	if (Button_007_count > 0) {
+		Button_007_count = 0;
+
+		ui->toolButton_007->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_007_920.png)"));
+	}
+
+	if (Button_017_count > 0) {
+		Button_017_count = 0;
+
+		ui->toolButton_017->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_017_920.png)"));
+	}
 	// ui->label->setText("Released");
 };
 
 void MainWindow::Button_007_pressed()
 {
+	Button_007_count += 1;
+
 	ui->toolButton_007->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_007p_920.png)"));
 
-	myDisplay->KeyPressed(84); // 84
+	// myDisplay->KeyPressed(84);  // 84
 
 	// ui->label->setText("Pressed");
 };
 
 void MainWindow::Button_007_released()
 {
-	ui->toolButton_007->setStyleSheet(QString::fromUtf8(
-		"background-image: url(:/images/images/button_007_920.png)"));
+	Button_007_count += 1;
 
+	if (Button_007_count > 3) {
+		Button_007_count = 0;
+
+		ui->toolButton_007->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_007_920.png)"));
+	}
 	// ui->label->setText("Released");
 };
 
 void MainWindow::Button_017_pressed()
 {
+	Button_017_count += 1;
+
 	ui->toolButton_017->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_017p_920.png)"));
 
@@ -957,8 +1035,14 @@ void MainWindow::Button_017_pressed()
 
 void MainWindow::Button_017_released()
 {
-	ui->toolButton_017->setStyleSheet(QString::fromUtf8(
-		"background-image: url(:/images/images/button_017_920.png)"));
+	Button_017_count += 1;
+
+	if (Button_017_count > 3) {
+		Button_017_count = 0;
+
+		ui->toolButton_017->setStyleSheet(QString::fromUtf8(
+			"background-image: url(:/images/images/button_017_920.png)"));
+	}
 
 	// ui->label->setText("Released");
 };
@@ -2021,12 +2105,24 @@ void MainWindow::Button_on_off_pressed()
 		ui->checkBox_on_off->click();
 		ui->graphicsView_on_off_2->setStyleSheet(QString::fromUtf8("background-color: rgb(204, 102, 51);"));
 		myDisplay->InitProcessor();
+
+		if (ui->checkBox_grd_on->isChecked() == true) {
+			_sleep(2);
+			myDisplay->KeyPressed(37);
+		}
+
+		if (ui->checkBox_ngrd_on->isChecked() == true) {
+			_sleep(2);
+			myDisplay->KeyPressed(38);
+		}
+
 	}
 	else {
 		ui->checkBox_on_off->click();
 		ui->checkBox_on_off->click();
 		ui->graphicsView_on_off_2->setStyleSheet(QString::fromUtf8("background-color: rgb(102, 153, 255);"));
 		myDisplay->stop_CPU();
+		_sleep(2);
 	}
 
 	// ui->label->setText("Pressed");

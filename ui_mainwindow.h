@@ -967,6 +967,8 @@ public:
     QFrame *frame_36;
     QFrame *frame_37;
     QFrame *frame_38;
+    QGraphicsView *graphicsView_4;
+    QGraphicsView *graphicsView_5;
     QMenuBar *menuBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -1443,6 +1445,8 @@ public:
         checkBox_2_10 = new QCheckBox(centralWidget);
         checkBox_2_10->setObjectName(QString::fromUtf8("checkBox_2_10"));
         checkBox_2_10->setGeometry(QRect(149, 20, 11, 7));
+        checkBox_2_10->setAutoFillBackground(false);
+        checkBox_2_10->setIconSize(QSize(20, 20));
         checkBox_2_10->setCheckable(true);
         checkBox_2_10->setTristate(true);
         checkBox_2_12 = new QCheckBox(centralWidget);
@@ -2526,28 +2530,28 @@ public:
 ""));
         toolButton_071 = new QToolButton(centralWidget);
         toolButton_071->setObjectName(QString::fromUtf8("toolButton_071"));
-        toolButton_071->setGeometry(QRect(80, 120, 51, 31));
+        toolButton_071->setGeometry(QRect(80, 117, 51, 31));
         toolButton_071->setFont(font);
         toolButton_071->setToolTipDuration(-2);
         toolButton_071->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_071_920.png);\n"
 ""));
         toolButton_101 = new QToolButton(centralWidget);
         toolButton_101->setObjectName(QString::fromUtf8("toolButton_101"));
-        toolButton_101->setGeometry(QRect(140, 120, 51, 31));
+        toolButton_101->setGeometry(QRect(140, 117, 51, 31));
         toolButton_101->setFont(font);
         toolButton_101->setToolTipDuration(-2);
         toolButton_101->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_101_920.png);\n"
 ""));
         toolButton_111 = new QToolButton(centralWidget);
         toolButton_111->setObjectName(QString::fromUtf8("toolButton_111"));
-        toolButton_111->setGeometry(QRect(200, 120, 51, 31));
+        toolButton_111->setGeometry(QRect(200, 117, 51, 31));
         toolButton_111->setFont(font);
         toolButton_111->setToolTipDuration(-2);
         toolButton_111->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_111_920.png);\n"
 ""));
         toolButton_121 = new QToolButton(centralWidget);
         toolButton_121->setObjectName(QString::fromUtf8("toolButton_121"));
-        toolButton_121->setGeometry(QRect(260, 120, 51, 31));
+        toolButton_121->setGeometry(QRect(260, 117, 51, 31));
         toolButton_121->setFont(font);
         toolButton_121->setToolTipDuration(-2);
         toolButton_121->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_121_920.png);\n"
@@ -2578,7 +2582,7 @@ public:
         toolButton_073->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_073_920.png);"));
         graphicsView_9 = new QGraphicsView(centralWidget);
         graphicsView_9->setObjectName(QString::fromUtf8("graphicsView_9"));
-        graphicsView_9->setGeometry(QRect(450, 190, 171, 211));
+        graphicsView_9->setGeometry(QRect(450, 190, 170, 211));
         graphicsView_9->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 148, 164);"));
         toolButton_127 = new QToolButton(centralWidget);
         toolButton_127->setObjectName(QString::fromUtf8("toolButton_127"));
@@ -2758,29 +2762,29 @@ public:
         graphicsView_141->setStyleSheet(QString::fromUtf8("background-color: rgb(216, 220, 255);"));
         toolButton_137 = new QToolButton(centralWidget);
         toolButton_137->setObjectName(QString::fromUtf8("toolButton_137"));
-        toolButton_137->setGeometry(QRect(460, 120, 51, 31));
+        toolButton_137->setGeometry(QRect(460, 117, 51, 31));
         toolButton_137->setFont(font);
         toolButton_137->setToolTipDuration(-2);
         toolButton_137->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_137_920.png);\n"
 ""));
         graphicsView_137 = new QGraphicsView(centralWidget);
         graphicsView_137->setObjectName(QString::fromUtf8("graphicsView_137"));
-        graphicsView_137->setGeometry(QRect(390, 120, 21, 31));
+        graphicsView_137->setGeometry(QRect(390, 117, 21, 31));
         graphicsView_137->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 204, 204);\n"
 "border-image: url(:/images/images/txt_137_920.png);"));
         graphicsView_135 = new QGraphicsView(centralWidget);
         graphicsView_135->setObjectName(QString::fromUtf8("graphicsView_135"));
-        graphicsView_135->setGeometry(QRect(410, 120, 21, 31));
+        graphicsView_135->setGeometry(QRect(410, 117, 21, 31));
         graphicsView_135->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 204, 204);\n"
 "border-image: url(:/images/images/txt_135_920.png);"));
         graphicsView_133 = new QGraphicsView(centralWidget);
         graphicsView_133->setObjectName(QString::fromUtf8("graphicsView_133"));
-        graphicsView_133->setGeometry(QRect(430, 120, 21, 31));
+        graphicsView_133->setGeometry(QRect(430, 117, 21, 31));
         graphicsView_133->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 204, 204);\n"
 "border-image: url(:/images/images/txt_133_920.png);"));
         toolButton_135 = new QToolButton(centralWidget);
         toolButton_135->setObjectName(QString::fromUtf8("toolButton_135"));
-        toolButton_135->setGeometry(QRect(520, 120, 51, 31));
+        toolButton_135->setGeometry(QRect(520, 117, 51, 31));
         toolButton_135->setFont(font);
         toolButton_135->setToolTipDuration(-2);
         toolButton_135->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_135_920.png);\n"
@@ -3021,7 +3025,7 @@ public:
         toolButton_107->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_107_920.png);"));
         toolButton_133 = new QToolButton(centralWidget);
         toolButton_133->setObjectName(QString::fromUtf8("toolButton_133"));
-        toolButton_133->setGeometry(QRect(580, 120, 31, 31));
+        toolButton_133->setGeometry(QRect(580, 117, 31, 31));
         toolButton_133->setFont(font);
         toolButton_133->setToolTipDuration(-2);
         toolButton_133->setStyleSheet(QString::fromUtf8("background-image: url(:/images/images/button_133_920.png);"));
@@ -3097,7 +3101,7 @@ public:
         graphicsView_prg_02->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_02_920.png);"));
         graphicsView_prg_07a = new QGraphicsView(centralWidget);
         graphicsView_prg_07a->setObjectName(QString::fromUtf8("graphicsView_prg_07a"));
-        graphicsView_prg_07a->setGeometry(QRect(90, 150, 31, 21));
+        graphicsView_prg_07a->setGeometry(QRect(90, 152, 31, 21));
         graphicsView_prg_07a->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_07_920.png);"));
         graphicsView_prg_05 = new QGraphicsView(centralWidget);
         graphicsView_prg_05->setObjectName(QString::fromUtf8("graphicsView_prg_05"));
@@ -3161,27 +3165,27 @@ public:
         graphicsView_prg_1->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_1_920.png);"));
         graphicsView_prg_10a = new QGraphicsView(centralWidget);
         graphicsView_prg_10a->setObjectName(QString::fromUtf8("graphicsView_prg_10a"));
-        graphicsView_prg_10a->setGeometry(QRect(150, 150, 31, 21));
+        graphicsView_prg_10a->setGeometry(QRect(150, 152, 31, 21));
         graphicsView_prg_10a->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_10_920.png);"));
         graphicsView_prg_11a = new QGraphicsView(centralWidget);
         graphicsView_prg_11a->setObjectName(QString::fromUtf8("graphicsView_prg_11a"));
-        graphicsView_prg_11a->setGeometry(QRect(210, 150, 31, 21));
+        graphicsView_prg_11a->setGeometry(QRect(210, 152, 31, 21));
         graphicsView_prg_11a->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_11_920.png);"));
         graphicsView_prg_12a = new QGraphicsView(centralWidget);
         graphicsView_prg_12a->setObjectName(QString::fromUtf8("graphicsView_prg_12a"));
-        graphicsView_prg_12a->setGeometry(QRect(270, 150, 31, 21));
+        graphicsView_prg_12a->setGeometry(QRect(270, 152, 31, 21));
         graphicsView_prg_12a->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_12_920.png);"));
         graphicsViewprg_137 = new QGraphicsView(centralWidget);
         graphicsViewprg_137->setObjectName(QString::fromUtf8("graphicsViewprg_137"));
-        graphicsViewprg_137->setGeometry(QRect(470, 150, 31, 21));
+        graphicsViewprg_137->setGeometry(QRect(470, 152, 31, 21));
         graphicsViewprg_137->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_137_920.png);"));
         graphicsView_prg_135 = new QGraphicsView(centralWidget);
         graphicsView_prg_135->setObjectName(QString::fromUtf8("graphicsView_prg_135"));
-        graphicsView_prg_135->setGeometry(QRect(530, 150, 31, 21));
+        graphicsView_prg_135->setGeometry(QRect(530, 152, 31, 21));
         graphicsView_prg_135->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_135_920.png);"));
         graphicsView_prg_133 = new QGraphicsView(centralWidget);
         graphicsView_prg_133->setObjectName(QString::fromUtf8("graphicsView_prg_133"));
-        graphicsView_prg_133->setGeometry(QRect(580, 150, 31, 21));
+        graphicsView_prg_133->setGeometry(QRect(580, 152, 31, 21));
         graphicsView_prg_133->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/prg_133_920.png);"));
         graphicsView_prg_4 = new QGraphicsView(centralWidget);
         graphicsView_prg_4->setObjectName(QString::fromUtf8("graphicsView_prg_4"));
@@ -5854,11 +5858,11 @@ public:
         checkBox_on_off->setTristate(true);
         graphicsView_on_off = new QGraphicsView(centralWidget);
         graphicsView_on_off->setObjectName(QString::fromUtf8("graphicsView_on_off"));
-        graphicsView_on_off->setGeometry(QRect(612, 115, 88, 24));
+        graphicsView_on_off->setGeometry(QRect(619, 115, 82, 24));
         graphicsView_on_off->setStyleSheet(QString::fromUtf8("border-image: url(:/images/images/button_on_off_920.png);"));
         label = new QToolButton(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(10, 150, 71, 31));
+        label->setGeometry(QRect(10, 160, 71, 21));
         commandLink_Button_on_off = new QCommandLinkButton(centralWidget);
         commandLink_Button_on_off->setObjectName(QString::fromUtf8("commandLink_Button_on_off"));
         commandLink_Button_on_off->setGeometry(QRect(635, 143, 41, 41));
@@ -5876,7 +5880,7 @@ public:
         frame_1->setFrameShadow(QFrame::Raised);
         lineEdit = new QLineEdit(centralWidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(320, 140, 51, 21));
+        lineEdit->setGeometry(QRect(330, 140, 51, 21));
         QFont font2;
         font2.setFamily(QString::fromUtf8("Segoe UI"));
         font2.setPointSize(4);
@@ -5900,7 +5904,7 @@ public:
         frame_4->setFrameShadow(QFrame::Raised);
         frame_5 = new QFrame(centralWidget);
         frame_5->setObjectName(QString::fromUtf8("frame_5"));
-        frame_5->setGeometry(QRect(314, 130, 71, 41));
+        frame_5->setGeometry(QRect(324, 130, 61, 41));
         frame_5->setStyleSheet(QString::fromUtf8("background-color: rgb(240, 240, 240);"));
         frame_5->setFrameShape(QFrame::StyledPanel);
         frame_5->setFrameShadow(QFrame::Raised);
@@ -6128,7 +6132,19 @@ public:
 ""));
         frame_38->setFrameShape(QFrame::StyledPanel);
         frame_38->setFrameShadow(QFrame::Raised);
+        graphicsView_4 = new QGraphicsView(centralWidget);
+        graphicsView_4->setObjectName(QString::fromUtf8("graphicsView_4"));
+        graphicsView_4->setGeometry(QRect(70, 110, 251, 45));
+        graphicsView_4->setStyleSheet(QString::fromUtf8("background-color: rgb(216, 220, 255);"));
+        graphicsView_5 = new QGraphicsView(centralWidget);
+        graphicsView_5->setObjectName(QString::fromUtf8("graphicsView_5"));
+        graphicsView_5->setGeometry(QRect(450, 110, 171, 45));
+        graphicsView_5->setStyleSheet(QString::fromUtf8("background-color: rgb(216, 220, 255);"));
         MainWindow->setCentralWidget(centralWidget);
+        graphicsView_133->raise();
+        graphicsView_on_off->raise();
+        graphicsView_5->raise();
+        graphicsView_4->raise();
         graphicsView_2->raise();
         checkBox_2_09->raise();
         checkBox_2_02->raise();
@@ -6472,7 +6488,6 @@ public:
         toolButton_137->raise();
         graphicsView_137->raise();
         graphicsView_135->raise();
-        graphicsView_133->raise();
         toolButton_135->raise();
         toolButton_142->raise();
         toolButton_141->raise();
@@ -6772,7 +6787,6 @@ public:
         line_fh->raise();
         graphicsView_on_off_2->raise();
         checkBox_on_off->raise();
-        graphicsView_on_off->raise();
         label->raise();
         commandLink_Button_on_off->raise();
         frame_1->raise();
@@ -6780,7 +6794,6 @@ public:
         frame_3->raise();
         frame_4->raise();
         lineEdit->raise();
-        frame_5->raise();
         frame_6->raise();
         frame_7->raise();
         frame_8->raise();
@@ -7069,6 +7082,7 @@ public:
         line_f23->raise();
         line_f33->raise();
         line_f43->raise();
+        frame_5->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 921, 26));

@@ -1515,8 +1515,17 @@ background-color: rgb(240, 240, 240);
       <height>7</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -5628,7 +5637,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -5654,7 +5663,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -5680,7 +5689,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -5706,7 +5715,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -5823,7 +5832,7 @@ background-color: rgb(240, 240, 240);
      <rect>
       <x>450</x>
       <y>190</y>
-      <width>171</width>
+      <width>170</width>
       <height>211</height>
      </rect>
     </property>
@@ -6485,7 +6494,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>460</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -6511,7 +6520,7 @@ background-color: rgb(240, 240, 240);
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>120</y>
+      <y>117</y>
       <width>21</width>
       <height>31</height>
      </rect>
@@ -6525,7 +6534,7 @@ border-image: url(:/images/images/txt_137_920.png);</string>
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>120</y>
+      <y>117</y>
       <width>21</width>
       <height>31</height>
      </rect>
@@ -6539,7 +6548,7 @@ border-image: url(:/images/images/txt_135_920.png);</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>120</y>
+      <y>117</y>
       <width>21</width>
       <height>31</height>
      </rect>
@@ -6553,7 +6562,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>120</y>
+      <y>117</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -7497,7 +7506,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>580</x>
-      <y>120</y>
+      <y>117</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -7763,7 +7772,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -7971,7 +7980,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -7984,7 +7993,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -7997,7 +8006,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -8010,7 +8019,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -8023,7 +8032,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -8036,7 +8045,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>580</x>
-      <y>150</y>
+      <y>152</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -16541,9 +16550,9 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QGraphicsView" name="graphicsView_on_off">
     <property name="geometry">
      <rect>
-      <x>612</x>
+      <x>619</x>
       <y>115</y>
-      <width>88</width>
+      <width>82</width>
       <height>24</height>
      </rect>
     </property>
@@ -16555,9 +16564,9 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>150</y>
+      <y>160</y>
       <width>71</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -16607,7 +16616,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>330</x>
       <y>140</y>
       <width>51</width>
       <height>21</height>
@@ -16671,9 +16680,9 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5">
     <property name="geometry">
      <rect>
-      <x>314</x>
+      <x>324</x>
       <y>130</y>
-      <width>71</width>
+      <width>61</width>
       <height>41</height>
      </rect>
     </property>
@@ -17327,6 +17336,36 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
+   <widget class="QGraphicsView" name="graphicsView_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>251</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(216, 220, 255);</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>171</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(216, 220, 255);</string>
+    </property>
+   </widget>
+   <zorder>graphicsView_133</zorder>
+   <zorder>graphicsView_on_off</zorder>
+   <zorder>graphicsView_5</zorder>
+   <zorder>graphicsView_4</zorder>
    <zorder>graphicsView_2</zorder>
    <zorder>checkBox_2_09</zorder>
    <zorder>checkBox_2_02</zorder>
@@ -17670,7 +17709,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>toolButton_137</zorder>
    <zorder>graphicsView_137</zorder>
    <zorder>graphicsView_135</zorder>
-   <zorder>graphicsView_133</zorder>
    <zorder>toolButton_135</zorder>
    <zorder>toolButton_142</zorder>
    <zorder>toolButton_141</zorder>
@@ -17970,7 +18008,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>line_fh</zorder>
    <zorder>graphicsView_on_off_2</zorder>
    <zorder>checkBox_on_off</zorder>
-   <zorder>graphicsView_on_off</zorder>
    <zorder>label</zorder>
    <zorder>commandLink_Button_on_off</zorder>
    <zorder>frame_1</zorder>
@@ -17978,7 +18015,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>frame_3</zorder>
    <zorder>frame_4</zorder>
    <zorder>lineEdit</zorder>
-   <zorder>frame_5</zorder>
    <zorder>frame_6</zorder>
    <zorder>frame_7</zorder>
    <zorder>frame_8</zorder>
@@ -18267,6 +18303,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>line_f23</zorder>
    <zorder>line_f33</zorder>
    <zorder>line_f43</zorder>
+   <zorder>frame_5</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

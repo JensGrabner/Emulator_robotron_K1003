@@ -5304,5 +5304,6 @@ void Display::InitProcessor()
 
 void Display::stop_CPU()
 {
+	clearPointAll();
 	myK1003->stop_CPU();
 }

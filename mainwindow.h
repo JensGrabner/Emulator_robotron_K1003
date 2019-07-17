@@ -19,6 +19,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow(void);
 
+	uint8_t Button_007_count = 0;
+	uint8_t Button_017_count = 0;
+
 
 private slots:
 	void Button_003_pressed();
