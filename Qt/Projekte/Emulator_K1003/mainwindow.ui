@@ -51,8 +51,7 @@
      </sizepolicy>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/images/K1003_txt_920.png);
-</string>
+     <string notr="true">border-image: url(:/images/images/K1003_txt_920.png);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Panel</enum>
@@ -624,6 +623,16 @@ border-image: url(:/images/images/txt_146_920.png);</string>
 border-image: url(:/images/images/txt_163_920.png);</string>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_003">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_003">
     <property name="geometry">
      <rect>
@@ -643,9 +652,7 @@ border-image: url(:/images/images/txt_163_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_003_920.png);
-background-color: rgb(240, 240, 240);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_003_920.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -996,8 +1003,7 @@ background-color: rgb(240, 240, 240);
      </sizepolicy>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_1_00">
@@ -5581,6 +5587,16 @@ background-color: rgb(240, 240, 240);
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_013">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_013">
     <property name="geometry">
      <rect>
@@ -5600,11 +5616,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_013_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_013_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_023">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_023">
@@ -5626,11 +5651,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_023_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_023_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_071">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_071">
@@ -5652,11 +5686,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_071_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_071_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_101">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_101">
@@ -5678,11 +5721,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_101_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_101_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_111">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_111">
@@ -5704,11 +5756,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_111_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_111_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_121">
+    <property name="geometry">
+     <rect>
+      <x>259</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_121">
@@ -5730,8 +5791,7 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_121_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_121_920.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -5748,6 +5808,16 @@ background-color: rgb(240, 240, 240);
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(216, 220, 255);</string>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_053">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_053">
@@ -5769,11 +5839,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_053_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_053_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_063">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_063">
@@ -5795,11 +5874,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_063_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_063_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_073">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>199</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_073">
@@ -5840,6 +5928,16 @@ background-color: rgb(240, 240, 240);
      <string notr="true">background-color: rgb(255, 148, 164);</string>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_127">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_127">
     <property name="geometry">
      <rect>
@@ -5859,8 +5957,7 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_127_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_127_920.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -5869,14 +5966,24 @@ background-color: rgb(240, 240, 240);
    <widget class="QGraphicsView" name="graphicsView_10">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>350</y>
-      <width>71</width>
-      <height>51</height>
+      <x>571</x>
+      <y>351</y>
+      <width>70</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(154, 171, 203);</string>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_054">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_054">
@@ -5898,11 +6005,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_054_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_054_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_064">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_064">
@@ -5924,11 +6040,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_064_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_064_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_055">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_055">
@@ -5950,11 +6075,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_055_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_055_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_065">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_065">
@@ -5976,11 +6110,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_065_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_065_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_056">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_056">
@@ -6002,11 +6145,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_056_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_056_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_066">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_066">
@@ -6028,11 +6180,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_066_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_066_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_057">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_057">
@@ -6054,11 +6215,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_057_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_057_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_067">
+    <property name="geometry">
+     <rect>
+      <x>379</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_067">
@@ -6080,11 +6250,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_067_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_067_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_024">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_024">
@@ -6106,11 +6285,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_024_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_024_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_004">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_004">
@@ -6132,11 +6320,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_004_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_004_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_014">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_014">
@@ -6158,11 +6355,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_014_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_014_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_025">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_025">
@@ -6184,11 +6390,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_025_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_025_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_005">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_005">
@@ -6210,11 +6425,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_005_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_005_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_015">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_015">
@@ -6236,11 +6460,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_015_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_015_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_026">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_026">
@@ -6262,11 +6495,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_026_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_026_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_006">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_006">
@@ -6288,11 +6530,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_006_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_006_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_016">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_016">
@@ -6314,11 +6565,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_016_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_016_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_027">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_027">
@@ -6340,11 +6600,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_027_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_027_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_007">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_007">
@@ -6366,11 +6635,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_007_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_007_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_017">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_017">
@@ -6392,11 +6670,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_017_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_017_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_163">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_163">
@@ -6418,11 +6705,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_163_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_163_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_143">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_143">
@@ -6444,11 +6740,20 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_143_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_143_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_153">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>199</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_153">
@@ -6470,8 +6775,7 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_153_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_153_920.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -6488,6 +6792,16 @@ background-color: rgb(240, 240, 240);
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(216, 220, 255);</string>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_137">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_137">
@@ -6509,8 +6823,7 @@ background-color: rgb(240, 240, 240);
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_137_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_137_920.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -6558,6 +6871,16 @@ border-image: url(:/images/images/txt_135_920.png);</string>
 border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_135">
+    <property name="geometry">
+     <rect>
+      <x>519</x>
+      <y>116</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_135">
     <property name="geometry">
      <rect>
@@ -6577,11 +6900,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_135_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_135_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_142">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>159</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_142">
@@ -6603,11 +6935,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_142_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_142_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_141">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>119</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_141">
@@ -6629,11 +6970,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_141_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_141_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_164">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_164">
@@ -6655,11 +7005,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_164_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_164_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_144">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_144">
@@ -6681,11 +7040,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_144_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_144_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_154">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>239</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_154">
@@ -6707,11 +7075,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_154_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_154_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_165">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_165">
@@ -6733,11 +7110,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_165_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_165_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_145">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_145">
@@ -6759,11 +7145,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_145_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_145_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_155">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>279</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_155">
@@ -6785,11 +7180,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_155_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_155_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_166">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_166">
@@ -6811,11 +7215,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_166_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_166_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_146">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_146">
@@ -6837,11 +7250,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_146_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_146_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_156">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>319</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_156">
@@ -6863,11 +7285,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_156_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_156_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_167">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_167">
@@ -6889,11 +7320,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_167_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_167_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_147">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_147">
@@ -6915,11 +7355,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_147_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_147_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_157">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>359</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_157">
@@ -6941,11 +7390,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_157_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_157_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_152">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>159</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_152">
@@ -6967,11 +7425,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_152_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_152_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_162">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>159</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_162">
@@ -6993,11 +7460,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_162_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_162_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_151">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>119</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_151">
@@ -7019,11 +7495,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_151_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_151_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_161">
+    <property name="geometry">
+     <rect>
+      <x>829</x>
+      <y>119</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_161">
@@ -7045,11 +7530,20 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <number>-2</number>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/images/button_161_920.png);
-</string>
+     <string notr="true">background-image: url(:/images/images/button_161_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_103">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>199</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_103">
@@ -7077,6 +7571,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_113">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>199</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_113">
     <property name="geometry">
      <rect>
@@ -7100,6 +7604,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_123">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>199</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_123">
@@ -7127,6 +7641,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_124">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>239</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_124">
     <property name="geometry">
      <rect>
@@ -7150,6 +7674,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_114">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>239</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_114">
@@ -7177,6 +7711,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_074">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>239</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_074">
     <property name="geometry">
      <rect>
@@ -7200,6 +7744,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_104">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>239</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_104">
@@ -7227,6 +7781,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_125">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>279</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_125">
     <property name="geometry">
      <rect>
@@ -7250,6 +7814,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_115">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>279</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_115">
@@ -7277,6 +7851,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_075">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>279</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_075">
     <property name="geometry">
      <rect>
@@ -7300,6 +7884,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_105">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>279</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_105">
@@ -7327,6 +7921,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_126">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>319</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_126">
     <property name="geometry">
      <rect>
@@ -7350,6 +7954,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_116">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>319</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_116">
@@ -7377,6 +7991,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_076">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>319</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_076">
     <property name="geometry">
      <rect>
@@ -7400,6 +8024,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_106">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>319</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_106">
@@ -7427,6 +8061,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_117">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>359</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_117">
     <property name="geometry">
      <rect>
@@ -7450,6 +8094,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_077">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>359</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_077">
@@ -7477,6 +8131,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_107">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>359</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QToolButton" name="toolButton_107">
     <property name="geometry">
      <rect>
@@ -7500,6 +8164,16 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget_133">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>116</y>
+      <width>33</width>
+      <height>33</height>
+     </rect>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton_133">
@@ -16706,8 +17380,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16726,8 +17399,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16746,8 +17418,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16766,8 +17437,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16786,8 +17456,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16806,8 +17475,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16826,8 +17494,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16846,8 +17513,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16866,8 +17532,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16886,8 +17551,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16906,8 +17570,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16926,8 +17589,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16946,8 +17608,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16966,8 +17627,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -16986,8 +17646,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17006,8 +17665,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17026,8 +17684,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17046,8 +17703,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17066,8 +17722,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17086,8 +17741,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17106,8 +17760,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17126,8 +17779,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17146,8 +17798,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17166,8 +17817,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17186,8 +17836,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17206,8 +17855,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17226,8 +17874,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17246,8 +17893,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17266,8 +17912,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17286,8 +17931,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17306,8 +17950,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17326,8 +17969,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(210, 194, 216);
-</string>
+     <string notr="true">background-color: rgb(210, 194, 216);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -17592,6 +18234,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>checkBox_f_12</zorder>
    <zorder>checkBox_f_02</zorder>
    <zorder>graphicsView_9</zorder>
+   <zorder>openGLWidget_126</zorder>
    <zorder>toolButton_126</zorder>
    <zorder>graphicsView_167</zorder>
    <zorder>graphicsView_166</zorder>
@@ -17673,78 +18316,150 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>checkBox_1_12</zorder>
    <zorder>checkBox_1_14</zorder>
    <zorder>checkBox_1_04</zorder>
+   <zorder>openGLWidget_003</zorder>
+   <zorder>toolButton_003</zorder>
+   <zorder>openGLWidget_013</zorder>
    <zorder>toolButton_013</zorder>
+   <zorder>openGLWidget_023</zorder>
    <zorder>toolButton_023</zorder>
+   <zorder>openGLWidget_071</zorder>
    <zorder>toolButton_071</zorder>
+   <zorder>openGLWidget_101</zorder>
    <zorder>toolButton_101</zorder>
+   <zorder>openGLWidget_111</zorder>
    <zorder>toolButton_111</zorder>
+   <zorder>openGLWidget_121</zorder>
    <zorder>toolButton_121</zorder>
    <zorder>graphicsView_3</zorder>
+   <zorder>openGLWidget_053</zorder>
    <zorder>toolButton_053</zorder>
+   <zorder>openGLWidget_063</zorder>
    <zorder>toolButton_063</zorder>
+   <zorder>openGLWidget_073</zorder>
    <zorder>toolButton_073</zorder>
+   <zorder>openGLWidget_054</zorder>
    <zorder>toolButton_054</zorder>
+   <zorder>openGLWidget_064</zorder>
    <zorder>toolButton_064</zorder>
+   <zorder>openGLWidget_055</zorder>
    <zorder>toolButton_055</zorder>
+   <zorder>openGLWidget_065</zorder>
    <zorder>toolButton_065</zorder>
+   <zorder>openGLWidget_056</zorder>
    <zorder>toolButton_056</zorder>
+   <zorder>openGLWidget_066</zorder>
    <zorder>toolButton_066</zorder>
+   <zorder>openGLWidget_057</zorder>
    <zorder>toolButton_057</zorder>
+   <zorder>openGLWidget_067</zorder>
    <zorder>toolButton_067</zorder>
+   <zorder>openGLWidget_024</zorder>
    <zorder>toolButton_024</zorder>
+   <zorder>openGLWidget_004</zorder>
    <zorder>toolButton_004</zorder>
+   <zorder>openGLWidget_014</zorder>
    <zorder>toolButton_014</zorder>
+   <zorder>openGLWidget_025</zorder>
    <zorder>toolButton_025</zorder>
+   <zorder>openGLWidget_005</zorder>
    <zorder>toolButton_005</zorder>
+   <zorder>openGLWidget_015</zorder>
    <zorder>toolButton_015</zorder>
+   <zorder>openGLWidget_026</zorder>
    <zorder>toolButton_026</zorder>
+   <zorder>openGLWidget_006</zorder>
    <zorder>toolButton_006</zorder>
+   <zorder>openGLWidget_016</zorder>
    <zorder>toolButton_016</zorder>
+   <zorder>openGLWidget_027</zorder>
    <zorder>toolButton_027</zorder>
+   <zorder>openGLWidget_007</zorder>
    <zorder>toolButton_007</zorder>
+   <zorder>openGLWidget_017</zorder>
    <zorder>toolButton_017</zorder>
+   <zorder>openGLWidget_163</zorder>
    <zorder>toolButton_163</zorder>
+   <zorder>openGLWidget_143</zorder>
    <zorder>toolButton_143</zorder>
+   <zorder>openGLWidget_153</zorder>
    <zorder>toolButton_153</zorder>
+   <zorder>openGLWidget_137</zorder>
    <zorder>toolButton_137</zorder>
    <zorder>graphicsView_137</zorder>
    <zorder>graphicsView_135</zorder>
+   <zorder>openGLWidget_135</zorder>
    <zorder>toolButton_135</zorder>
+   <zorder>openGLWidget_142</zorder>
    <zorder>toolButton_142</zorder>
+   <zorder>openGLWidget_141</zorder>
    <zorder>toolButton_141</zorder>
+   <zorder>openGLWidget_164</zorder>
    <zorder>toolButton_164</zorder>
+   <zorder>openGLWidget_144</zorder>
    <zorder>toolButton_144</zorder>
+   <zorder>openGLWidget_154</zorder>
    <zorder>toolButton_154</zorder>
+   <zorder>openGLWidget_165</zorder>
    <zorder>toolButton_165</zorder>
+   <zorder>openGLWidget_145</zorder>
    <zorder>toolButton_145</zorder>
+   <zorder>openGLWidget_155</zorder>
    <zorder>toolButton_155</zorder>
+   <zorder>openGLWidget_166</zorder>
    <zorder>toolButton_166</zorder>
+   <zorder>openGLWidget_146</zorder>
    <zorder>toolButton_146</zorder>
+   <zorder>openGLWidget_156</zorder>
    <zorder>toolButton_156</zorder>
+   <zorder>openGLWidget_167</zorder>
    <zorder>toolButton_167</zorder>
+   <zorder>openGLWidget_147</zorder>
    <zorder>toolButton_147</zorder>
+   <zorder>openGLWidget_157</zorder>
    <zorder>toolButton_157</zorder>
+   <zorder>openGLWidget_152</zorder>
    <zorder>toolButton_152</zorder>
+   <zorder>openGLWidget_162</zorder>
    <zorder>toolButton_162</zorder>
+   <zorder>openGLWidget_151</zorder>
    <zorder>toolButton_151</zorder>
+   <zorder>openGLWidget_161</zorder>
    <zorder>toolButton_161</zorder>
+   <zorder>openGLWidget_103</zorder>
    <zorder>toolButton_103</zorder>
+   <zorder>openGLWidget_113</zorder>
    <zorder>toolButton_113</zorder>
+   <zorder>openGLWidget_123</zorder>
    <zorder>toolButton_123</zorder>
+   <zorder>openGLWidget_124</zorder>
    <zorder>toolButton_124</zorder>
+   <zorder>openGLWidget_114</zorder>
    <zorder>toolButton_114</zorder>
+   <zorder>openGLWidget_074</zorder>
    <zorder>toolButton_074</zorder>
+   <zorder>openGLWidget_104</zorder>
    <zorder>toolButton_104</zorder>
+   <zorder>openGLWidget_125</zorder>
    <zorder>toolButton_125</zorder>
+   <zorder>openGLWidget_115</zorder>
    <zorder>toolButton_115</zorder>
+   <zorder>openGLWidget_075</zorder>
    <zorder>toolButton_075</zorder>
+   <zorder>openGLWidget_105</zorder>
    <zorder>toolButton_105</zorder>
+   <zorder>openGLWidget_116</zorder>
    <zorder>toolButton_116</zorder>
+   <zorder>openGLWidget_076</zorder>
    <zorder>toolButton_076</zorder>
+   <zorder>openGLWidget_106</zorder>
    <zorder>toolButton_106</zorder>
+   <zorder>openGLWidget_117</zorder>
    <zorder>toolButton_117</zorder>
+   <zorder>openGLWidget_077</zorder>
    <zorder>toolButton_077</zorder>
+   <zorder>openGLWidget_107</zorder>
    <zorder>toolButton_107</zorder>
+   <zorder>openGLWidget_133</zorder>
    <zorder>toolButton_133</zorder>
    <zorder>checkBox_grd_on</zorder>
    <zorder>checkBox_ngrd_on</zorder>
@@ -17781,6 +18496,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>graphicsView_prg_133</zorder>
    <zorder>graphicsView_prg_4</zorder>
    <zorder>graphicsView_10</zorder>
+   <zorder>openGLWidget_127</zorder>
    <zorder>toolButton_127</zorder>
    <zorder>line_00</zorder>
    <zorder>line_01</zorder>
@@ -18011,7 +18727,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>label</zorder>
    <zorder>commandLink_Button_on_off</zorder>
    <zorder>frame_1</zorder>
-   <zorder>toolButton_003</zorder>
    <zorder>frame_3</zorder>
    <zorder>frame_4</zorder>
    <zorder>lineEdit</zorder>
