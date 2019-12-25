@@ -4923,10 +4923,14 @@ void Display::DisplayDigit() {
 
 		switch (dispBuffer[i] & andOperator_127) {
 		case 0:
-		case 7:
 		case 64:   // '-'
 		case 56:
 		case 118:
+			break;
+
+		case 7:    // '7'
+			setPoint(xPos + 1, 2);
+			clearPoint(xPos + 2, 2);
 			break;
 
 		case 6:    // '1'
@@ -4943,8 +4947,8 @@ void Display::DisplayDigit() {
 			break;
 
 		case 127:  // '8'
-			clearPoint(xPos + 0, 2);
-			clearPoint(xPos + 2, 2);
+			// clearPoint(xPos + 0, 2);
+			// clearPoint(xPos + 2, 2);
 			break;
 
 		case 115:  // 'P'
@@ -4953,8 +4957,8 @@ void Display::DisplayDigit() {
 			break;
 
 		case 63:   // '0'
-			clearPoint(xPos + 0, 4);
-			clearPoint(xPos + 2, 0);
+			// clearPoint(xPos + 0, 4);
+			// clearPoint(xPos + 2, 0);
 			clearPoint(xPos + 0, 0);
 			clearPoint(xPos + 2, 4);
 			break;
@@ -4986,13 +4990,21 @@ void Display::DisplayDigit() {
 			myK1003->stop_CPU();;
 			break;
 
+		case 119:  // 'A'
+			clearPoint(xPos + 0, 0);
+			clearPoint(xPos + 2, 0);
+			break;
+
 		case 125:  // '6'
 			clearPoint(xPos + 0, 0);
-			clearPoint(xPos + 2, 2);
+			// clearPoint(xPos + 2, 2);
 			break;
 
 		case 111:  // '9'
 			clearPoint(xPos + 2, 4);
+			setPoint(xPos + 0, 2);
+			break;
+
 		case 84:
 		case 80:   // 'r'
 			clearPoint(xPos + 0, 2);

@@ -14378,7 +14378,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <rect>
       <x>20</x>
       <y>27</y>
-      <width>32</width>
+      <width>730</width>
       <height>4</height>
      </rect>
     </property>
@@ -14422,7 +14422,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <rect>
       <x>20</x>
       <y>38</y>
-      <width>32</width>
+      <width>730</width>
       <height>4</height>
      </rect>
     </property>
@@ -14444,7 +14444,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <rect>
       <x>20</x>
       <y>49</y>
-      <width>32</width>
+      <width>730</width>
       <height>4</height>
      </rect>
     </property>
@@ -14466,7 +14466,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <rect>
       <x>20</x>
       <y>60</y>
-      <width>32</width>
+      <width>730</width>
       <height>4</height>
      </rect>
     </property>
@@ -14549,28 +14549,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_1a">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_1f">
     <property name="geometry">
      <rect>
@@ -14591,72 +14569,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_1b">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_1c">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_1d">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_1g">
@@ -14725,28 +14637,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_2a">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_2f">
     <property name="geometry">
      <rect>
@@ -14769,73 +14659,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_2b">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_2c">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_2d">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_2g">
+3  <widget class="Line" name="line_2g">
     <property name="geometry">
      <rect>
       <x>172</x>
@@ -14901,28 +14725,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_3a">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_3f">
     <property name="geometry">
      <rect>
@@ -14943,72 +14745,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3b">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3c">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3d">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_3g">
@@ -15077,28 +14813,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_4a">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_4f">
     <property name="geometry">
      <rect>
@@ -15119,72 +14833,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4b">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4c">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4d">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_4g">
@@ -15253,28 +14901,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_5a">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_5f">
     <property name="geometry">
      <rect>
@@ -15295,72 +14921,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5b">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5c">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5d">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_5g">
@@ -15429,28 +14989,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_6a">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_6f">
     <property name="geometry">
      <rect>
@@ -15471,72 +15009,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6b">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6c">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6d">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_6g">
@@ -15605,28 +15077,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_7a">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_7f">
     <property name="geometry">
      <rect>
@@ -15647,72 +15097,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_7b">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_7c">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_7d">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_7g">
@@ -15781,28 +15165,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_8a">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_8f">
     <property name="geometry">
      <rect>
@@ -15823,72 +15185,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_8b">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_8c">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_8d">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_8g">
@@ -15957,28 +15253,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_9a">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_9f">
     <property name="geometry">
      <rect>
@@ -15999,72 +15273,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_9b">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_9c">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_9d">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_9g">
@@ -16133,28 +15341,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_aa">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_af">
     <property name="geometry">
      <rect>
@@ -16175,72 +15361,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_ab">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_ac">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_ad">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_ag">
@@ -16309,28 +15429,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_ba">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_bf">
     <property name="geometry">
      <rect>
@@ -16351,72 +15449,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_bb">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_bc">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_bd">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_bg">
@@ -16485,28 +15517,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_ca">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_cf">
     <property name="geometry">
      <rect>
@@ -16527,72 +15537,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_cb">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_cc">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_cd">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_cg">
@@ -16661,28 +15605,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_da">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_df">
     <property name="geometry">
      <rect>
@@ -16703,72 +15625,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_db">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_dc">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_dd">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_dg">
@@ -16837,28 +15693,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_ea">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_ef">
     <property name="geometry">
      <rect>
@@ -16879,72 +15713,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_eb">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_ec">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_ed">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_eg">
@@ -17013,28 +15781,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_fa">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>27</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line_ff">
     <property name="geometry">
      <rect>
@@ -17055,72 +15801,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_fb">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>38</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_fc">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>49</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_fd">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>60</y>
-      <width>32</width>
-      <height>4</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(210, 194, 216);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>4</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
    <widget class="Line" name="line_fg">
@@ -18602,122 +17282,62 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>line_0f</zorder>
    <zorder>line_0g</zorder>
    <zorder>line_0h</zorder>
-   <zorder>line_1a</zorder>
-   <zorder>line_1b</zorder>
-   <zorder>line_1c</zorder>
-   <zorder>line_1d</zorder>
    <zorder>line_1e</zorder>
    <zorder>line_1f</zorder>
    <zorder>line_1g</zorder>
    <zorder>line_1h</zorder>
-   <zorder>line_2a</zorder>
-   <zorder>line_2b</zorder>
-   <zorder>line_2c</zorder>
-   <zorder>line_2d</zorder>
    <zorder>line_2e</zorder>
    <zorder>line_2f</zorder>
    <zorder>line_2g</zorder>
    <zorder>line_2h</zorder>
-   <zorder>line_3a</zorder>
-   <zorder>line_3b</zorder>
-   <zorder>line_3c</zorder>
-   <zorder>line_3d</zorder>
    <zorder>line_3e</zorder>
    <zorder>line_3f</zorder>
    <zorder>line_3g</zorder>
    <zorder>line_3h</zorder>
-   <zorder>line_4a</zorder>
-   <zorder>line_4b</zorder>
-   <zorder>line_4c</zorder>
-   <zorder>line_4d</zorder>
    <zorder>line_4e</zorder>
    <zorder>line_4f</zorder>
    <zorder>line_4g</zorder>
    <zorder>line_4h</zorder>
-   <zorder>line_5a</zorder>
-   <zorder>line_5b</zorder>
-   <zorder>line_5c</zorder>
-   <zorder>line_5d</zorder>
    <zorder>line_5e</zorder>
    <zorder>line_5f</zorder>
    <zorder>line_5g</zorder>
    <zorder>line_5h</zorder>
-   <zorder>line_6a</zorder>
-   <zorder>line_6b</zorder>
-   <zorder>line_6c</zorder>
-   <zorder>line_6d</zorder>
    <zorder>line_6e</zorder>
    <zorder>line_6f</zorder>
    <zorder>line_6g</zorder>
    <zorder>line_6h</zorder>
-   <zorder>line_7a</zorder>
-   <zorder>line_7b</zorder>
-   <zorder>line_7c</zorder>
-   <zorder>line_7d</zorder>
    <zorder>line_7e</zorder>
    <zorder>line_7f</zorder>
    <zorder>line_7g</zorder>
    <zorder>line_7h</zorder>
-   <zorder>line_8a</zorder>
-   <zorder>line_8b</zorder>
-   <zorder>line_8c</zorder>
-   <zorder>line_8d</zorder>
    <zorder>line_8e</zorder>
    <zorder>line_8f</zorder>
    <zorder>line_8g</zorder>
    <zorder>line_8h</zorder>
-   <zorder>line_9a</zorder>
-   <zorder>line_9b</zorder>
-   <zorder>line_9c</zorder>
-   <zorder>line_9d</zorder>
    <zorder>line_9e</zorder>
    <zorder>line_9f</zorder>
    <zorder>line_9g</zorder>
    <zorder>line_9h</zorder>
-   <zorder>line_aa</zorder>
-   <zorder>line_ab</zorder>
-   <zorder>line_ac</zorder>
-   <zorder>line_ad</zorder>
    <zorder>line_ae</zorder>
    <zorder>line_af</zorder>
    <zorder>line_ag</zorder>
    <zorder>line_ah</zorder>
-   <zorder>line_ba</zorder>
-   <zorder>line_bb</zorder>
-   <zorder>line_bc</zorder>
-   <zorder>line_bd</zorder>
    <zorder>line_be</zorder>
    <zorder>line_bf</zorder>
    <zorder>line_bg</zorder>
    <zorder>line_bh</zorder>
-   <zorder>line_ca</zorder>
-   <zorder>line_cb</zorder>
-   <zorder>line_cc</zorder>
-   <zorder>line_cd</zorder>
    <zorder>line_ce</zorder>
    <zorder>line_cf</zorder>
    <zorder>line_cg</zorder>
    <zorder>line_ch</zorder>
-   <zorder>line_da</zorder>
-   <zorder>line_db</zorder>
-   <zorder>line_dc</zorder>
-   <zorder>line_dd</zorder>
    <zorder>line_de</zorder>
    <zorder>line_df</zorder>
    <zorder>line_dg</zorder>
    <zorder>line_dh</zorder>
-   <zorder>line_ea</zorder>
-   <zorder>line_eb</zorder>
-   <zorder>line_ec</zorder>
-   <zorder>line_ed</zorder>
    <zorder>line_ee</zorder>
    <zorder>line_ef</zorder>
    <zorder>line_eg</zorder>
    <zorder>line_eh</zorder>
-   <zorder>line_fa</zorder>
-   <zorder>line_fb</zorder>
-   <zorder>line_fc</zorder>
-   <zorder>line_fd</zorder>
    <zorder>line_fe</zorder>
    <zorder>line_ff</zorder>
    <zorder>line_fg</zorder>
