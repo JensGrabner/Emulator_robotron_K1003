@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -63,7 +63,7 @@
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\GeneratedFiles;.;C:\Qt\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt\5.12.3\msvc2017\include\QtCore;C:\Qt\5.12.3\msvc2017\include\QtGui;C:\Qt\5.12.3\msvc2017\include\QtANGLE;C:\Qt\5.12.3\msvc2017\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;C:\Qt5\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt5\5.12.3\msvc2017\include\QtCore;C:\Qt5\5.12.3\msvc2017\include\QtGui;C:\Qt5\5.12.3\msvc2017\include\QtANGLE;C:\Qt5\5.12.3\msvc2017\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -72,16 +72,16 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>C:\Qt\5.12.3\msvc2017\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Qt5\5.12.3\msvc2017\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\Qt\5.12.3\msvc2017\lib\qtmaind.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Cored.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Guid.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>C:\Qt5\5.12.3\msvc2017\lib\qtmaind.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Cored.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Guid.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
-      <IncludePath>.\GeneratedFiles;.;C:\Qt\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt\5.12.3\msvc2017\include\QtCore;C:\Qt\5.12.3\msvc2017\include\QtGui;C:\Qt\5.12.3\msvc2017\include\QtANGLE;C:\Qt\5.12.3\msvc2017\include\QtWidgets</IncludePath>
+      <IncludePath>.\GeneratedFiles;.;C:\Qt5\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt5\5.12.3\msvc2017\include\QtCore;C:\Qt5\5.12.3\msvc2017\include\QtGui;C:\Qt5\5.12.3\msvc2017\include\QtANGLE;C:\Qt5\5.12.3\msvc2017\include\QtWidgets</IncludePath>
       <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
-      <QTDIR>C:\Qt\5.12.3\msvc2017</QTDIR>
+      <QTDIR>C:\Qt5\5.12.3\msvc2017</QTDIR>
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
@@ -90,14 +90,14 @@
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
       <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
-      <QTDIR>C:\Qt\5.12.3\msvc2017</QTDIR>
+      <QTDIR>C:\Qt5\5.12.3\msvc2017</QTDIR>
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\GeneratedFiles;.;C:\Qt\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt\5.12.3\msvc2017\include\QtCore;C:\Qt\5.12.3\msvc2017\include\QtGui;C:\Qt\5.12.3\msvc2017\include\QtANGLE;C:\Qt\5.12.3\msvc2017\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;C:\Qt5\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt5\5.12.3\msvc2017\include\QtCore;C:\Qt5\5.12.3\msvc2017\include\QtGui;C:\Qt5\5.12.3\msvc2017\include\QtANGLE;C:\Qt5\5.12.3\msvc2017\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat />
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -107,16 +107,16 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>C:\Qt\5.12.3\msvc2017\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Qt5\5.12.3\msvc2017\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <AdditionalDependencies>C:\Qt\5.12.3\msvc2017\lib\qtmain.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Core.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Gui.lib;C:\Qt\5.12.3\msvc2017\lib\Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>C:\Qt5\5.12.3\msvc2017\lib\qtmain.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Core.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Gui.lib;C:\Qt5\5.12.3\msvc2017\lib\Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
-      <IncludePath>.\GeneratedFiles;.;C:\Qt\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt\5.12.3\msvc2017\include\QtCore;C:\Qt\5.12.3\msvc2017\include\QtGui;C:\Qt\5.12.3\msvc2017\include\QtANGLE;C:\Qt\5.12.3\msvc2017\include\QtWidgets</IncludePath>
+      <IncludePath>.\GeneratedFiles;.;C:\Qt5\5.12.3\msvc2017\include;.\GeneratedFiles\$(ConfigurationName);C:\Qt5\5.12.3\msvc2017\include\QtCore;C:\Qt5\5.12.3\msvc2017\include\QtGui;C:\Qt5\5.12.3\msvc2017\include\QtANGLE;C:\Qt5\5.12.3\msvc2017\include\QtWidgets</IncludePath>
       <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
-      <QTDIR>C:\Qt\5.12.3\msvc2017</QTDIR>
+      <QTDIR>C:\Qt5\5.12.3\msvc2017</QTDIR>
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
@@ -125,7 +125,7 @@
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
       <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
-      <QTDIR>C:\Qt\5.12.3\msvc2017</QTDIR>
+      <QTDIR>C:\Qt5\5.12.3\msvc2017</QTDIR>
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -748,6 +748,9 @@
     <ClInclude Include="K1003_sys.h" />
     <QtMoc Include="run_CPU.h" />
     <ClInclude Include="ui_mainwindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AppData\Local\QtMsBuild\rcc\qtrcc.targets" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

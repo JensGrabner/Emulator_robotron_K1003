@@ -1,5 +1,5 @@
 #include "Display.h"
-#include "Calculator.h"
+// #include "Calculator.h"
 #include "K1003_sys.h"
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
@@ -8,7 +8,7 @@ Display::Display(Ui::MainWindow* newUi)
 {
 	ui = newUi;
 
-	myCalculator = new Calculator();
+	// myCalculator = new Calculator();
 	// myCalculator->setDisplay(this);
 	// myCalculator->setUI(ui);
 
@@ -19,7 +19,7 @@ Display::Display(Ui::MainWindow* newUi)
 
 Display::~Display()
 {
-	delete myCalculator;
+	// delete myCalculator;
 	delete myK1003;
 }
 
@@ -43,38 +43,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_10->isChecked() == false) {
-					ui->checkBox_0_10->click();
-				}
+				ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_0_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_11->isChecked() == false) {
-					ui->checkBox_0_11->click();
-				}
+				ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_0_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_12->isChecked() == false) {
-					ui->checkBox_0_12->click();
-				}
+				ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_0_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_13->isChecked() == false) {
-					ui->checkBox_0_13->click();
-				}
+				ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_0_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_14->isChecked() == false) {
-					ui->checkBox_0_14->click();
-				}
+				ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -86,38 +71,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_05->isChecked() == false) {
-					ui->checkBox_0_05->click();
-				}
+				ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_0_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_06->isChecked() == false) {
-					ui->checkBox_0_06->click();
-				}
+				ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_0_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_07->isChecked() == false) {
-					ui->checkBox_0_07->click();
-				}
+				ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_0_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_08->isChecked() == false) {
-					ui->checkBox_0_08->click();
-				}
+				ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_0_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_09->isChecked() == false) {
-					ui->checkBox_0_09->click();
-				}
+				ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -129,38 +99,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_00->isChecked() == false) {
-					ui->checkBox_0_00->click();
-				}
+				ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_0_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_01->isChecked() == false) {
-					ui->checkBox_0_01->click();
-				}
+				ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_0_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_02->isChecked() == false) {
-					ui->checkBox_0_02->click();
-				}
+				ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_0_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_03->isChecked() == false) {
-					ui->checkBox_0_03->click();
-				}
+				ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_0_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_04->isChecked() == false) {
-					ui->checkBox_0_04->click();
-				}
+				ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -172,10 +127,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_0_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_15->isChecked() == false) {
-					ui->checkBox_0_15->click();
-				}
+				ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -191,38 +143,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_10->isChecked() == false) {
-					ui->checkBox_1_10->click();
-				}
+				ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_1_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_11->isChecked() == false) {
-					ui->checkBox_1_11->click();
-				}
+				ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_1_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_12->isChecked() == false) {
-					ui->checkBox_1_12->click();
-				}
+				ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_1_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_13->isChecked() == false) {
-					ui->checkBox_1_13->click();
-				}
+				ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_1_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_14->isChecked() == false) {
-					ui->checkBox_1_14->click();
-				}
+				ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -234,38 +171,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_05->isChecked() == false) {
-					ui->checkBox_1_05->click();
-				}
+				ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_1_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_06->isChecked() == false) {
-					ui->checkBox_1_06->click();
-				}
+				ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_1_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_07->isChecked() == false) {
-					ui->checkBox_1_07->click();
-				}
+				ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_1_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_08->isChecked() == false) {
-					ui->checkBox_1_08->click();
-				}
+				ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_1_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_09->isChecked() == false) {
-					ui->checkBox_1_09->click();
-				}
+				ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -277,38 +199,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_00->isChecked() == false) {
-					ui->checkBox_1_00->click();
-				}
+				ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_1_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_01->isChecked() == false) {
-					ui->checkBox_1_01->click();
-				}
+				ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_1_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_02->isChecked() == false) {
-					ui->checkBox_1_02->click();
-				}
+				ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_1_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_03->isChecked() == false) {
-					ui->checkBox_1_03->click();
-				}
+				ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_1_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_04->isChecked() == false) {
-					ui->checkBox_1_04->click();
-				}
+				ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -320,10 +227,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_1_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_15->isChecked() == false) {
-					ui->checkBox_1_15->click();
-				}
+				ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -339,38 +243,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_10->isChecked() == false) {
-					ui->checkBox_2_10->click();
-				}
+				ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_2_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_11->isChecked() == false) {
-					ui->checkBox_2_11->click();
-				}
+				ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_2_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_12->isChecked() == false) {
-					ui->checkBox_2_12->click();
-				}
+				ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_2_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_13->isChecked() == false) {
-					ui->checkBox_2_13->click();
-				}
+				ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_2_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_14->isChecked() == false) {
-					ui->checkBox_2_14->click();
-				}
+				ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -382,38 +271,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_05->isChecked() == false) {
-					ui->checkBox_2_05->click();
-				}
+				ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_2_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_06->isChecked() == false) {
-					ui->checkBox_2_06->click();
-				}
+				ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_2_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_07->isChecked() == false) {
-					ui->checkBox_2_07->click();
-				}
+				ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_2_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_08->isChecked() == false) {
-					ui->checkBox_2_08->click();
-				}
+				ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_2_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_09->isChecked() == false) {
-					ui->checkBox_2_09->click();
-				}
+				ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -425,38 +299,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_00->isChecked() == false) {
-					ui->checkBox_2_00->click();
-				}
+				ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_2_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_01->isChecked() == false) {
-					ui->checkBox_2_01->click();
-				}
+				ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_2_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_02->isChecked() == false) {
-					ui->checkBox_2_02->click();
-				}
+				ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_2_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_03->isChecked() == false) {
-					ui->checkBox_2_03->click();
-				}
+				ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_2_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_04->isChecked() == false) {
-					ui->checkBox_2_04->click();
-				}
+				ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -468,10 +327,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_2_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_15->isChecked() == false) {
-					ui->checkBox_2_15->click();
-				}
+				ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -487,38 +343,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_10->isChecked() == false) {
-					ui->checkBox_3_10->click();
-				}
+				ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_3_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_11->isChecked() == false) {
-					ui->checkBox_3_11->click();
-				}
+				ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_3_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_12->isChecked() == false) {
-					ui->checkBox_3_12->click();
-				}
+				ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_3_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_13->isChecked() == false) {
-					ui->checkBox_3_13->click();
-				}
+				ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_3_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_14->isChecked() == false) {
-					ui->checkBox_3_14->click();
-				}
+				ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -530,38 +371,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_05->isChecked() == false) {
-					ui->checkBox_3_05->click();
-				}
+				ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_3_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_06->isChecked() == false) {
-					ui->checkBox_3_06->click();
-				}
+				ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_3_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_07->isChecked() == false) {
-					ui->checkBox_3_07->click();
-				}
+				ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_3_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_08->isChecked() == false) {
-					ui->checkBox_3_08->click();
-				}
+				ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_3_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_09->isChecked() == false) {
-					ui->checkBox_3_09->click();
-				}
+				ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -573,38 +399,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_00->isChecked() == false) {
-					ui->checkBox_3_00->click();
-				}
+				ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_3_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_01->isChecked() == false) {
-					ui->checkBox_3_01->click();
-				}
+				ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_3_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_02->isChecked() == false) {
-					ui->checkBox_3_02->click();
-				}
+				ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_3_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_03->isChecked() == false) {
-					ui->checkBox_3_03->click();
-				}
+				ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_3_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_04->isChecked() == false) {
-					ui->checkBox_3_04->click();
-				}
+				ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -616,10 +427,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_3_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_15->isChecked() == false) {
-					ui->checkBox_3_15->click();
-				}
+				ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -635,38 +443,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_10->isChecked() == false) {
-					ui->checkBox_4_10->click();
-				}
+				ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_4_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_11->isChecked() == false) {
-					ui->checkBox_4_11->click();
-				}
+				ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_4_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_12->isChecked() == false) {
-					ui->checkBox_4_12->click();
-				}
+				ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_4_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_13->isChecked() == false) {
-					ui->checkBox_4_13->click();
-				}
+				ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_4_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_14->isChecked() == false) {
-					ui->checkBox_4_14->click();
-				}
+				ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -678,38 +471,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_05->isChecked() == false) {
-					ui->checkBox_4_05->click();
-				}
+				ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_4_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_06->isChecked() == false) {
-					ui->checkBox_4_06->click();
-				}
+				ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_4_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_07->isChecked() == false) {
-					ui->checkBox_4_07->click();
-				}
+				ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_4_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_08->isChecked() == false) {
-					ui->checkBox_4_08->click();
-				}
+				ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_4_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_09->isChecked() == false) {
-					ui->checkBox_4_09->click();
-				}
+				ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -721,38 +499,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_00->isChecked() == false) {
-					ui->checkBox_4_00->click();
-				}
+				ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_4_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_01->isChecked() == false) {
-					ui->checkBox_4_01->click();
-				}
+				ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_4_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_02->isChecked() == false) {
-					ui->checkBox_4_02->click();
-				}
+				ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_4_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_03->isChecked() == false) {
-					ui->checkBox_4_03->click();
-				}
+				ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_4_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_04->isChecked() == false) {
-					ui->checkBox_4_04->click();
-				}
+				ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -764,10 +527,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_4_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_15->isChecked() == false) {
-					ui->checkBox_4_15->click();
-				}
+				ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -783,38 +543,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_10->isChecked() == false) {
-					ui->checkBox_5_10->click();
-				}
+				ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_5_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_11->isChecked() == false) {
-					ui->checkBox_5_11->click();
-				}
+				ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_5_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_12->isChecked() == false) {
-					ui->checkBox_5_12->click();
-				}
+				ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_5_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_13->isChecked() == false) {
-					ui->checkBox_5_13->click();
-				}
+				ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_5_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_14->isChecked() == false) {
-					ui->checkBox_5_14->click();
-				}
+				ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -826,38 +571,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_05->isChecked() == false) {
-					ui->checkBox_5_05->click();
-				}
+				ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_5_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_06->isChecked() == false) {
-					ui->checkBox_5_06->click();
-				}
+				ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_5_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_07->isChecked() == false) {
-					ui->checkBox_5_07->click();
-				}
+				ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_5_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_08->isChecked() == false) {
-					ui->checkBox_5_08->click();
-				}
+				ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_5_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_09->isChecked() == false) {
-					ui->checkBox_5_09->click();
-				}
+				ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -869,38 +599,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_00->isChecked() == false) {
-					ui->checkBox_5_00->click();
-				}
+				ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_5_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_01->isChecked() == false) {
-					ui->checkBox_5_01->click();
-				}
+				ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_5_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_02->isChecked() == false) {
-					ui->checkBox_5_02->click();
-				}
+				ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_5_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_03->isChecked() == false) {
-					ui->checkBox_5_03->click();
-				}
+				ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_5_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_04->isChecked() == false) {
-					ui->checkBox_5_04->click();
-				}
+				ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -912,10 +627,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_5_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_15->isChecked() == false) {
-					ui->checkBox_5_15->click();
-				}
+				ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -931,38 +643,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_10->isChecked() == false) {
-					ui->checkBox_6_10->click();
-				}
+				ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_6_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_11->isChecked() == false) {
-					ui->checkBox_6_11->click();
-				}
+				ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_6_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_12->isChecked() == false) {
-					ui->checkBox_6_12->click();
-				}
+				ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_6_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_13->isChecked() == false) {
-					ui->checkBox_6_13->click();
-				}
+				ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_6_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_14->isChecked() == false) {
-					ui->checkBox_6_14->click();
-				}
+				ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -974,38 +671,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_05->isChecked() == false) {
-					ui->checkBox_6_05->click();
-				}
+				ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_6_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_06->isChecked() == false) {
-					ui->checkBox_6_06->click();
-				}
+				ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_6_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_07->isChecked() == false) {
-					ui->checkBox_6_07->click();
-				}
+				ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_6_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_08->isChecked() == false) {
-					ui->checkBox_6_08->click();
-				}
+				ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_6_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_09->isChecked() == false) {
-					ui->checkBox_6_09->click();
-				}
+				ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1017,38 +699,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_00->isChecked() == false) {
-					ui->checkBox_6_00->click();
-				}
+				ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_6_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_01->isChecked() == false) {
-					ui->checkBox_6_01->click();
-				}
+				ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_6_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_02->isChecked() == false) {
-					ui->checkBox_6_02->click();
-				}
+				ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_6_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_03->isChecked() == false) {
-					ui->checkBox_6_03->click();
-				}
+				ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_6_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_04->isChecked() == false) {
-					ui->checkBox_6_04->click();
-				}
+				ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1060,10 +727,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_6_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_15->isChecked() == false) {
-					ui->checkBox_6_15->click();
-				}
+				ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1079,38 +743,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_10->isChecked() == false) {
-					ui->checkBox_7_10->click();
-				}
+				ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_7_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_11->isChecked() == false) {
-					ui->checkBox_7_11->click();
-				}
+				ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_7_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_12->isChecked() == false) {
-					ui->checkBox_7_12->click();
-				}
+				ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_7_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_13->isChecked() == false) {
-					ui->checkBox_7_13->click();
-				}
+				ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_7_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_14->isChecked() == false) {
-					ui->checkBox_7_14->click();
-				}
+				ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1122,38 +771,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_05->isChecked() == false) {
-					ui->checkBox_7_05->click();
-				}
+				ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_7_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_06->isChecked() == false) {
-					ui->checkBox_7_06->click();
-				}
+				ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_7_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_07->isChecked() == false) {
-					ui->checkBox_7_07->click();
-				}
+				ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_7_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_08->isChecked() == false) {
-					ui->checkBox_7_08->click();
-				}
+				ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_7_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_09->isChecked() == false) {
-					ui->checkBox_7_09->click();
-				}
+				ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1165,38 +799,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_00->isChecked() == false) {
-					ui->checkBox_7_00->click();
-				}
+				ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_7_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_01->isChecked() == false) {
-					ui->checkBox_7_01->click();
-				}
+				ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_7_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_02->isChecked() == false) {
-					ui->checkBox_7_02->click();
-				}
+				ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_7_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_03->isChecked() == false) {
-					ui->checkBox_7_03->click();
-				}
+				ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_7_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_04->isChecked() == false) {
-					ui->checkBox_7_04->click();
-				}
+				ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1208,10 +827,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_7_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_15->isChecked() == false) {
-					ui->checkBox_7_15->click();
-				}
+				ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1227,38 +843,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_10->isChecked() == false) {
-					ui->checkBox_8_10->click();
-				}
+				ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_8_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_11->isChecked() == false) {
-					ui->checkBox_8_11->click();
-				}
+				ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_8_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_12->isChecked() == false) {
-					ui->checkBox_8_12->click();
-				}
+				ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_8_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_13->isChecked() == false) {
-					ui->checkBox_8_13->click();
-				}
+				ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_8_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_14->isChecked() == false) {
-					ui->checkBox_8_14->click();
-				}
+				ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1270,38 +871,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_05->isChecked() == false) {
-					ui->checkBox_8_05->click();
-				}
+				ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_8_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_06->isChecked() == false) {
-					ui->checkBox_8_06->click();
-				}
+				ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_8_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_07->isChecked() == false) {
-					ui->checkBox_8_07->click();
-				}
+				ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_8_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_08->isChecked() == false) {
-					ui->checkBox_8_08->click();
-				}
+				ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_8_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_09->isChecked() == false) {
-					ui->checkBox_8_09->click();
-				}
+				ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1313,38 +899,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_00->isChecked() == false) {
-					ui->checkBox_8_00->click();
-				}
+				ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_8_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_01->isChecked() == false) {
-					ui->checkBox_8_01->click();
-				}
+				ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_8_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_02->isChecked() == false) {
-					ui->checkBox_8_02->click();
-				}
+				ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_8_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_03->isChecked() == false) {
-					ui->checkBox_8_03->click();
-				}
+				ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_8_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_04->isChecked() == false) {
-					ui->checkBox_8_04->click();
-				}
+				ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1356,10 +927,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_8_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_15->isChecked() == false) {
-					ui->checkBox_8_15->click();
-				}
+				ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1375,38 +943,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_10->isChecked() == false) {
-					ui->checkBox_9_10->click();
-				}
+				ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_9_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_11->isChecked() == false) {
-					ui->checkBox_9_11->click();
-				}
+				ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_9_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_12->isChecked() == false) {
-					ui->checkBox_9_12->click();
-				}
+				ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_9_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_13->isChecked() == false) {
-					ui->checkBox_9_13->click();
-				}
+				ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_9_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_14->isChecked() == false) {
-					ui->checkBox_9_14->click();
-				}
+				ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1418,38 +971,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_05->isChecked() == false) {
-					ui->checkBox_9_05->click();
-				}
+				ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_9_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_06->isChecked() == false) {
-					ui->checkBox_9_06->click();
-				}
+				ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_9_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_07->isChecked() == false) {
-					ui->checkBox_9_07->click();
-				}
+				ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_9_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_08->isChecked() == false) {
-					ui->checkBox_9_08->click();
-				}
+				ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_9_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_09->isChecked() == false) {
-					ui->checkBox_9_09->click();
-				}
+				ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1461,38 +999,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_00->isChecked() == false) {
-					ui->checkBox_9_00->click();
-				}
+				ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_9_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_01->isChecked() == false) {
-					ui->checkBox_9_01->click();
-				}
+				ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_9_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_02->isChecked() == false) {
-					ui->checkBox_9_02->click();
-				}
+				ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_9_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_03->isChecked() == false) {
-					ui->checkBox_9_03->click();
-				}
+				ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_9_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_04->isChecked() == false) {
-					ui->checkBox_9_04->click();
-				}
+				ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1504,10 +1027,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_9_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_15->isChecked() == false) {
-					ui->checkBox_9_15->click();
-				}
+				ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1523,38 +1043,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_10->isChecked() == false) {
-					ui->checkBox_a_10->click();
-				}
+				ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_a_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_11->isChecked() == false) {
-					ui->checkBox_a_11->click();
-				}
+				ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_a_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_12->isChecked() == false) {
-					ui->checkBox_a_12->click();
-				}
+				ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_a_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_13->isChecked() == false) {
-					ui->checkBox_a_13->click();
-				}
+				ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_a_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_14->isChecked() == false) {
-					ui->checkBox_a_14->click();
-				}
+				ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1566,38 +1071,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_05->isChecked() == false) {
-					ui->checkBox_a_05->click();
-				}
+				ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_a_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_06->isChecked() == false) {
-					ui->checkBox_a_06->click();
-				}
+				ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_a_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_07->isChecked() == false) {
-					ui->checkBox_a_07->click();
-				}
+				ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_a_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_08->isChecked() == false) {
-					ui->checkBox_a_08->click();
-				}
+				ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_a_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_09->isChecked() == false) {
-					ui->checkBox_a_09->click();
-				}
+				ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1609,38 +1099,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_00->isChecked() == false) {
-					ui->checkBox_a_00->click();
-				}
+				ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_a_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_01->isChecked() == false) {
-					ui->checkBox_a_01->click();
-				}
+				ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_a_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_02->isChecked() == false) {
-					ui->checkBox_a_02->click();
-				}
+				ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_a_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_03->isChecked() == false) {
-					ui->checkBox_a_03->click();
-				}
+				ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_a_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_04->isChecked() == false) {
-					ui->checkBox_a_04->click();
-				}
+				ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1652,10 +1127,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_a_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_15->isChecked() == false) {
-					ui->checkBox_a_15->click();
-				}
+				ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1671,38 +1143,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_10->isChecked() == false) {
-					ui->checkBox_b_10->click();
-				}
+				ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_b_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_11->isChecked() == false) {
-					ui->checkBox_b_11->click();
-				}
+				ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_b_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_12->isChecked() == false) {
-					ui->checkBox_b_12->click();
-				}
+				ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_b_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_13->isChecked() == false) {
-					ui->checkBox_b_13->click();
-				}
+				ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_b_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_14->isChecked() == false) {
-					ui->checkBox_b_14->click();
-				}
+				ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1714,38 +1171,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_05->isChecked() == false) {
-					ui->checkBox_b_05->click();
-				}
+				ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_b_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_06->isChecked() == false) {
-					ui->checkBox_b_06->click();
-				}
+				ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_b_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_07->isChecked() == false) {
-					ui->checkBox_b_07->click();
-				}
+				ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_b_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_08->isChecked() == false) {
-					ui->checkBox_b_08->click();
-				}
+				ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_b_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_09->isChecked() == false) {
-					ui->checkBox_b_09->click();
-				}
+				ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1757,38 +1199,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_00->isChecked() == false) {
-					ui->checkBox_b_00->click();
-				}
+				ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_b_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_01->isChecked() == false) {
-					ui->checkBox_b_01->click();
-				}
+				ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_b_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_02->isChecked() == false) {
-					ui->checkBox_b_02->click();
-				}
+				ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_b_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_03->isChecked() == false) {
-					ui->checkBox_b_03->click();
-				}
+				ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_b_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_04->isChecked() == false) {
-					ui->checkBox_b_04->click();
-				}
+				ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1800,10 +1227,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_b_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_15->isChecked() == false) {
-					ui->checkBox_b_15->click();
-				}
+				ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1819,38 +1243,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_10->isChecked() == false) {
-					ui->checkBox_c_10->click();
-				}
+				ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_c_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_11->isChecked() == false) {
-					ui->checkBox_c_11->click();
-				}
+				ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_c_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_12->isChecked() == false) {
-					ui->checkBox_c_12->click();
-				}
+				ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_c_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_13->isChecked() == false) {
-					ui->checkBox_c_13->click();
-				}
+				ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_c_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_14->isChecked() == false) {
-					ui->checkBox_c_14->click();
-				}
+				ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1862,38 +1271,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_05->isChecked() == false) {
-					ui->checkBox_c_05->click();
-				}
+				ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_c_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_06->isChecked() == false) {
-					ui->checkBox_c_06->click();
-				}
+				ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_c_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_07->isChecked() == false) {
-					ui->checkBox_c_07->click();
-				}
+				ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_c_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_08->isChecked() == false) {
-					ui->checkBox_c_08->click();
-				}
+				ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_c_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_09->isChecked() == false) {
-					ui->checkBox_c_09->click();
-				}
+				ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1905,38 +1299,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_00->isChecked() == false) {
-					ui->checkBox_c_00->click();
-				}
+				ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_c_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_01->isChecked() == false) {
-					ui->checkBox_c_01->click();
-				}
+				ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_c_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_02->isChecked() == false) {
-					ui->checkBox_c_02->click();
-				}
+				ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_c_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_03->isChecked() == false) {
-					ui->checkBox_c_03->click();
-				}
+				ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_c_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_04->isChecked() == false) {
-					ui->checkBox_c_04->click();
-				}
+				ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1948,10 +1327,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_c_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_15->isChecked() == false) {
-					ui->checkBox_c_15->click();
-				}
+				ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -1967,38 +1343,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_10->isChecked() == false) {
-					ui->checkBox_d_10->click();
-				}
+				ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_d_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_11->isChecked() == false) {
-					ui->checkBox_d_11->click();
-				}
+				ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_d_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_12->isChecked() == false) {
-					ui->checkBox_d_12->click();
-				}
+				ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_d_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_13->isChecked() == false) {
-					ui->checkBox_d_13->click();
-				}
+				ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_d_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_14->isChecked() == false) {
-					ui->checkBox_d_14->click();
-				}
+				ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2010,38 +1371,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_05->isChecked() == false) {
-					ui->checkBox_d_05->click();
-				}
+				ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_d_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_06->isChecked() == false) {
-					ui->checkBox_d_06->click();
-				}
+				ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_d_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_07->isChecked() == false) {
-					ui->checkBox_d_07->click();
-				}
+				ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_d_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_08->isChecked() == false) {
-					ui->checkBox_d_08->click();
-				}
+				ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_d_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_09->isChecked() == false) {
-					ui->checkBox_d_09->click();
-				}
+				ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2053,38 +1399,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_00->isChecked() == false) {
-					ui->checkBox_d_00->click();
-				}
+				ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_d_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_01->isChecked() == false) {
-					ui->checkBox_d_01->click();
-				}
+				ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_d_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_02->isChecked() == false) {
-					ui->checkBox_d_02->click();
-				}
+				ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_d_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_03->isChecked() == false) {
-					ui->checkBox_d_03->click();
-				}
+				ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_d_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_04->isChecked() == false) {
-					ui->checkBox_d_04->click();
-				}
+				ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2096,10 +1427,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_d_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_15->isChecked() == false) {
-					ui->checkBox_d_15->click();
-				}
+				ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2115,38 +1443,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_10->isChecked() == false) {
-					ui->checkBox_e_10->click();
-				}
+				ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_e_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_11->isChecked() == false) {
-					ui->checkBox_e_11->click();
-				}
+				ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_e_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_12->isChecked() == false) {
-					ui->checkBox_e_12->click();
-				}
+				ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_e_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_13->isChecked() == false) {
-					ui->checkBox_e_13->click();
-				}
+				ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_e_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_14->isChecked() == false) {
-					ui->checkBox_e_14->click();
-				}
+				ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2158,38 +1471,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_05->isChecked() == false) {
-					ui->checkBox_e_05->click();
-				}
+				ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_e_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_06->isChecked() == false) {
-					ui->checkBox_e_06->click();
-				}
+				ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_e_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_07->isChecked() == false) {
-					ui->checkBox_e_07->click();
-				}
+				ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_e_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_08->isChecked() == false) {
-					ui->checkBox_e_08->click();
-				}
+				ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_e_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_09->isChecked() == false) {
-					ui->checkBox_e_09->click();
-				}
+				ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2201,38 +1499,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_00->isChecked() == false) {
-					ui->checkBox_e_00->click();
-				}
+				ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_e_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_01->isChecked() == false) {
-					ui->checkBox_e_01->click();
-				}
+				ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_e_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_02->isChecked() == false) {
-					ui->checkBox_e_02->click();
-				}
+				ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_e_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_03->isChecked() == false) {
-					ui->checkBox_e_03->click();
-				}
+				ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_e_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_04->isChecked() == false) {
-					ui->checkBox_e_04->click();
-				}
+				ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2244,10 +1527,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_e_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_15->isChecked() == false) {
-					ui->checkBox_e_15->click();
-				}
+				ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2263,38 +1543,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_10->isChecked() == false) {
-					ui->checkBox_f_10->click();
-				}
+				ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_f_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_11->isChecked() == false) {
-					ui->checkBox_f_11->click();
-				}
+				ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_f_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_12->isChecked() == false) {
-					ui->checkBox_f_12->click();
-				}
+				ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_f_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_13->isChecked() == false) {
-					ui->checkBox_f_13->click();
-				}
+				ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_f_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_14->isChecked() == false) {
-					ui->checkBox_f_14->click();
-				}
+				ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2306,38 +1571,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_05->isChecked() == false) {
-					ui->checkBox_f_05->click();
-				}
+				ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_f_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_06->isChecked() == false) {
-					ui->checkBox_f_06->click();
-				}
+				ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_f_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_07->isChecked() == false) {
-					ui->checkBox_f_07->click();
-				}
+				ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_f_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_08->isChecked() == false) {
-					ui->checkBox_f_08->click();
-				}
+				ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_f_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_09->isChecked() == false) {
-					ui->checkBox_f_09->click();
-				}
+				ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2349,38 +1599,23 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_00->isChecked() == false) {
-					ui->checkBox_f_00->click();
-				}
+				ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 1:
-				ui->checkBox_f_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_01->isChecked() == false) {
-					ui->checkBox_f_01->click();
-				}
+				ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 2:
-				ui->checkBox_f_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_02->isChecked() == false) {
-					ui->checkBox_f_02->click();
-				}
+				ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 3:
-				ui->checkBox_f_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_03->isChecked() == false) {
-					ui->checkBox_f_03->click();
-				}
+				ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			case 4:
-				ui->checkBox_f_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_04->isChecked() == false) {
-					ui->checkBox_f_04->click();
-				}
+				ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2392,10 +1627,7 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_f_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_15->isChecked() == false) {
-					ui->checkBox_f_15->click();
-				}
+				ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 				break;
 
 			default:
@@ -2428,38 +1660,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_10->isChecked() == true) {
-					ui->checkBox_0_10->click();
-				}
+				ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_0_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_11->isChecked() == true) {
-					ui->checkBox_0_11->click();
-				}
+				ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_0_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_12->isChecked() == true) {
-					ui->checkBox_0_12->click();
-				}
+				ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_0_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_13->isChecked() == true) {
-					ui->checkBox_0_13->click();
-				}
+				ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_0_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_14->isChecked() == true) {
-					ui->checkBox_0_14->click();
-				}
+				ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2471,38 +1688,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_05->isChecked() == true) {
-					ui->checkBox_0_05->click();
-				}
+				ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_0_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_06->isChecked() == true) {
-					ui->checkBox_0_06->click();
-				}
+				ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_0_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_07->isChecked() == true) {
-					ui->checkBox_0_07->click();
-				}
+				ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_0_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_08->isChecked() == true) {
-					ui->checkBox_0_08->click();
-				}
+				ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_0_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_09->isChecked() == true) {
-					ui->checkBox_0_09->click();
-				}
+				ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2514,38 +1716,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_0_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_00->isChecked() == true) {
-					ui->checkBox_0_00->click();
-				}
+				ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_0_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_01->isChecked() == true) {
-					ui->checkBox_0_01->click();
-				}
+				ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_0_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_02->isChecked() == true) {
-					ui->checkBox_0_02->click();
-				}
+				ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_0_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_03->isChecked() == true) {
-					ui->checkBox_0_03->click();
-				}
+				ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_0_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_04->isChecked() == true) {
-					ui->checkBox_0_04->click();
-				}
+				ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2557,10 +1744,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_0_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_0_15->isChecked() == true) {
-					ui->checkBox_0_15->click();
-				}
+				ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2576,38 +1760,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_10->isChecked() == true) {
-					ui->checkBox_1_10->click();
-				}
+				ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_1_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_11->isChecked() == true) {
-					ui->checkBox_1_11->click();
-				}
+				ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_1_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_12->isChecked() == true) {
-					ui->checkBox_1_12->click();
-				}
+				ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_1_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_13->isChecked() == true) {
-					ui->checkBox_1_13->click();
-				}
+				ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_1_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_14->isChecked() == true) {
-					ui->checkBox_1_14->click();
-				}
+				ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2619,38 +1788,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_05->isChecked() == true) {
-					ui->checkBox_1_05->click();
-				}
+				ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_1_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_06->isChecked() == true) {
-					ui->checkBox_1_06->click();
-				}
+				ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_1_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_07->isChecked() == true) {
-					ui->checkBox_1_07->click();
-				}
+				ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_1_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_08->isChecked() == true) {
-					ui->checkBox_1_08->click();
-				}
+				ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_1_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_09->isChecked() == true) {
-					ui->checkBox_1_09->click();
-				}
+				ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2662,38 +1816,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_1_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_00->isChecked() == true) {
-					ui->checkBox_1_00->click();
-				}
+				ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_1_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_01->isChecked() == true) {
-					ui->checkBox_1_01->click();
-				}
+				ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_1_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_02->isChecked() == true) {
-					ui->checkBox_1_02->click();
-				}
+				ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_1_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_03->isChecked() == true) {
-					ui->checkBox_1_03->click();
-				}
+				ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_1_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_04->isChecked() == true) {
-					ui->checkBox_1_04->click();
-				}
+				ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2705,10 +1844,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_1_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_1_15->isChecked() == true) {
-					ui->checkBox_1_15->click();
-				}
+				ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2724,38 +1860,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_10->isChecked() == true) {
-					ui->checkBox_2_10->click();
-				}
+				ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_2_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_11->isChecked() == true) {
-					ui->checkBox_2_11->click();
-				}
+				ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_2_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_12->isChecked() == true) {
-					ui->checkBox_2_12->click();
-				}
+				ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_2_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_13->isChecked() == true) {
-					ui->checkBox_2_13->click();
-				}
+				ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_2_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_14->isChecked() == true) {
-					ui->checkBox_2_14->click();
-				}
+				ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2767,38 +1888,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_05->isChecked() == true) {
-					ui->checkBox_2_05->click();
-				}
+				ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_2_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_06->isChecked() == true) {
-					ui->checkBox_2_06->click();
-				}
+				ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_2_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_07->isChecked() == true) {
-					ui->checkBox_2_07->click();
-				}
+				ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_2_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_08->isChecked() == true) {
-					ui->checkBox_2_08->click();
-				}
+				ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_2_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_09->isChecked() == true) {
-					ui->checkBox_2_09->click();
-				}
+				ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2810,38 +1916,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_2_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_00->isChecked() == true) {
-					ui->checkBox_2_00->click();
-				}
+				ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_2_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_01->isChecked() == true) {
-					ui->checkBox_2_01->click();
-				}
+				ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_2_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_02->isChecked() == true) {
-					ui->checkBox_2_02->click();
-				}
+				ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_2_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_03->isChecked() == true) {
-					ui->checkBox_2_03->click();
-				}
+				ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_2_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_04->isChecked() == true) {
-					ui->checkBox_2_04->click();
-				}
+				ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2853,10 +1944,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_2_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_2_15->isChecked() == true) {
-					ui->checkBox_2_15->click();
-				}
+				ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2872,38 +1960,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_10->isChecked() == true) {
-					ui->checkBox_3_10->click();
-				}
+				ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_3_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_11->isChecked() == true) {
-					ui->checkBox_3_11->click();
-				}
+				ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_3_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_12->isChecked() == true) {
-					ui->checkBox_3_12->click();
-				}
+				ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_3_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_13->isChecked() == true) {
-					ui->checkBox_3_13->click();
-				}
+				ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_3_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_14->isChecked() == true) {
-					ui->checkBox_3_14->click();
-				}
+				ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2915,38 +1988,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_05->isChecked() == true) {
-					ui->checkBox_3_05->click();
-				}
+				ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_3_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_06->isChecked() == true) {
-					ui->checkBox_3_06->click();
-				}
+				ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_3_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_07->isChecked() == true) {
-					ui->checkBox_3_07->click();
-				}
+				ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_3_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_08->isChecked() == true) {
-					ui->checkBox_3_08->click();
-				}
+				ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_3_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_09->isChecked() == true) {
-					ui->checkBox_3_09->click();
-				}
+				ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -2958,38 +2016,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_3_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_00->isChecked() == true) {
-					ui->checkBox_3_00->click();
-				}
+				ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_3_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_01->isChecked() == true) {
-					ui->checkBox_3_01->click();
-				}
+				ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_3_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_02->isChecked() == true) {
-					ui->checkBox_3_02->click();
-				}
+				ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_3_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_03->isChecked() == true) {
-					ui->checkBox_3_03->click();
-				}
+				ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_3_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_04->isChecked() == true) {
-					ui->checkBox_3_04->click();
-				}
+				ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3001,10 +2044,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_3_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_3_15->isChecked() == true) {
-					ui->checkBox_3_15->click();
-				}
+				ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3020,38 +2060,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_10->isChecked() == true) {
-					ui->checkBox_4_10->click();
-				}
+				ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_4_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_11->isChecked() == true) {
-					ui->checkBox_4_11->click();
-				}
+				ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_4_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_12->isChecked() == true) {
-					ui->checkBox_4_12->click();
-				}
+				ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_4_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_13->isChecked() == true) {
-					ui->checkBox_4_13->click();
-				}
+				ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_4_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_14->isChecked() == true) {
-					ui->checkBox_4_14->click();
-				}
+				ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3063,38 +2088,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_05->isChecked() == true) {
-					ui->checkBox_4_05->click();
-				}
+				ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_4_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_06->isChecked() == true) {
-					ui->checkBox_4_06->click();
-				}
+				ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_4_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_07->isChecked() == true) {
-					ui->checkBox_4_07->click();
-				}
+				ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_4_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_08->isChecked() == true) {
-					ui->checkBox_4_08->click();
-				}
+				ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_4_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_09->isChecked() == true) {
-					ui->checkBox_4_09->click();
-				}
+				ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3106,38 +2116,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_4_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_00->isChecked() == true) {
-					ui->checkBox_4_00->click();
-				}
+				ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_4_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_01->isChecked() == true) {
-					ui->checkBox_4_01->click();
-				}
+				ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_4_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_02->isChecked() == true) {
-					ui->checkBox_4_02->click();
-				}
+				ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_4_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_03->isChecked() == true) {
-					ui->checkBox_4_03->click();
-				}
+				ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_4_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_04->isChecked() == true) {
-					ui->checkBox_4_04->click();
-				}
+				ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3149,10 +2144,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_4_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_4_15->isChecked() == true) {
-					ui->checkBox_4_15->click();
-				}
+				ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3168,38 +2160,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_10->isChecked() == true) {
-					ui->checkBox_5_10->click();
-				}
+				ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_5_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_11->isChecked() == true) {
-					ui->checkBox_5_11->click();
-				}
+				ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_5_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_12->isChecked() == true) {
-					ui->checkBox_5_12->click();
-				}
+				ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_5_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_13->isChecked() == true) {
-					ui->checkBox_5_13->click();
-				}
+				ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_5_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_14->isChecked() == true) {
-					ui->checkBox_5_14->click();
-				}
+				ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3211,38 +2188,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_05->isChecked() == true) {
-					ui->checkBox_5_05->click();
-				}
+				ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_5_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_06->isChecked() == true) {
-					ui->checkBox_5_06->click();
-				}
+				ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_5_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_07->isChecked() == true) {
-					ui->checkBox_5_07->click();
-				}
+				ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_5_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_08->isChecked() == true) {
-					ui->checkBox_5_08->click();
-				}
+				ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_5_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_09->isChecked() == true) {
-					ui->checkBox_5_09->click();
-				}
+				ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3254,38 +2216,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_5_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_00->isChecked() == true) {
-					ui->checkBox_5_00->click();
-				}
+				ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_5_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_01->isChecked() == true) {
-					ui->checkBox_5_01->click();
-				}
+				ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_5_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_02->isChecked() == true) {
-					ui->checkBox_5_02->click();
-				}
+				ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_5_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_03->isChecked() == true) {
-					ui->checkBox_5_03->click();
-				}
+				ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_5_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_04->isChecked() == true) {
-					ui->checkBox_5_04->click();
-				}
+				ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3297,10 +2244,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_5_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_5_15->isChecked() == true) {
-					ui->checkBox_5_15->click();
-				}
+				ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3316,38 +2260,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_10->isChecked() == true) {
-					ui->checkBox_6_10->click();
-				}
+				ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_6_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_11->isChecked() == true) {
-					ui->checkBox_6_11->click();
-				}
+				ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_6_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_12->isChecked() == true) {
-					ui->checkBox_6_12->click();
-				}
+				ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_6_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_13->isChecked() == true) {
-					ui->checkBox_6_13->click();
-				}
+				ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_6_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_14->isChecked() == true) {
-					ui->checkBox_6_14->click();
-				}
+				ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3359,38 +2288,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_05->isChecked() == true) {
-					ui->checkBox_6_05->click();
-				}
+				ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_6_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_06->isChecked() == true) {
-					ui->checkBox_6_06->click();
-				}
+				ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_6_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_07->isChecked() == true) {
-					ui->checkBox_6_07->click();
-				}
+				ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_6_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_08->isChecked() == true) {
-					ui->checkBox_6_08->click();
-				}
+				ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_6_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_09->isChecked() == true) {
-					ui->checkBox_6_09->click();
-				}
+				ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3402,38 +2316,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_6_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_00->isChecked() == true) {
-					ui->checkBox_6_00->click();
-				}
+				ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_6_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_01->isChecked() == true) {
-					ui->checkBox_6_01->click();
-				}
+				ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_6_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_02->isChecked() == true) {
-					ui->checkBox_6_02->click();
-				}
+				ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_6_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_03->isChecked() == true) {
-					ui->checkBox_6_03->click();
-				}
+				ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_6_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_04->isChecked() == true) {
-					ui->checkBox_6_04->click();
-				}
+				ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3445,10 +2344,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_6_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_6_15->isChecked() == true) {
-					ui->checkBox_6_15->click();
-				}
+				ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3464,38 +2360,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_10->isChecked() == true) {
-					ui->checkBox_7_10->click();
-				}
+				ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_7_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_11->isChecked() == true) {
-					ui->checkBox_7_11->click();
-				}
+				ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_7_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_12->isChecked() == true) {
-					ui->checkBox_7_12->click();
-				}
+				ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_7_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_13->isChecked() == true) {
-					ui->checkBox_7_13->click();
-				}
+				ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_7_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_14->isChecked() == true) {
-					ui->checkBox_7_14->click();
-				}
+				ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3507,38 +2388,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_05->isChecked() == true) {
-					ui->checkBox_7_05->click();
-				}
+				ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_7_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_06->isChecked() == true) {
-					ui->checkBox_7_06->click();
-				}
+				ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_7_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_07->isChecked() == true) {
-					ui->checkBox_7_07->click();
-				}
+				ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_7_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_08->isChecked() == true) {
-					ui->checkBox_7_08->click();
-				}
+				ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_7_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_09->isChecked() == true) {
-					ui->checkBox_7_09->click();
-				}
+				ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3550,38 +2416,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_7_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_00->isChecked() == true) {
-					ui->checkBox_7_00->click();
-				}
+				ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_7_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_01->isChecked() == true) {
-					ui->checkBox_7_01->click();
-				}
+				ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_7_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_02->isChecked() == true) {
-					ui->checkBox_7_02->click();
-				}
+				ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_7_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_03->isChecked() == true) {
-					ui->checkBox_7_03->click();
-				}
+				ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_7_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_04->isChecked() == true) {
-					ui->checkBox_7_04->click();
-				}
+				ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3593,10 +2444,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_7_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_7_15->isChecked() == true) {
-					ui->checkBox_7_15->click();
-				}
+				ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3612,38 +2460,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_10->isChecked() == true) {
-					ui->checkBox_8_10->click();
-				}
+				ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_8_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_11->isChecked() == true) {
-					ui->checkBox_8_11->click();
-				}
+				ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_8_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_12->isChecked() == true) {
-					ui->checkBox_8_12->click();
-				}
+				ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_8_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_13->isChecked() == true) {
-					ui->checkBox_8_13->click();
-				}
+				ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_8_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_14->isChecked() == true) {
-					ui->checkBox_8_14->click();
-				}
+				ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3655,38 +2488,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_05->isChecked() == true) {
-					ui->checkBox_8_05->click();
-				}
+				ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_8_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_06->isChecked() == true) {
-					ui->checkBox_8_06->click();
-				}
+				ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_8_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_07->isChecked() == true) {
-					ui->checkBox_8_07->click();
-				}
+				ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_8_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_08->isChecked() == true) {
-					ui->checkBox_8_08->click();
-				}
+				ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_8_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_09->isChecked() == true) {
-					ui->checkBox_8_09->click();
-				}
+				ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3698,38 +2516,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_8_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_00->isChecked() == true) {
-					ui->checkBox_8_00->click();
-				}
+				ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_8_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_01->isChecked() == true) {
-					ui->checkBox_8_01->click();
-				}
+				ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_8_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_02->isChecked() == true) {
-					ui->checkBox_8_02->click();
-				}
+				ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_8_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_03->isChecked() == true) {
-					ui->checkBox_8_03->click();
-				}
+				ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_8_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_04->isChecked() == true) {
-					ui->checkBox_8_04->click();
-				}
+				ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3741,10 +2544,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_8_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_8_15->isChecked() == true) {
-					ui->checkBox_8_15->click();
-				}
+				ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3760,38 +2560,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_10->isChecked() == true) {
-					ui->checkBox_9_10->click();
-				}
+				ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_9_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_11->isChecked() == true) {
-					ui->checkBox_9_11->click();
-				}
+				ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_9_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_12->isChecked() == true) {
-					ui->checkBox_9_12->click();
-				}
+				ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_9_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_13->isChecked() == true) {
-					ui->checkBox_9_13->click();
-				}
+				ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_9_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_14->isChecked() == true) {
-					ui->checkBox_9_14->click();
-				}
+				ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3803,38 +2588,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_05->isChecked() == true) {
-					ui->checkBox_9_05->click();
-				}
+				ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_9_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_06->isChecked() == true) {
-					ui->checkBox_9_06->click();
-				}
+				ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_9_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_07->isChecked() == true) {
-					ui->checkBox_9_07->click();
-				}
+				ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_9_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_08->isChecked() == true) {
-					ui->checkBox_9_08->click();
-				}
+				ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_9_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_09->isChecked() == true) {
-					ui->checkBox_9_09->click();
-				}
+				ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3846,38 +2616,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_9_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_00->isChecked() == true) {
-					ui->checkBox_9_00->click();
-				}
+				ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_9_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_01->isChecked() == true) {
-					ui->checkBox_9_01->click();
-				}
+				ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_9_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_02->isChecked() == true) {
-					ui->checkBox_9_02->click();
-				}
+				ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_9_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_03->isChecked() == true) {
-					ui->checkBox_9_03->click();
-				}
+				ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_9_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_04->isChecked() == true) {
-					ui->checkBox_9_04->click();
-				}
+				ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3889,10 +2644,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_9_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_9_15->isChecked() == true) {
-					ui->checkBox_9_15->click();
-				}
+				ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3908,38 +2660,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_10->isChecked() == true) {
-					ui->checkBox_a_10->click();
-				}
+				ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_a_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_11->isChecked() == true) {
-					ui->checkBox_a_11->click();
-				}
+				ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_a_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_12->isChecked() == true) {
-					ui->checkBox_a_12->click();
-				}
+				ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_a_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_13->isChecked() == true) {
-					ui->checkBox_a_13->click();
-				}
+				ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_a_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_14->isChecked() == true) {
-					ui->checkBox_a_14->click();
-				}
+				ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3951,38 +2688,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_05->isChecked() == true) {
-					ui->checkBox_a_05->click();
-				}
+				ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_a_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_06->isChecked() == true) {
-					ui->checkBox_a_06->click();
-				}
+				ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_a_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_07->isChecked() == true) {
-					ui->checkBox_a_07->click();
-				}
+				ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_a_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_08->isChecked() == true) {
-					ui->checkBox_a_08->click();
-				}
+				ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_a_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_09->isChecked() == true) {
-					ui->checkBox_a_09->click();
-				}
+				ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -3994,38 +2716,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_a_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_00->isChecked() == true) {
-					ui->checkBox_a_00->click();
-				}
+				ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_a_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_01->isChecked() == true) {
-					ui->checkBox_a_01->click();
-				}
+				ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_a_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_02->isChecked() == true) {
-					ui->checkBox_a_02->click();
-				}
+				ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_a_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_03->isChecked() == true) {
-					ui->checkBox_a_03->click();
-				}
+				ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_a_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_04->isChecked() == true) {
-					ui->checkBox_a_04->click();
-				}
+				ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4037,10 +2744,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_a_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_a_15->isChecked() == true) {
-					ui->checkBox_a_15->click();
-				}
+				ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4056,38 +2760,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_10->isChecked() == true) {
-					ui->checkBox_b_10->click();
-				}
+				ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_b_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_11->isChecked() == true) {
-					ui->checkBox_b_11->click();
-				}
+				ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_b_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_12->isChecked() == true) {
-					ui->checkBox_b_12->click();
-				}
+				ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_b_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_13->isChecked() == true) {
-					ui->checkBox_b_13->click();
-				}
+				ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_b_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_14->isChecked() == true) {
-					ui->checkBox_b_14->click();
-				}
+				ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4099,38 +2788,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_05->isChecked() == true) {
-					ui->checkBox_b_05->click();
-				}
+				ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_b_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_06->isChecked() == true) {
-					ui->checkBox_b_06->click();
-				}
+				ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_b_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_07->isChecked() == true) {
-					ui->checkBox_b_07->click();
-				}
+				ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_b_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_08->isChecked() == true) {
-					ui->checkBox_b_08->click();
-				}
+				ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_b_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_09->isChecked() == true) {
-					ui->checkBox_b_09->click();
-				}
+				ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4142,38 +2816,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_b_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_00->isChecked() == true) {
-					ui->checkBox_b_00->click();
-				}
+				ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_b_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_01->isChecked() == true) {
-					ui->checkBox_b_01->click();
-				}
+				ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_b_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_02->isChecked() == true) {
-					ui->checkBox_b_02->click();
-				}
+				ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_b_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_03->isChecked() == true) {
-					ui->checkBox_b_03->click();
-				}
+				ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_b_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_04->isChecked() == true) {
-					ui->checkBox_b_04->click();
-				}
+				ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4185,10 +2844,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_b_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_b_15->isChecked() == true) {
-					ui->checkBox_b_15->click();
-				}
+				ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4204,38 +2860,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_10->isChecked() == true) {
-					ui->checkBox_c_10->click();
-				}
+				ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_c_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_11->isChecked() == true) {
-					ui->checkBox_c_11->click();
-				}
+				ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_c_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_12->isChecked() == true) {
-					ui->checkBox_c_12->click();
-				}
+				ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_c_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_13->isChecked() == true) {
-					ui->checkBox_c_13->click();
-				}
+				ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_c_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_14->isChecked() == true) {
-					ui->checkBox_c_14->click();
-				}
+				ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4247,38 +2888,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_05->isChecked() == true) {
-					ui->checkBox_c_05->click();
-				}
+				ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_c_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_06->isChecked() == true) {
-					ui->checkBox_c_06->click();
-				}
+				ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_c_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_07->isChecked() == true) {
-					ui->checkBox_c_07->click();
-				}
+				ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_c_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_08->isChecked() == true) {
-					ui->checkBox_c_08->click();
-				}
+				ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_c_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_09->isChecked() == true) {
-					ui->checkBox_c_09->click();
-				}
+				ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4290,38 +2916,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_c_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_00->isChecked() == true) {
-					ui->checkBox_c_00->click();
-				}
+				ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_c_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_01->isChecked() == true) {
-					ui->checkBox_c_01->click();
-				}
+				ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_c_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_02->isChecked() == true) {
-					ui->checkBox_c_02->click();
-				}
+				ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_c_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_03->isChecked() == true) {
-					ui->checkBox_c_03->click();
-				}
+				ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_c_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_04->isChecked() == true) {
-					ui->checkBox_c_04->click();
-				}
+				ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4333,10 +2944,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_c_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_c_15->isChecked() == true) {
-					ui->checkBox_c_15->click();
-				}
+				ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4352,38 +2960,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_10->isChecked() == true) {
-					ui->checkBox_d_10->click();
-				}
+				ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_d_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_11->isChecked() == true) {
-					ui->checkBox_d_11->click();
-				}
+				ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_d_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_12->isChecked() == true) {
-					ui->checkBox_d_12->click();
-				}
+				ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_d_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_13->isChecked() == true) {
-					ui->checkBox_d_13->click();
-				}
+				ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_d_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_14->isChecked() == true) {
-					ui->checkBox_d_14->click();
-				}
+				ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4395,38 +2988,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_05->isChecked() == true) {
-					ui->checkBox_d_05->click();
-				}
+				ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_d_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_06->isChecked() == true) {
-					ui->checkBox_d_06->click();
-				}
+				ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_d_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_07->isChecked() == true) {
-					ui->checkBox_d_07->click();
-				}
+				ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_d_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_08->isChecked() == true) {
-					ui->checkBox_d_08->click();
-				}
+				ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_d_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_09->isChecked() == true) {
-					ui->checkBox_d_09->click();
-				}
+				ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4438,38 +3016,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_d_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_00->isChecked() == true) {
-					ui->checkBox_d_00->click();
-				}
+				ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_d_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_01->isChecked() == true) {
-					ui->checkBox_d_01->click();
-				}
+				ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_d_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_02->isChecked() == true) {
-					ui->checkBox_d_02->click();
-				}
+				ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_d_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_03->isChecked() == true) {
-					ui->checkBox_d_03->click();
-				}
+				ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_d_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_04->isChecked() == true) {
-					ui->checkBox_d_04->click();
-				}
+				ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4481,10 +3044,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_d_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_d_15->isChecked() == true) {
-					ui->checkBox_d_15->click();
-				}
+				ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4500,38 +3060,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_10->isChecked() == true) {
-					ui->checkBox_e_10->click();
-				}
+				ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_e_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_11->isChecked() == true) {
-					ui->checkBox_e_11->click();
-				}
+				ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_e_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_12->isChecked() == true) {
-					ui->checkBox_e_12->click();
-				}
+				ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_e_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_13->isChecked() == true) {
-					ui->checkBox_e_13->click();
-				}
+				ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_e_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_14->isChecked() == true) {
-					ui->checkBox_e_14->click();
-				}
+				ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4543,38 +3088,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_05->isChecked() == true) {
-					ui->checkBox_e_05->click();
-				}
+				ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_e_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_06->isChecked() == true) {
-					ui->checkBox_e_06->click();
-				}
+				ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_e_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_07->isChecked() == true) {
-					ui->checkBox_e_07->click();
-				}
+				ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_e_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_08->isChecked() == true) {
-					ui->checkBox_e_08->click();
-				}
+				ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_e_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_09->isChecked() == true) {
-					ui->checkBox_e_09->click();
-				}
+				ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4586,38 +3116,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_e_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_00->isChecked() == true) {
-					ui->checkBox_e_00->click();
-				}
+				ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_e_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_01->isChecked() == true) {
-					ui->checkBox_e_01->click();
-				}
+				ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_e_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_02->isChecked() == true) {
-					ui->checkBox_e_02->click();
-				}
+				ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_e_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_03->isChecked() == true) {
-					ui->checkBox_e_03->click();
-				}
+				ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_e_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_04->isChecked() == true) {
-					ui->checkBox_e_04->click();
-				}
+				ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4629,10 +3144,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_e_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_e_15->isChecked() == true) {
-					ui->checkBox_e_15->click();
-				}
+				ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4648,38 +3160,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_10->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_10->isChecked() == true) {
-					ui->checkBox_f_10->click();
-				}
+				ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_f_11->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_11->isChecked() == true) {
-					ui->checkBox_f_11->click();
-				}
+				ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_f_12->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_12->isChecked() == true) {
-					ui->checkBox_f_12->click();
-				}
+				ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_f_13->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_13->isChecked() == true) {
-					ui->checkBox_f_13->click();
-				}
+				ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_f_14->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_14->isChecked() == true) {
-					ui->checkBox_f_14->click();
-				}
+				ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4691,38 +3188,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_05->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_05->isChecked() == true) {
-					ui->checkBox_f_05->click();
-				}
+				ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_f_06->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_06->isChecked() == true) {
-					ui->checkBox_f_06->click();
-				}
+				ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_f_07->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_07->isChecked() == true) {
-					ui->checkBox_f_07->click();
-				}
+				ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_f_08->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_08->isChecked() == true) {
-					ui->checkBox_f_08->click();
-				}
+				ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_f_09->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_09->isChecked() == true) {
-					ui->checkBox_f_09->click();
-				}
+				ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4734,38 +3216,23 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->checkBox_f_00->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_00->isChecked() == true) {
-					ui->checkBox_f_00->click();
-				}
+				ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 1:
-				ui->checkBox_f_01->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_01->isChecked() == true) {
-					ui->checkBox_f_01->click();
-				}
+				ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 2:
-				ui->checkBox_f_02->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_02->isChecked() == true) {
-					ui->checkBox_f_02->click();
-				}
+				ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 3:
-				ui->checkBox_f_03->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_03->isChecked() == true) {
-					ui->checkBox_f_03->click();
-				}
+				ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			case 4:
-				ui->checkBox_f_04->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_04->isChecked() == true) {
-					ui->checkBox_f_04->click();
-				}
+				ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4777,10 +3244,7 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->checkBox_f_15->setCheckState(Qt::Unchecked);
-				while (ui->checkBox_f_15->isChecked() == true) {
-					ui->checkBox_f_15->click();
-				}
+				ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
 				break;
 
 			default:
@@ -4832,6 +3296,7 @@ void Display::DisplayDigit() {
 	uint8_t andOperator = 1;
 	const uint8_t andOperator_127 = 127;
 
+	clearPointAll();
 	clearPointAll();
 
 	for (uint8_t i = 0; i < 16; i += 1) {
@@ -5026,6 +3491,7 @@ void Display::set_dispBuffer(uint8_t dispBuffer_new[16])
 	for (i = 0; i < 16; i++) {
 		dispBuffer[i] = dispBuffer_new[i];
 	}
+	DisplayDigit();
 	DisplayDigit();
 }
 
