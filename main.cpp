@@ -3,7 +3,7 @@
 
 #include "mainwindow.h"
 #include "Display.h"
-#include "Calculator.h"
+// #include "Calculator.h"
 
 #include <iostream>
 

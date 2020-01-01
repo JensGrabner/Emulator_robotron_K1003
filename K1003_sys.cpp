@@ -30,7 +30,7 @@ void K1003_sys::setDisplay(Display* m_display)
 void K1003_sys::KeyPressed(uint8_t KeyNumber_n)
 {
 	myCPU->KeyPressed(KeyNumber_n);  //  o.k.
-	_sleep(2);
+	// _sleep(2);
 }
 
 void K1003_sys::PiClicked()
@@ -49,6 +49,11 @@ void K1003_sys::InitProcessor()
 void K1003_sys::stop_CPU()
 {
 	myCPU->stop_CPU();
+}
+
+void K1003_sys::reStart_CPU()
+{
+	myCPU->reStart_CPU();
 }
 
 void K1003_sys::CPU_hlt(uint16_t PC_n)
@@ -70,11 +75,12 @@ void K1003_sys::Test()
 
 void K1003_sys::set_dispBuffer(uint8_t dispBuffer_new[16])
 {
-	uint8_t i;
-	for (i = 0; i < 16; i++) {
+	for (uint8_t i = 0; i < 16; i++) {
 		dispBuffer[display_sort[i]] = reverse[dispBuffer_new[i]];
 	}
+	stop_CPU();
 	myDisplay->set_dispBuffer(dispBuffer);
+	reStart_CPU();
 }
 
 void K1003_sys::setPointAll()

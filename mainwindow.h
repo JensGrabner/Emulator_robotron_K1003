@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include "Display.h"
 #include "K1003_sys.h"
-#include "Calculator.h"
+// #include "Calculator.h"
 #include "ui_mainwindow.h"
 
 namespace Ui {
@@ -178,7 +178,7 @@ private slots:
 private:
 	Ui::MainWindow* ui;
 	Display* myDisplay;
-	Calculator* myCalculator;
+	// Calculator* myCalculator;
 	K1003_sys* myK1003;
 };
 

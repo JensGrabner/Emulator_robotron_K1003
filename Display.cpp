@@ -43,23 +43,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_10 == false ) {
+					ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_11 == false ) {
+					ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_12 == false ) {
+					ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_13 == false ) {
+					ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_14 == false ) {
+					ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_14 = true;
+				}
 				break;
 
 			default:
@@ -71,23 +86,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_05 == false ) {
+					ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_06 == false ) {
+					ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_07 == false ) {
+					ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_08 == false ) {
+					ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_09 == false ) {
+					ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_09 = true;
+				}
 				break;
 
 			default:
@@ -99,23 +129,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_00 == false ) {
+					ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_01 == false ) {
+					ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_02 == false ) {
+					ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_03 == false ) {
+					ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_04 == false ) {
+					ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_04 = true;
+				}
 				break;
 
 			default:
@@ -127,7 +172,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_0_15 == false ) {
+					ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_0_15 = true;
+				}
 				break;
 
 			default:
@@ -143,23 +191,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_10 == false ) {
+					ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_11 == false ) {
+					ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_12 == false ) {
+					ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_13 == false ) {
+					ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_14 == false ) {
+					ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_14 = true;
+				}
 				break;
 
 			default:
@@ -171,23 +234,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_05 == false ) {
+					ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_06 == false ) {
+					ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_07 == false ) {
+					ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_08 == false ) {
+					ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_09 == false ) {
+					ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_09 = true;
+				}
 				break;
 
 			default:
@@ -199,23 +277,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_00 == false ) {
+					ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_01 == false ) {
+					ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_02 == false ) {
+					ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_03 == false ) {
+					ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_04 == false ) {
+					ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_04 = true;
+				}
 				break;
 
 			default:
@@ -227,7 +320,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_1_15 == false ) {
+					ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_1_15 = true;
+				}
 				break;
 
 			default:
@@ -243,23 +339,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_10 == false ) {
+					ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_11 == false ) {
+					ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_12 == false ) {
+					ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_13 == false ) {
+					ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_14 == false ) {
+					ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_14 = true;
+				}
 				break;
 
 			default:
@@ -271,23 +382,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_05 == false ) {
+					ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_06 == false ) {
+					ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_07 == false ) {
+					ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_08 == false ) {
+					ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_09 == false ) {
+					ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_09 = true;
+				}
 				break;
 
 			default:
@@ -299,23 +425,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_00 == false ) {
+					ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_01 == false ) {
+					ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_02 == false ) {
+					ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_03 == false ) {
+					ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_04 == false ) {
+					ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_04 = true;
+				}
 				break;
 
 			default:
@@ -327,7 +468,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_2_15 == false ) {
+					ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_2_15 = true;
+				}
 				break;
 
 			default:
@@ -343,23 +487,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_10 == false ) {
+					ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_11 == false ) {
+					ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_12 == false ) {
+					ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_13 == false ) {
+					ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_14 == false ) {
+					ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_14 = true;
+				}
 				break;
 
 			default:
@@ -371,23 +530,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_05 == false ) {
+					ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_06 == false ) {
+					ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_07 == false ) {
+					ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_08 == false ) {
+					ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_09 == false ) {
+					ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_09 = true;
+				}
 				break;
 
 			default:
@@ -399,23 +573,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_00 == false ) {
+					ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_01 == false ) {
+					ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_02 == false ) {
+					ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_03 == false ) {
+					ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_04 == false ) {
+					ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_04 = true;
+				}
 				break;
 
 			default:
@@ -427,7 +616,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_3_15 == false ) {
+					ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_3_15 = true;
+				}
 				break;
 
 			default:
@@ -443,23 +635,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_10 == false ) {
+					ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_11 == false ) {
+					ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_12 == false ) {
+					ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_13 == false ) {
+					ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_14 == false ) {
+					ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_14 = true;
+				}
 				break;
 
 			default:
@@ -471,23 +678,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_05 == false ) {
+					ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_06 == false ) {
+					ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_07 == false ) {
+					ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_08 == false ) {
+					ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_09 == false ) {
+					ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_09 = true;
+				}
 				break;
 
 			default:
@@ -499,23 +721,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_00 == false ) {
+					ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_01 == false ) {
+					ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_02 == false ) {
+					ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_03 == false ) {
+					ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_04 == false ) {
+					ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_04 = true;
+				}
 				break;
 
 			default:
@@ -527,7 +764,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_4_15 == false ) {
+					ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_4_15 = true;
+				}
 				break;
 
 			default:
@@ -543,23 +783,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_10 == false ) {
+					ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_11 == false ) {
+					ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_12 == false ) {
+					ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_13 == false ) {
+					ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_14 == false ) {
+					ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_14 = true;
+				}
 				break;
 
 			default:
@@ -571,23 +826,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_05 == false ) {
+					ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_06 == false ) {
+					ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_07 == false ) {
+					ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_08 == false ) {
+					ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_09 == false ) {
+					ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_09 = true;
+				}
 				break;
 
 			default:
@@ -599,23 +869,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_00 == false ) {
+					ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_01 == false ) {
+					ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_02 == false ) {
+					ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_03 == false ) {
+					ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_04 == false ) {
+					ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_04 = true;
+				}
 				break;
 
 			default:
@@ -627,7 +912,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_5_15 == false ) {
+					ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_5_15 = true;
+				}
 				break;
 
 			default:
@@ -643,23 +931,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_10 == false ) {
+					ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_11 == false ) {
+					ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_12 == false ) {
+					ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_13 == false ) {
+					ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_14 == false ) {
+					ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_14 = true;
+				}
 				break;
 
 			default:
@@ -671,23 +974,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_05 == false ) {
+					ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_06 == false ) {
+					ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_07 == false ) {
+					ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_08 == false ) {
+					ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_09 == false ) {
+					ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_09 = true;
+				}
 				break;
 
 			default:
@@ -699,23 +1017,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_00 == false ) {
+					ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_01 == false ) {
+					ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_02 == false ) {
+					ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_03 == false ) {
+					ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_04 == false ) {
+					ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_04 = true;
+				}
 				break;
 
 			default:
@@ -727,7 +1060,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_6_15 == false ) {
+					ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_6_15 = true;
+				}
 				break;
 
 			default:
@@ -743,23 +1079,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_10 == false ) {
+					ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_11 == false ) {
+					ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_12 == false ) {
+					ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_13 == false ) {
+					ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_14 == false ) {
+					ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_14 = true;
+				}
 				break;
 
 			default:
@@ -771,23 +1122,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_05 == false ) {
+					ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_06 == false ) {
+					ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_07 == false ) {
+					ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_08 == false ) {
+					ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_09 == false ) {
+					ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_09 = true;
+				}
 				break;
 
 			default:
@@ -799,23 +1165,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_00 == false ) {
+					ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_01 == false ) {
+					ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_02 == false ) {
+					ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_03 == false ) {
+					ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_04 == false ) {
+					ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_04 = true;
+				}
 				break;
 
 			default:
@@ -827,7 +1208,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_7_15 == false ) {
+					ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_7_15 = true;
+				}
 				break;
 
 			default:
@@ -843,23 +1227,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_10 == false ) {
+					ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_11 == false ) {
+					ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_12 == false ) {
+					ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_13 == false ) {
+					ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_14 == false ) {
+					ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_14 = true;
+				}
 				break;
 
 			default:
@@ -871,23 +1270,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_05 == false ) {
+					ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_06 == false ) {
+					ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_07 == false ) {
+					ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_08 == false ) {
+					ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_09 == false ) {
+					ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_09 = true;
+				}
 				break;
 
 			default:
@@ -899,23 +1313,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_00 == false ) {
+					ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_01 == false ) {
+					ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_02 == false ) {
+					ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_03 == false ) {
+					ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_04 == false ) {
+					ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_04 = true;
+				}
 				break;
 
 			default:
@@ -927,7 +1356,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_8_15 == false ) {
+					ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_8_15 = true;
+				}
 				break;
 
 			default:
@@ -943,23 +1375,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_10 == false ) {
+					ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_11 == false ) {
+					ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_12 == false ) {
+					ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_13 == false ) {
+					ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_14 == false ) {
+					ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_14 = true;
+				}
 				break;
 
 			default:
@@ -971,23 +1418,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_05 == false ) {
+					ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_06 == false ) {
+					ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_07 == false ) {
+					ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_08 == false ) {
+					ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_09 == false ) {
+					ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_09 = true;
+				}
 				break;
 
 			default:
@@ -999,23 +1461,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_00 == false ) {
+					ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_01 == false ) {
+					ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_02 == false ) {
+					ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_03 == false ) {
+					ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_04 == false ) {
+					ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_04 = true;
+				}
 				break;
 
 			default:
@@ -1027,7 +1504,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_9_15 == false ) {
+					ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_9_15 = true;
+				}
 				break;
 
 			default:
@@ -1043,23 +1523,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_10 == false ) {
+					ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_11 == false ) {
+					ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_12 == false ) {
+					ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_13 == false ) {
+					ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_14 == false ) {
+					ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_14 = true;
+				}
 				break;
 
 			default:
@@ -1071,23 +1566,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_05 == false ) {
+					ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_06 == false ) {
+					ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_07 == false ) {
+					ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_08 == false ) {
+					ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_09 == false ) {
+					ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_09 = true;
+				}
 				break;
 
 			default:
@@ -1099,23 +1609,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_00 == false ) {
+					ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_01 == false ) {
+					ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_02 == false ) {
+					ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_03 == false ) {
+					ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_04 == false ) {
+					ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_04 = true;
+				}
 				break;
 
 			default:
@@ -1127,7 +1652,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_a_15 == false ) {
+					ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_a_15 = true;
+				}
 				break;
 
 			default:
@@ -1143,23 +1671,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_10 == false ) {
+					ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_11 == false ) {
+					ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_12 == false ) {
+					ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_13 == false ) {
+					ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_14 == false ) {
+					ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_14 = true;
+				}
 				break;
 
 			default:
@@ -1171,23 +1714,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_05 == false ) {
+					ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_06 == false ) {
+					ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_07 == false ) {
+					ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_08 == false ) {
+					ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_09 == false ) {
+					ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_09 = true;
+				}
 				break;
 
 			default:
@@ -1199,23 +1757,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_00 == false ) {
+					ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_01 == false ) {
+					ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_02 == false ) {
+					ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_03 == false ) {
+					ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_04 == false ) {
+					ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_04 = true;
+				}
 				break;
 
 			default:
@@ -1227,7 +1800,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_b_15 == false ) {
+					ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_b_15 = true;
+				}
 				break;
 
 			default:
@@ -1243,23 +1819,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_10 == false ) {
+					ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_11 == false ) {
+					ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_12 == false ) {
+					ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_13 == false ) {
+					ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_14 == false ) {
+					ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_14 = true;
+				}
 				break;
 
 			default:
@@ -1271,23 +1862,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_05 == false ) {
+					ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_06 == false ) {
+					ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_07 == false ) {
+					ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_08 == false ) {
+					ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_09 == false ) {
+					ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_09 = true;
+				}
 				break;
 
 			default:
@@ -1299,23 +1905,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_00 == false ) {
+					ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_01 == false ) {
+					ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_02 == false ) {
+					ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_03 == false ) {
+					ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_04 == false ) {
+					ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_04 = true;
+				}
 				break;
 
 			default:
@@ -1327,7 +1948,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_c_15 == false ) {
+					ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_c_15 = true;
+				}
 				break;
 
 			default:
@@ -1343,23 +1967,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_10 == false ) {
+					ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_11 == false ) {
+					ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_12 == false ) {
+					ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_13 == false ) {
+					ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_14 == false ) {
+					ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_14 = true;
+				}
 				break;
 
 			default:
@@ -1371,23 +2010,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_05 == false ) {
+					ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_06 == false ) {
+					ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_07 == false ) {
+					ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_08 == false ) {
+					ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_09 == false ) {
+					ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_09 = true;
+				}
 				break;
 
 			default:
@@ -1399,23 +2053,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_00 == false ) {
+					ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_01 == false ) {
+					ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_02 == false ) {
+					ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_03 == false ) {
+					ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_04 == false ) {
+					ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_04 = true;
+				}
 				break;
 
 			default:
@@ -1427,7 +2096,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_d_15 == false ) {
+					ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_d_15 = true;
+				}
 				break;
 
 			default:
@@ -1443,23 +2115,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_10 == false ) {
+					ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_11 == false ) {
+					ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_12 == false ) {
+					ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_13 == false ) {
+					ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_14 == false ) {
+					ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_14 = true;
+				}
 				break;
 
 			default:
@@ -1471,23 +2158,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_05 == false ) {
+					ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_06 == false ) {
+					ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_07 == false ) {
+					ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_08 == false ) {
+					ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_09 == false ) {
+					ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_09 = true;
+				}
 				break;
 
 			default:
@@ -1499,23 +2201,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_00 == false ) {
+					ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_01 == false ) {
+					ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_02 == false ) {
+					ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_03 == false ) {
+					ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_04 == false ) {
+					ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_04 = true;
+				}
 				break;
 
 			default:
@@ -1527,7 +2244,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_e_15 == false ) {
+					ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_e_15 = true;
+				}
 				break;
 
 			default:
@@ -1543,23 +2263,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_10 == false ) {
+					ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_10 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_11 == false ) {
+					ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_11 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_12 == false ) {
+					ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_12 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_13 == false ) {
+					ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_13 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_14 == false ) {
+					ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_14 = true;
+				}
 				break;
 
 			default:
@@ -1571,23 +2306,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_05 == false ) {
+					ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_05 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_06 == false ) {
+					ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_06 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_07 == false ) {
+					ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_07 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_08 == false ) {
+					ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_08 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_09 == false ) {
+					ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_09 = true;
+				}
 				break;
 
 			default:
@@ -1599,23 +2349,38 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_00 == false ) {
+					ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_00 = true;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_01 == false ) {
+					ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_01 = true;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_02 == false ) {
+					ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_02 = true;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_03 == false ) {
+					ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_03 = true;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_04 == false ) {
+					ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_04 = true;
+				}
 				break;
 
 			default:
@@ -1627,7 +2392,10 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+				if ( pixel_f_15 == false ) {
+					ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
+					pixel_f_15 = true;
+				}
 				break;
 
 			default:
@@ -1660,23 +2428,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_10 == true ) {
+					ui->frame_0_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_11 == true ) {
+					ui->frame_0_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_12 == true ) {
+					ui->frame_0_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_13 == true ) {
+					ui->frame_0_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_14 == true ) {
+					ui->frame_0_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_14 = false;
+				}
 				break;
 
 			default:
@@ -1688,23 +2471,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_05 == true ) {
+					ui->frame_0_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_06 == true ) {
+					ui->frame_0_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_07 == true ) {
+					ui->frame_0_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_08 == true ) {
+					ui->frame_0_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_09 == true ) {
+					ui->frame_0_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_09 = false;
+				}
 				break;
 
 			default:
@@ -1716,23 +2514,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_00 == true ) {
+					ui->frame_0_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_01 == true ) {
+					ui->frame_0_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_02 == true ) {
+					ui->frame_0_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_03 == true ) {
+					ui->frame_0_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_04 == true ) {
+					ui->frame_0_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_04 = false;
+				}
 				break;
 
 			default:
@@ -1744,7 +2557,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_0_15 == true ) {
+					ui->frame_0_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_0_15 = false;
+				}
 				break;
 
 			default:
@@ -1760,23 +2576,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_10 == true ) {
+					ui->frame_1_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_11 == true ) {
+					ui->frame_1_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_12 == true ) {
+					ui->frame_1_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_13 == true ) {
+					ui->frame_1_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_14 == true ) {
+					ui->frame_1_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_14 = false;
+				}
 				break;
 
 			default:
@@ -1788,23 +2619,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_05 == true ) {
+					ui->frame_1_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_06 == true ) {
+					ui->frame_1_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_07 == true ) {
+					ui->frame_1_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_08 == true ) {
+					ui->frame_1_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_09 == true ) {
+					ui->frame_1_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_09 = false;
+				}
 				break;
 
 			default:
@@ -1816,23 +2662,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_00 == true ) {
+					ui->frame_1_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_01 == true ) {
+					ui->frame_1_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_02 == true ) {
+					ui->frame_1_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_03 == true ) {
+					ui->frame_1_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_04 == true ) {
+					ui->frame_1_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_04 = false;
+				}
 				break;
 
 			default:
@@ -1844,7 +2705,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_1_15 == true ) {
+					ui->frame_1_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_1_15 = false;
+				}
 				break;
 
 			default:
@@ -1860,23 +2724,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_10 == true ) {
+					ui->frame_2_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_11 == true ) {
+					ui->frame_2_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_12 == true ) {
+					ui->frame_2_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_13 == true ) {
+					ui->frame_2_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_14 == true ) {
+					ui->frame_2_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_14 = false;
+				}
 				break;
 
 			default:
@@ -1888,23 +2767,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_05 == true ) {
+					ui->frame_2_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_06 == true ) {
+					ui->frame_2_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_07 == true ) {
+					ui->frame_2_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_08 == true ) {
+					ui->frame_2_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_09 == true ) {
+					ui->frame_2_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_09 = false;
+				}
 				break;
 
 			default:
@@ -1916,23 +2810,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_00 == true ) {
+					ui->frame_2_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_01 == true ) {
+					ui->frame_2_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_02 == true ) {
+					ui->frame_2_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_03 == true ) {
+					ui->frame_2_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_04 == true ) {
+					ui->frame_2_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_04 = false;
+				}
 				break;
 
 			default:
@@ -1944,7 +2853,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_2_15 == true ) {
+					ui->frame_2_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_2_15 = false;
+				}
 				break;
 
 			default:
@@ -1960,23 +2872,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_10 == true ) {
+					ui->frame_3_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_11 == true ) {
+					ui->frame_3_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_12 == true ) {
+					ui->frame_3_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_13 == true ) {
+					ui->frame_3_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_14 == true ) {
+					ui->frame_3_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_14 = false;
+				}
 				break;
 
 			default:
@@ -1988,23 +2915,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_05 == true ) {
+					ui->frame_3_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_06 == true ) {
+					ui->frame_3_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_07 == true ) {
+					ui->frame_3_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_08 == true ) {
+					ui->frame_3_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_09 == true ) {
+					ui->frame_3_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_09 = false;
+				}
 				break;
 
 			default:
@@ -2016,23 +2958,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_00 == true ) {
+					ui->frame_3_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_01 == true ) {
+					ui->frame_3_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_02 == true ) {
+					ui->frame_3_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_03 == true ) {
+					ui->frame_3_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_04 == true ) {
+					ui->frame_3_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_04 = false;
+				}
 				break;
 
 			default:
@@ -2044,7 +3001,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_3_15 == true ) {
+					ui->frame_3_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_3_15 = false;
+				}
 				break;
 
 			default:
@@ -2060,23 +3020,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_10 == true ) {
+					ui->frame_4_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_11 == true ) {
+					ui->frame_4_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_12 == true ) {
+					ui->frame_4_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_13 == true ) {
+					ui->frame_4_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_14 == true ) {
+					ui->frame_4_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_14 = false;
+				}
 				break;
 
 			default:
@@ -2088,23 +3063,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_05 == true ) {
+					ui->frame_4_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_06 == true ) {
+					ui->frame_4_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_07 == true ) {
+					ui->frame_4_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_08 == true ) {
+					ui->frame_4_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_09 == true ) {
+					ui->frame_4_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_09 = false;
+				}
 				break;
 
 			default:
@@ -2116,23 +3106,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_00 == true ) {
+					ui->frame_4_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_01 == true ) {
+					ui->frame_4_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_02 == true ) {
+					ui->frame_4_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_03 == true ) {
+					ui->frame_4_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_04 == true ) {
+					ui->frame_4_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_04 = false;
+				}
 				break;
 
 			default:
@@ -2144,7 +3149,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_4_15 == true ) {
+					ui->frame_4_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_4_15 = false;
+				}
 				break;
 
 			default:
@@ -2160,23 +3168,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_10 == true ) {
+					ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_11 == true ) {
+					ui->frame_5_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_12 == true ) {
+					ui->frame_5_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_13 == true ) {
+					ui->frame_5_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_14 == true ) {
+					ui->frame_5_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_14 = false;
+				}
 				break;
 
 			default:
@@ -2188,23 +3211,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_05 == true ) {
+					ui->frame_5_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_06 == true ) {
+					ui->frame_5_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_07 == true ) {
+					ui->frame_5_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_08 == true ) {
+					ui->frame_5_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_09 == true ) {
+					ui->frame_5_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_09 = false;
+				}
 				break;
 
 			default:
@@ -2216,23 +3254,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_00 == true ) {
+					ui->frame_5_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_01 == true ) {
+					ui->frame_5_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_02 == true ) {
+					ui->frame_5_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_03 == true ) {
+					ui->frame_5_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_04 == true ) {
+					ui->frame_5_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_04 = false;
+				}
 				break;
 
 			default:
@@ -2244,7 +3297,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_5_15 == true ) {
+					ui->frame_5_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_5_15 = false;
+				}
 				break;
 
 			default:
@@ -2260,23 +3316,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_10 == true ) {
+					ui->frame_6_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_11 == true ) {
+					ui->frame_6_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_12 == true ) {
+					ui->frame_6_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_13 == true ) {
+					ui->frame_6_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_14 == true ) {
+					ui->frame_6_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_14 = false;
+				}
 				break;
 
 			default:
@@ -2288,23 +3359,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_05 == true ) {
+					ui->frame_6_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_06 == true ) {
+					ui->frame_6_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_07 == true ) {
+					ui->frame_6_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_08 == true ) {
+					ui->frame_6_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_09 == true ) {
+					ui->frame_6_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_09 = false;
+				}
 				break;
 
 			default:
@@ -2316,23 +3402,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_00 == true ) {
+					ui->frame_6_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_01 == true ) {
+					ui->frame_6_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_02 == true ) {
+					ui->frame_6_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_03 == true ) {
+					ui->frame_6_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_04 == true ) {
+					ui->frame_6_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_04 = false;
+				}
 				break;
 
 			default:
@@ -2344,7 +3445,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_6_15 == true ) {
+					ui->frame_6_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_6_15 = false;
+				}
 				break;
 
 			default:
@@ -2360,23 +3464,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_10 == true ) {
+					ui->frame_7_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_11 == true ) {
+					ui->frame_7_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_12 == true ) {
+					ui->frame_7_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_13 == true ) {
+					ui->frame_7_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_14 == true ) {
+					ui->frame_7_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_14 = false;
+				}
 				break;
 
 			default:
@@ -2388,23 +3507,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_05 == true ) {
+					ui->frame_7_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_06 == true ) {
+					ui->frame_7_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_07 == true ) {
+					ui->frame_7_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_08 == true ) {
+					ui->frame_7_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_09 == true ) {
+					ui->frame_7_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_09 = false;
+				}
 				break;
 
 			default:
@@ -2416,23 +3550,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_00 == true ) {
+					ui->frame_7_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_01 == true ) {
+					ui->frame_7_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_02 == true ) {
+					ui->frame_7_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_03 == true ) {
+					ui->frame_7_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_04 == true ) {
+					ui->frame_7_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_04 = false;
+				}
 				break;
 
 			default:
@@ -2444,7 +3593,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_7_15 == true ) {
+					ui->frame_7_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_7_15 = false;
+				}
 				break;
 
 			default:
@@ -2460,23 +3612,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_10 == true ) {
+					ui->frame_8_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_11 == true ) {
+					ui->frame_8_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_12 == true ) {
+					ui->frame_8_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_13 == true ) {
+					ui->frame_8_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_14 == true ) {
+					ui->frame_8_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_14 = false;
+				}
 				break;
 
 			default:
@@ -2488,23 +3655,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_05 == true ) {
+					ui->frame_8_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_06 == true ) {
+					ui->frame_8_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_07 == true ) {
+					ui->frame_8_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_08 == true ) {
+					ui->frame_8_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_09 == true ) {
+					ui->frame_8_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_09 = false;
+				}
 				break;
 
 			default:
@@ -2516,23 +3698,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_00 == true ) {
+					ui->frame_8_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_01 == true ) {
+					ui->frame_8_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_02 == true ) {
+					ui->frame_8_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_03 == true ) {
+					ui->frame_8_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_04 == true ) {
+					ui->frame_8_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_04 = false;
+				}
 				break;
 
 			default:
@@ -2544,7 +3741,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_8_15 == true ) {
+					ui->frame_8_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_8_15 = false;
+				}
 				break;
 
 			default:
@@ -2560,23 +3760,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_10 == true ) {
+					ui->frame_9_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_11 == true ) {
+					ui->frame_9_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_12 == true ) {
+					ui->frame_9_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_13 == true ) {
+					ui->frame_9_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_14 == true ) {
+					ui->frame_9_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_14 = false;
+				}
 				break;
 
 			default:
@@ -2588,23 +3803,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_05 == true ) {
+					ui->frame_9_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_06 == true ) {
+					ui->frame_9_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_07 == true ) {
+					ui->frame_9_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_08 == true ) {
+					ui->frame_9_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_09 == true ) {
+					ui->frame_9_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_09 = false;
+				}
 				break;
 
 			default:
@@ -2616,23 +3846,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_00 == true ) {
+					ui->frame_9_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_01 == true ) {
+					ui->frame_9_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_02 == true ) {
+					ui->frame_9_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_03 == true ) {
+					ui->frame_9_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_04 == true ) {
+					ui->frame_9_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_04 = false;
+				}
 				break;
 
 			default:
@@ -2644,7 +3889,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_9_15 == true ) {
+					ui->frame_9_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_9_15 = false;
+				}
 				break;
 
 			default:
@@ -2660,23 +3908,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_10 == true ) {
+					ui->frame_a_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_11 == true ) {
+					ui->frame_a_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_12 == true ) {
+					ui->frame_a_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_13 == true ) {
+					ui->frame_a_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_14 == true ) {
+					ui->frame_a_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_14 = false;
+				}
 				break;
 
 			default:
@@ -2688,23 +3951,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_05 == true ) {
+					ui->frame_a_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_06 == true ) {
+					ui->frame_a_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_07 == true ) {
+					ui->frame_a_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_08 == true ) {
+					ui->frame_a_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_09 == true ) {
+					ui->frame_a_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_09 = false;
+				}
 				break;
 
 			default:
@@ -2716,23 +3994,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_00 == true ) {
+					ui->frame_a_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_01 == true ) {
+					ui->frame_a_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_02 == true ) {
+					ui->frame_a_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_03 == true ) {
+					ui->frame_a_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_04 == true ) {
+					ui->frame_a_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_04 = false;
+				}
 				break;
 
 			default:
@@ -2744,7 +4037,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_a_15 == true ) {
+					ui->frame_a_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_a_15 = false;
+				}
 				break;
 
 			default:
@@ -2760,23 +4056,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_10 == true ) {
+					ui->frame_b_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_11 == true ) {
+					ui->frame_b_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_12 == true ) {
+					ui->frame_b_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_13 == true ) {
+					ui->frame_b_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_14 == true ) {
+					ui->frame_b_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_14 = false;
+				}
 				break;
 
 			default:
@@ -2788,23 +4099,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_05 == true ) {
+					ui->frame_b_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_06 == true ) {
+					ui->frame_b_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_07 == true ) {
+					ui->frame_b_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_08 == true ) {
+					ui->frame_b_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_09 == true ) {
+					ui->frame_b_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_09 = false;
+				}
 				break;
 
 			default:
@@ -2816,23 +4142,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_00 == true ) {
+					ui->frame_b_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_01 == true ) {
+					ui->frame_b_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_02 == true ) {
+					ui->frame_b_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_03 == true ) {
+					ui->frame_b_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_04 == true ) {
+					ui->frame_b_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_04 = false;
+				}
 				break;
 
 			default:
@@ -2844,7 +4185,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_b_15 == true ) {
+					ui->frame_b_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_b_15 = false;
+				}
 				break;
 
 			default:
@@ -2860,23 +4204,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_10 == true ) {
+					ui->frame_c_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_11 == true ) {
+					ui->frame_c_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_12 == true ) {
+					ui->frame_c_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_13 == true ) {
+					ui->frame_c_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_14 == true ) {
+					ui->frame_c_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_14 = false;
+				}
 				break;
 
 			default:
@@ -2888,23 +4247,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_05 == true ) {
+					ui->frame_c_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_06 == true ) {
+					ui->frame_c_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_07 == true ) {
+					ui->frame_c_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_08 == true ) {
+					ui->frame_c_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_09 == true ) {
+					ui->frame_c_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_09 = false;
+				}
 				break;
 
 			default:
@@ -2916,23 +4290,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_00 == true ) {
+					ui->frame_c_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_01 == true ) {
+					ui->frame_c_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_02 == true ) {
+					ui->frame_c_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_03 == true ) {
+					ui->frame_c_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_04 == true ) {
+					ui->frame_c_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_04 = false;
+				}
 				break;
 
 			default:
@@ -2944,7 +4333,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_c_15 == true ) {
+					ui->frame_c_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_c_15 = false;
+				}
 				break;
 
 			default:
@@ -2960,23 +4352,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_10 == true ) {
+					ui->frame_d_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_11 == true ) {
+					ui->frame_d_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_12 == true ) {
+					ui->frame_d_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_13 == true ) {
+					ui->frame_d_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_14 == true ) {
+					ui->frame_d_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_14 = false;
+				}
 				break;
 
 			default:
@@ -2988,23 +4395,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_05 == true ) {
+					ui->frame_d_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_06 == true ) {
+					ui->frame_d_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_07 == true ) {
+					ui->frame_d_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_08 == true ) {
+					ui->frame_d_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_09 == true ) {
+					ui->frame_d_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_09 = false;
+				}
 				break;
 
 			default:
@@ -3016,23 +4438,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_00 == true ) {
+					ui->frame_d_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_01 == true ) {
+					ui->frame_d_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_02 == true ) {
+					ui->frame_d_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_03 == true ) {
+					ui->frame_d_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_04 == true ) {
+					ui->frame_d_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_04 = false;
+				}
 				break;
 
 			default:
@@ -3044,7 +4481,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_d_15 == true ) {
+					ui->frame_d_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_d_15 = false;
+				}
 				break;
 
 			default:
@@ -3060,23 +4500,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_10 == true ) {
+					ui->frame_e_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_11 == true ) {
+					ui->frame_e_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_12 == true ) {
+					ui->frame_e_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_13 == true ) {
+					ui->frame_e_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_14 == true ) {
+					ui->frame_e_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_14 = false;
+				}
 				break;
 
 			default:
@@ -3088,23 +4543,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_05 == true ) {
+					ui->frame_e_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_06 == true ) {
+					ui->frame_e_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_07 == true ) {
+					ui->frame_e_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_08 == true ) {
+					ui->frame_e_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_09 == true ) {
+					ui->frame_e_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_09 = false;
+				}
 				break;
 
 			default:
@@ -3116,23 +4586,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_00 == true ) {
+					ui->frame_e_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_01 == true ) {
+					ui->frame_e_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_02 == true ) {
+					ui->frame_e_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_03 == true ) {
+					ui->frame_e_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_04 == true ) {
+					ui->frame_e_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_04 = false;
+				}
 				break;
 
 			default:
@@ -3144,7 +4629,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_e_15 == true ) {
+					ui->frame_e_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_e_15 = false;
+				}
 				break;
 
 			default:
@@ -3160,23 +4648,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 0:
 			switch (y) {
 			case 0:
-				ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_10 == true ) {
+					ui->frame_f_10->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_10 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_11 == true ) {
+					ui->frame_f_11->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_11 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_12 == true ) {
+					ui->frame_f_12->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_12 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_13 == true ) {
+					ui->frame_f_13->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_13 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_14 == true ) {
+					ui->frame_f_14->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_14 = false;
+				}
 				break;
 
 			default:
@@ -3188,23 +4691,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 1:
 			switch (y) {
 			case 0:
-				ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_05 == true ) {
+					ui->frame_f_05->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_05 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_06 == true ) {
+					ui->frame_f_06->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_06 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_07 == true ) {
+					ui->frame_f_07->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_07 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_08 == true ) {
+					ui->frame_f_08->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_08 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_09 == true ) {
+					ui->frame_f_09->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_09 = false;
+				}
 				break;
 
 			default:
@@ -3216,23 +4734,38 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 2:
 			switch (y) {
 			case 0:
-				ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_00 == true ) {
+					ui->frame_f_00->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_00 = false;
+				}
 				break;
 
 			case 1:
-				ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_01 == true ) {
+					ui->frame_f_01->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_01 = false;
+				}
 				break;
 
 			case 2:
-				ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_02 == true ) {
+					ui->frame_f_02->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_02 = false;
+				}
 				break;
 
 			case 3:
-				ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_03 == true ) {
+					ui->frame_f_03->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_03 = false;
+				}
 				break;
 
 			case 4:
-				ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_04 == true ) {
+					ui->frame_f_04->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_04 = false;
+				}
 				break;
 
 			default:
@@ -3244,7 +4777,10 @@ void Display::clearPoint(uint8_t x, uint8_t y) {
 		case 3:
 			switch (y) {
 			case 6:
-				ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: rgb(195, 195, 195);"));
+				if ( pixel_f_15 == true ) {
+					ui->frame_f_15->setStyleSheet(QString::fromUtf8("background-color: rgb195, 195, 195);"));
+					pixel_f_15 = false;
+				}
 				break;
 
 			default:
@@ -3291,13 +4827,26 @@ void Display::clearPointAll() {
 	}
 }
 
-void Display::DisplayDigit() {
+void Display::DisplayDigit()
+{
 	uint8_t xPos = 0;
 	uint8_t andOperator = 1;
 	const uint8_t andOperator_127 = 127;
 
-	clearPointAll();
-	clearPointAll();
+	for (uint8_t x = 0; x < 64; x += 1) {
+		for (uint8_t y = 0; y < 7; y += 1) {
+			if (y < 5) {
+				if ((x % 4) != 3) {
+					clearPoint(x, y);
+				}
+			}
+			if (y == 6) {
+				if ((x % 4) == 3) {
+					clearPoint(x, y);
+				}
+			}
+		}
+	}
 
 	for (uint8_t i = 0; i < 16; i += 1) {
 		if ((dispBuffer[i] & andOperator_127) == 64) {
@@ -3487,12 +5036,20 @@ void Display::DisplayDigit() {
 
 void Display::set_dispBuffer(uint8_t dispBuffer_new[16])
 {
-	uint8_t i;
-	for (i = 0; i < 16; i++) {
+	for (uint8_t i = 0; i < 16; i++) {
+		if (dispBuffer_Test[i] != dispBuffer_new[i]) {
+			change_test = true;
+		}
+		dispBuffer_Test[i] = dispBuffer_new[i];
 		dispBuffer[i] = dispBuffer_new[i];
 	}
-	DisplayDigit();
-	DisplayDigit();
+
+	if (change_test == true) {
+		myK1003->stop_CPU();
+		DisplayDigit();
+		myK1003->reStart_CPU();
+	}
+	change_test = false;	
 }
 
 void Display::KeyPressed(uint8_t KeyNumber_m)
@@ -3501,7 +5058,7 @@ void Display::KeyPressed(uint8_t KeyNumber_m)
 		myK1003->KeyPressed(KeyNumber_m);  //  o.k.
 	}
 }
-
+/*
 void Display::dispBufferTest() {
 	bool find_expo = false;
 	uint8_t delete_null = 12;
@@ -3565,8 +5122,7 @@ void Display::dispBufferTest() {
 	// ui->label->setText("Buffer");
 }
 
-void Display::digitClicked_0()
-{
+void Display::digitClicked_0() {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(90); // o.k.
 	}
@@ -3575,8 +5131,7 @@ void Display::digitClicked_0()
 	}
 }
 
-void Display::digitClicked_1()
-{
+void Display::digitClicked_1() {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(77); // o.k.
 	}
@@ -3585,8 +5140,7 @@ void Display::digitClicked_1()
 	}
 }
 
-void Display::digitClicked_2()
-{
+void Display::digitClicked_2() {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(78); // o.k.
 	}
@@ -3595,8 +5149,7 @@ void Display::digitClicked_2()
 	}
 }
 
-void Display::digitClicked_3()
-{
+void Display::digitClicked_3() {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(79); // o.k.
 	}
@@ -3605,8 +5158,7 @@ void Display::digitClicked_3()
 	}
 }
 
-void Display::digitClicked_4()
-{
+void Display::digitClicked_4() {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(65); // o.k.
 	}
@@ -3704,17 +5256,21 @@ void Display::unaryOperatorClicked_sqrt()
 		// myCalculator->unaryOperatorClicked('s');
 	}
 }
-
+*/
 void Display::clear()
 {
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myK1003->KeyPressed(41); // o.k.
+		// _sleep(2);
 	}
+	/*
 	else {
 		// myCalculator->clear();
 	}
+	*/
+	
 }
-
+/*
 void Display::changeSignClicked()
 {
 	if (ui->checkBox_on_off->isChecked() == true) {
@@ -3785,7 +5341,7 @@ void Display::PiClicked()
 		// myCalculator->unaryOperatorClicked('t');
 	}
 }
-
+*/
 void Display::InitProcessor()
 {
 	myK1003->InitProcessor();
@@ -3793,6 +5349,15 @@ void Display::InitProcessor()
 
 void Display::stop_CPU()
 {
-	clearPointAll();
 	myK1003->stop_CPU();
+	clearPointAll();
+
+	for (uint8_t i = 0; i < 16; i++) {
+		dispBuffer_Test[i] = 0;
+	}
+}
+
+void Display::reStart_CPU()
+{
+	myK1003->reStart_CPU();
 }

@@ -36,7 +36,7 @@ private:
 	run_CPU* my_runCPU;
 
 	bool abort = true;
-	uint8_t instruction = 0;
+	// uint8_t instruction = 0;
 	uint16_t PC_runCPU = 0;
 
 public:
@@ -47,6 +47,7 @@ public:
 
 	void start_CPU(cpu_8008* myCPU_n);
 	void stop_CPU();
+	void reStart_CPU();
 
 	uint8_t KRom_KRam[16384] = {
 		//	K1003 ROM Image:

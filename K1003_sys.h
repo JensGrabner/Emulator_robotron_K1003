@@ -81,6 +81,7 @@ public:
 	void PiClicked();
 	void InitProcessor();
 	void stop_CPU();
+	void reStart_CPU();
 	void K1003_is_on();
 	void CPU_hlt(uint16_t PC_n);
 	void Test();

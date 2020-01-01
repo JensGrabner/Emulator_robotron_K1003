@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "Display.h"
-#include "Calculator.h"
+// #include "Calculator.h"
 
 MainWindow::MainWindow(QWidget* parent) :
     QMainWindow(parent),
@@ -699,6 +699,7 @@ void MainWindow::Button_003_pressed()
 		"background-image: url(:/images/images/button_003p_920.png)"));
 
 	myDisplay->KeyPressed(36);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -726,6 +727,7 @@ void MainWindow::Button_013_pressed()
 		"background-image: url(:/images/images/button_013p_920.png)"));
 
 	myDisplay->KeyPressed(37);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -753,6 +755,7 @@ void MainWindow::Button_023_pressed()
 		"background-image: url(:/images/images/button_023p_920.png)"));
 
 	myDisplay->KeyPressed(38);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -789,6 +792,7 @@ void MainWindow::Button_014_pressed()
 		"background-image: url(:/images/images/button_014p_920.png)"));
 
 	myDisplay->KeyPressed(49);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -807,6 +811,7 @@ void MainWindow::Button_024_pressed()
 		"background-image: url(:/images/images/button_024p_920.png)"));
 
 	myDisplay->KeyPressed(50);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -825,6 +830,7 @@ void MainWindow::Button_005_pressed()
 		"background-image: url(:/images/images/button_005p_920.png)"));
 
 	myDisplay->KeyPressed(60);  // 60
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -843,6 +849,7 @@ void MainWindow::Button_015_pressed()
 		"background-image: url(:/images/images/button_015p_920.png)"));
 
 	myDisplay->KeyPressed(61);  // 61
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -861,6 +868,7 @@ void MainWindow::Button_025_pressed()
 		"background-image: url(:/images/images/button_025p_920.png)"));
 
 	myDisplay->KeyPressed(62);  // 62
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -880,15 +888,16 @@ void MainWindow::Button_006_pressed()
 
 	if (Button_017_count > 0) {
 		myDisplay->KeyPressed(85);  // 85
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	if (Button_007_count > 0) {
 		myDisplay->KeyPressed(84);  // 84
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(72);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -921,15 +930,16 @@ void MainWindow::Button_016_pressed()
 
 	if (Button_017_count > 0) {
 		myDisplay->KeyPressed(85);  // 85
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	if (Button_007_count > 0) {
 		myDisplay->KeyPressed(84);  // 84
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(73);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -962,15 +972,16 @@ void MainWindow::Button_026_pressed()
 
 	if (Button_017_count > 0) {
 		myDisplay->KeyPressed(85);  // 85
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	if (Button_007_count > 0) {
 		myDisplay->KeyPressed(84);  // 84
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(74);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1003,7 +1014,8 @@ void MainWindow::Button_007_pressed()
 	ui->toolButton_007->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_007p_920.png)"));
 
-	// myDisplay->KeyPressed(84);  // 84
+	myDisplay->KeyPressed(84);  // 84
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1164,9 +1176,9 @@ void MainWindow::Button_063_pressed()
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myDisplay->KeyPressed(40); // 40
 	}
-	else {
+	// else {
 		// myDisplay->setPointAll();
-	}
+	// }
 
 	// ui->label->setText("Pressed");
 };
@@ -1187,9 +1199,9 @@ void MainWindow::Button_064_pressed()
 	if (ui->checkBox_on_off->isChecked() == true) {
 		myDisplay->KeyPressed(52); // 52
 	}
-	else {
+	// else {
 		// myDisplay->clearPointAll();
-	}
+	// }
 
 	// ui->label->setText("Pressed");
 };
@@ -1304,6 +1316,7 @@ void MainWindow::Button_074_pressed()
 	}
 
 	myDisplay->KeyPressed(53); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_7();
 
 	// ui->label->setText("Pressed");
@@ -1334,6 +1347,7 @@ void MainWindow::Button_075_pressed()
 	}
 
 	myDisplay->KeyPressed(65); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_4();   // 65
 
 	// ui->label->setText("Pressed");
@@ -1364,6 +1378,7 @@ void MainWindow::Button_076_pressed()
 	}
 
 	myDisplay->KeyPressed(77); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_1(); // 77
 
 	// ui->label->setText("Pressed");
@@ -1389,6 +1404,7 @@ void MainWindow::Button_077_pressed()
 		"background-image: url(:/images/images/button_077p_920.png)"));
 
 	myDisplay->KeyPressed(89); // o.k.
+	// _sleep(2);
 	// myDisplay->PiClicked();  // 89
 
 	// ui->label->setText("Pressed");
@@ -1407,6 +1423,7 @@ void MainWindow::Button_101_pressed()
 		"background-image: url(:/images/images/button_101p_920.png)"));
 
 	myDisplay->KeyPressed(14);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1424,6 +1441,7 @@ void MainWindow::Button_103_pressed()
 		"background-image: url(:/images/images/button_103p_920.png)"));
 
 	myDisplay->KeyPressed(42); // o.k.
+	// _sleep(2);
 	// myDisplay->changeSignClicked(); // 42
 
 	// ui->label->setText("Pressed");
@@ -1443,10 +1461,11 @@ void MainWindow::Button_104_pressed()
 
 	if (Button_167_count > 0) {
 		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(54); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_8();
 
 	// ui->label->setText("Pressed");
@@ -1473,10 +1492,11 @@ void MainWindow::Button_105_pressed()
 
 	if (Button_167_count > 0) {
 		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(66); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_5();  // 66
 
 	// ui->label->setText("Pressed");
@@ -1507,6 +1527,7 @@ void MainWindow::Button_106_pressed()
 	}
 
 	myDisplay->KeyPressed(78); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_2(); // 78
 
 	// ui->label->setText("Pressed");
@@ -1537,6 +1558,7 @@ void MainWindow::Button_107_pressed()
 	}
 
 	myDisplay->KeyPressed(90); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_0();  // 90
 
 	// ui->label->setText("Pressed");
@@ -1562,6 +1584,7 @@ void MainWindow::Button_111_pressed()
 		"background-image: url(:/images/images/button_111p_920.png)"));
 
 	myDisplay->KeyPressed(16);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1579,6 +1602,7 @@ void MainWindow::Button_113_pressed()
 		"background-image: url(:/images/images/button_113p_920.png)"));
 
 	myDisplay->KeyPressed(43); // 43
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1597,10 +1621,11 @@ void MainWindow::Button_114_pressed()
 
 	if (Button_167_count > 0) {
 		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
+		// _sleep(2);
 	}
 
 	myDisplay->KeyPressed(55); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_9();
 
 	// ui->label->setText("Pressed");
@@ -1631,6 +1656,7 @@ void MainWindow::Button_115_pressed()
 	}
 
 	myDisplay->KeyPressed(67); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_6();  // 67
 
 	// ui->label->setText("Pressed");
@@ -1661,6 +1687,7 @@ void MainWindow::Button_116_pressed()
 	}
 
 	myDisplay->KeyPressed(79); // o.k.
+	// _sleep(2);
 	// myDisplay->digitClicked_3(); // 79
 
 	// ui->label->setText("Pressed");
@@ -1691,6 +1718,7 @@ void MainWindow::Button_117_pressed()
 	}
 
 	myDisplay->KeyPressed(91); // o.k.
+	// _sleep(2);
 	// myDisplay->pointClicked();  // 91
 
 	// ui->label->setText("Pressed");
@@ -1716,6 +1744,7 @@ void MainWindow::Button_121_pressed()
 		"background-image: url(:/images/images/button_121p_920.png)"));
 
 	myDisplay->KeyPressed(18);
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1734,6 +1763,7 @@ void MainWindow::Button_123_pressed()
 		"background-image: url(:/images/images/button_123p_920.png)"));
 
 	myDisplay->KeyPressed(44); //  44
+	// _sleep(2);
 	// myDisplay->OperatorClicked_Div(); // 44
 
 	// ui->label->setText("Pressed");
@@ -1752,6 +1782,7 @@ void MainWindow::Button_124_pressed()
 		"background-image: url(:/images/images/button_124p_920.png)"));
 
 	myDisplay->KeyPressed(56); //  56
+	// _sleep(2);
 	// myDisplay->OperatorClicked_Mul();  // 56
 
 	// ui->label->setText("Pressed");
@@ -1770,6 +1801,7 @@ void MainWindow::Button_125_pressed()
 		"background-image: url(:/images/images/button_125p_920.png)"));
 
 	myDisplay->KeyPressed(68); //  68
+	// _sleep(2);
 	// myDisplay->OperatorClicked_Sub();  // 68
 
 	// ui->label->setText("Pressed");
@@ -1788,6 +1820,7 @@ void MainWindow::Button_126_pressed()
 		"background-image: url(:/images/images/button_126p_920.png)"));
 
 	myDisplay->KeyPressed(80); //
+	// _sleep(2);
 	// myDisplay->OperatorClicked_Add();  // 80
 
 	// ui->label->setText("Pressed");
@@ -1806,6 +1839,7 @@ void MainWindow::Button_127_pressed()
 		"background-image: url(:/images/images/button_127p_920.png)"));
 
 	myDisplay->KeyPressed(92); //
+	// _sleep(2);
 	// myDisplay->equalClicked();  // 92
 
 	// ui->label->setText("Pressed");
@@ -1824,6 +1858,7 @@ void MainWindow::Button_133_pressed()
 		"background-image: url(:/images/images/button_133p_920.png)"));
 
 	myDisplay->KeyPressed(32);  // *32
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1841,6 +1876,7 @@ void MainWindow::Button_135_pressed()
 		"background-image: url(:/images/images/button_135p_920.png)"));
 
 	myDisplay->KeyPressed(31);  //  31
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1851,6 +1887,7 @@ void MainWindow::Button_135_released()
 		"background-image: url(:/images/images/button_135_920.png)"));
 
 	myDisplay->KeyPressed(23); //  23
+	// _sleep(2);
 
 	// ui->label->setText("Released");
 };
@@ -1861,6 +1898,7 @@ void MainWindow::Button_137_pressed()
 		"background-image: url(:/images/images/button_137p_920.png)"));
 
 	myDisplay->KeyPressed(30);  // 30
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1879,6 +1917,7 @@ void MainWindow::Button_141_pressed()
 		"background-image: url(:/images/images/button_141p_920.png)"));
 
 	myDisplay->KeyPressed(21);  //  21
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1897,6 +1936,7 @@ void MainWindow::Button_142_pressed()
 		"background-image: url(:/images/images/button_142p_920.png)"));
 
 	myDisplay->KeyPressed(33); //  33
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1915,6 +1955,7 @@ void MainWindow::Button_143_pressed()
 		"background-image: url(:/images/images/button_143p_920.png)"));
 
 	myDisplay->KeyPressed(45); //  45
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1933,6 +1974,7 @@ void MainWindow::Button_144_pressed()
 		"background-image: url(:/images/images/button_144p_920.png)"));
 
 	myDisplay->KeyPressed(57); //  57
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1951,6 +1993,7 @@ void MainWindow::Button_145_pressed()
 		"background-image: url(:/images/images/button_145p_920.png)"));
 
 	myDisplay->KeyPressed(69);   // 69
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1969,6 +2012,7 @@ void MainWindow::Button_146_pressed()
 		"background-image: url(:/images/images/button_146p_920.png)"));
 
 	myDisplay->KeyPressed(81); // 81
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -1987,6 +2031,7 @@ void MainWindow::Button_147_pressed()
 		"background-image: url(:/images/images/button_147p_920.png)"));
 
 	myDisplay->KeyPressed(93);  // 93
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2005,6 +2050,7 @@ void MainWindow::Button_151_pressed()
 		"background-image: url(:/images/images/button_151p_920.png)"));
 
 	myDisplay->KeyPressed(22);  //  22
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2023,6 +2069,7 @@ void MainWindow::Button_152_pressed()
 		"background-image: url(:/images/images/button_152p_920.png)"));
 
 	myDisplay->KeyPressed(34); //  34
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2041,6 +2088,7 @@ void MainWindow::Button_153_pressed()
 		"background-image: url(:/images/images/button_153p_920.png)"));
 
 	myDisplay->KeyPressed(46); // 46
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2059,6 +2107,7 @@ void MainWindow::Button_154_pressed()
 		"background-image: url(:/images/images/button_154p_920.png)"));
 
 	myDisplay->KeyPressed(58); // 58
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2077,6 +2126,7 @@ void MainWindow::Button_155_pressed()
 		"background-image: url(:/images/images/button_155p_920.png)"));
 
 	myDisplay->KeyPressed(70);  // 70
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2095,6 +2145,7 @@ void MainWindow::Button_156_pressed()
 		"background-image: url(:/images/images/button_156p_920.png)"));
 
 	myDisplay->KeyPressed(82);  // 82
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2113,6 +2164,7 @@ void MainWindow::Button_157_pressed()
 		"background-image: url(:/images/images/button_157p_920.png)"));
 
 	myDisplay->KeyPressed(94);  // 94
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2131,6 +2183,7 @@ void MainWindow::Button_161_pressed()
 		"background-image: url(:/images/images/button_161p_920.png)"));
 
 	myDisplay->KeyPressed(23);  // 23
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2149,6 +2202,7 @@ void MainWindow::Button_162_pressed()
 		"background-image: url(:/images/images/button_162p_920.png)"));
 
 	myDisplay->KeyPressed(35); // 35
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2167,6 +2221,7 @@ void MainWindow::Button_163_pressed()
 		"background-image: url(:/images/images/button_163p_920.png)"));
 
 	myDisplay->KeyPressed(47); // 47
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2185,6 +2240,7 @@ void MainWindow::Button_164_pressed()
 		"background-image: url(:/images/images/button_164p_920.png)"));
 
 	myDisplay->KeyPressed(59); //  59
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2203,6 +2259,7 @@ void MainWindow::Button_165_pressed()
 		"background-image: url(:/images/images/button_165p_920.png)"));
 
 	myDisplay->KeyPressed(71);  // 71
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2221,6 +2278,7 @@ void MainWindow::Button_166_pressed()
 		"background-image: url(:/images/images/button_166p_920.png)"));
 
 	myDisplay->KeyPressed(83); // 83
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2240,7 +2298,8 @@ void MainWindow::Button_167_pressed()
 	ui->toolButton_167->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_167p_920.png)"));
 
-	// myDisplay->KeyPressed(95);  // 95
+	myDisplay->KeyPressed(95);  // 95
+	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };
@@ -2266,12 +2325,12 @@ void MainWindow::Button_on_off_pressed()
 		myDisplay->InitProcessor();
 
 		if (ui->checkBox_grd_on->isChecked() == true) {
-			_sleep(2);
+			// _sleep(2);
 			myDisplay->KeyPressed(37);
 		}
 
 		if (ui->checkBox_ngrd_on->isChecked() == true) {
-			_sleep(2);
+			// _sleep(2);
 			myDisplay->KeyPressed(38);
 		}
 
@@ -2281,7 +2340,7 @@ void MainWindow::Button_on_off_pressed()
 		ui->checkBox_on_off->click();
 		ui->graphicsView_on_off_2->setStyleSheet(QString::fromUtf8("background-color: rgb(102, 153, 255);"));
 		myDisplay->stop_CPU();
-		_sleep(2);
+		// _sleep(2);
 	}
 
 	// ui->label->setText("Pressed");

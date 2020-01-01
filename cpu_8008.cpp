@@ -47,6 +47,7 @@ void cpu_8008::set_run_CPU(run_CPU* n_runCPU)
 
 void cpu_8008::KeyPressed(uint8_t KeyNumber_n) {
 	Key_number = KeyNumber_n;
+	// _sleep(2);
 }
 
 void cpu_8008::Pi_Clicked()
@@ -96,8 +97,7 @@ void cpu_8008::InitProcessor()
 
 	// Key_number = 89;  // Test Pi() - Start o.k.
 
-	uint8_t i;
-	for (i = 0; i < 8; i++) {
+	for (uint8_t i = 0; i < 8; i++) {
 		dispBuffer[i] = 0;
 		dispBuffer[i + 8] = 0;
 		raw1[i] = 0;
@@ -113,6 +113,11 @@ void cpu_8008::InitProcessor()
 void cpu_8008::stop_CPU()
 {
 	my_runCPU->stop_CPU();
+}
+
+void cpu_8008::reStart_CPU()
+{
+	my_runCPU->reStart_CPU();
 }
 
 uint16_t cpu_8008::iSet(uint8_t m_nxt)
@@ -1210,7 +1215,9 @@ void cpu_8008::out_00()  // Call Anzeige
 			}
 
 			if (display_change == true) {
+				stop_CPU();
 				myK1003->set_dispBuffer(dispBuffer);
+				reStart_CPU();
 				// _sleep(500);
 				// myK1003->setPointAll();  // o.k.
 				display_change = false;    // synchronisation

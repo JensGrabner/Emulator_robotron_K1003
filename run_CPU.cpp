@@ -4,11 +4,11 @@
 // #include "Display.h"
 // #include "K1003_sys.h"
 // #include "cpu_8008.h"
-
+  
 run_CPU::run_CPU(QObject* parent) : QThread(parent)
 {
 	abort = true;
-	instruction = 0;
+	// instruction = 0;
 	PC_runCPU = 0;	// program counter
 
 	// my_runCPU = this;
@@ -31,8 +31,8 @@ void run_CPU::run()
 	{
 		if (abort == false)
 		{
-			instruction = memory(PC_runCPU);
-			PC_runCPU = myCPU->iSet(instruction);
+			// instruction = memory(PC_runCPU);
+			PC_runCPU = myCPU->iSet(memory(PC_runCPU));
 		}
 	}
 }
@@ -40,7 +40,7 @@ void run_CPU::run()
 void run_CPU::start_CPU(cpu_8008* myCPU_n)
 {
 	abort = false;
-	instruction = 0;
+	// instruction = 0;
 	PC_runCPU = 0;	// program counter
 	this->myCPU = myCPU_n;
 }
@@ -48,6 +48,11 @@ void run_CPU::start_CPU(cpu_8008* myCPU_n)
 void run_CPU::stop_CPU()
 {
 	abort = true;
+}
+
+void run_CPU::reStart_CPU()
+{
+	abort = false;
 }
 
 void run_CPU::set_run_CPU(run_CPU* n_runCPU)
