@@ -3927,9 +3927,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>139</x>
@@ -3978,9 +3975,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>770</x>
@@ -3997,9 +3991,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -4045,9 +4036,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>45</x>
@@ -4067,9 +4055,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>45</x>
@@ -4089,9 +4074,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>45</x>
@@ -4111,9 +4093,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>45</x>
@@ -4133,9 +4112,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>45</x>
@@ -4155,9 +4131,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>34</x>
@@ -4177,9 +4150,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>34</x>
@@ -4199,9 +4169,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>34</x>
@@ -4221,9 +4188,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>34</x>
@@ -4243,9 +4207,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>34</x>
@@ -4265,9 +4226,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>23</x>
@@ -4287,9 +4245,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>23</x>
@@ -4309,9 +4264,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>23</x>
@@ -4331,9 +4283,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>23</x>
@@ -4353,9 +4302,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>23</x>
@@ -4375,9 +4321,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_0_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>53</x>
@@ -4397,9 +4340,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>85</x>
@@ -4419,9 +4359,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>85</x>
@@ -4441,9 +4378,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>85</x>
@@ -4463,9 +4397,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>85</x>
@@ -4485,9 +4416,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>85</x>
@@ -4507,9 +4435,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>74</x>
@@ -4529,9 +4454,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>74</x>
@@ -4551,9 +4473,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>74</x>
@@ -4573,9 +4492,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>74</x>
@@ -4595,9 +4511,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>74</x>
@@ -4617,9 +4530,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>63</x>
@@ -4639,9 +4549,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>63</x>
@@ -4661,9 +4568,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>63</x>
@@ -4683,9 +4587,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>63</x>
@@ -4705,9 +4606,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>63</x>
@@ -4727,9 +4625,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_1_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>93</x>
@@ -4749,9 +4644,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -4771,9 +4663,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -4793,9 +4682,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -4815,9 +4701,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -4837,9 +4720,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -4859,9 +4739,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>164</x>
@@ -4881,9 +4758,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>164</x>
@@ -4903,9 +4777,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>164</x>
@@ -4925,9 +4796,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>164</x>
@@ -4947,9 +4815,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>164</x>
@@ -4969,9 +4834,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>153</x>
@@ -4991,9 +4853,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>153</x>
@@ -5013,9 +4872,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>153</x>
@@ -5035,9 +4891,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>153</x>
@@ -5057,9 +4910,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>153</x>
@@ -5079,9 +4929,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_2_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -5101,9 +4948,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>215</x>
@@ -5123,9 +4967,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>215</x>
@@ -5145,9 +4986,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>215</x>
@@ -5167,9 +5005,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>215</x>
@@ -5189,9 +5024,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>215</x>
@@ -5211,9 +5043,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>204</x>
@@ -5233,9 +5062,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>204</x>
@@ -5255,9 +5081,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>204</x>
@@ -5277,9 +5100,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>204</x>
@@ -5299,9 +5119,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>204</x>
@@ -5321,9 +5138,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>193</x>
@@ -5343,9 +5157,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>193</x>
@@ -5365,9 +5176,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>193</x>
@@ -5387,9 +5195,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>193</x>
@@ -5409,9 +5214,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>193</x>
@@ -5431,9 +5233,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_3_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>223</x>
@@ -5453,9 +5252,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>255</x>
@@ -5475,9 +5271,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>255</x>
@@ -5497,9 +5290,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>255</x>
@@ -5519,9 +5309,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>255</x>
@@ -5541,9 +5328,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>255</x>
@@ -5563,9 +5347,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>244</x>
@@ -5585,9 +5366,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>244</x>
@@ -5607,9 +5385,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>244</x>
@@ -5629,9 +5404,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>244</x>
@@ -5651,9 +5423,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>244</x>
@@ -5673,9 +5442,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>233</x>
@@ -5695,9 +5461,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>233</x>
@@ -5717,9 +5480,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>233</x>
@@ -5739,9 +5499,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>233</x>
@@ -5761,9 +5518,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>233</x>
@@ -5783,9 +5537,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_4_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>263</x>
@@ -5805,9 +5556,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -5827,9 +5575,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -5849,9 +5594,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -5871,9 +5613,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -5893,9 +5632,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -5915,9 +5651,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>284</x>
@@ -5937,9 +5670,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>284</x>
@@ -5959,9 +5689,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>284</x>
@@ -5981,9 +5708,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>284</x>
@@ -6003,9 +5727,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>284</x>
@@ -6025,9 +5746,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -6047,9 +5765,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -6069,9 +5784,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -6091,9 +5803,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -6113,9 +5822,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>273</x>
@@ -6135,9 +5841,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_5_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>303</x>
@@ -6157,9 +5860,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>335</x>
@@ -6179,9 +5879,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>335</x>
@@ -6201,9 +5898,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>335</x>
@@ -6223,9 +5917,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>335</x>
@@ -6245,9 +5936,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>335</x>
@@ -6267,9 +5955,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>324</x>
@@ -6289,9 +5974,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>324</x>
@@ -6311,9 +5993,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>324</x>
@@ -6333,9 +6012,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>324</x>
@@ -6355,9 +6031,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>324</x>
@@ -6377,9 +6050,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>313</x>
@@ -6399,9 +6069,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>313</x>
@@ -6421,9 +6088,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>313</x>
@@ -6443,9 +6107,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>313</x>
@@ -6465,9 +6126,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>313</x>
@@ -6487,9 +6145,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_6_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>343</x>
@@ -6509,9 +6164,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>375</x>
@@ -6531,9 +6183,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>375</x>
@@ -6553,9 +6202,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>375</x>
@@ -6575,9 +6221,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>375</x>
@@ -6597,9 +6240,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>375</x>
@@ -6619,9 +6259,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>364</x>
@@ -6641,9 +6278,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>364</x>
@@ -6663,9 +6297,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>364</x>
@@ -6685,9 +6316,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>364</x>
@@ -6707,9 +6335,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>364</x>
@@ -6729,9 +6354,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>353</x>
@@ -6751,9 +6373,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>353</x>
@@ -6773,9 +6392,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>353</x>
@@ -6795,9 +6411,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>353</x>
@@ -6817,9 +6430,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>353</x>
@@ -6839,9 +6449,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_7_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>383</x>
@@ -6861,9 +6468,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>415</x>
@@ -6883,9 +6487,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>415</x>
@@ -6905,9 +6506,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>415</x>
@@ -6927,9 +6525,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>415</x>
@@ -6949,9 +6544,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>415</x>
@@ -6971,9 +6563,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>404</x>
@@ -6993,9 +6582,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>404</x>
@@ -7015,9 +6601,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>404</x>
@@ -7037,9 +6620,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>404</x>
@@ -7059,9 +6639,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>404</x>
@@ -7081,9 +6658,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>393</x>
@@ -7103,9 +6677,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>393</x>
@@ -7125,9 +6696,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>393</x>
@@ -7147,9 +6715,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>393</x>
@@ -7169,9 +6734,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>393</x>
@@ -7191,9 +6753,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_8_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>423</x>
@@ -7213,9 +6772,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -7235,9 +6791,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -7257,9 +6810,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -7279,9 +6829,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -7301,9 +6848,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -7323,9 +6867,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -7345,9 +6886,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -7367,9 +6905,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -7389,9 +6924,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -7411,9 +6943,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -7433,9 +6962,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>433</x>
@@ -7455,9 +6981,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>433</x>
@@ -7477,9 +7000,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>433</x>
@@ -7499,9 +7019,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>433</x>
@@ -7521,9 +7038,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>433</x>
@@ -7543,9 +7057,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_9_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>463</x>
@@ -7565,9 +7076,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>495</x>
@@ -7587,9 +7095,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>495</x>
@@ -7609,9 +7114,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>495</x>
@@ -7631,9 +7133,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>495</x>
@@ -7653,9 +7152,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>495</x>
@@ -7675,9 +7171,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>484</x>
@@ -7697,9 +7190,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>484</x>
@@ -7719,9 +7209,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>484</x>
@@ -7741,9 +7228,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>484</x>
@@ -7763,9 +7247,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>484</x>
@@ -7785,9 +7266,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>473</x>
@@ -7807,9 +7285,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>473</x>
@@ -7829,9 +7304,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>473</x>
@@ -7851,9 +7323,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>473</x>
@@ -7873,9 +7342,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>473</x>
@@ -7895,9 +7361,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_a_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>503</x>
@@ -7917,9 +7380,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>535</x>
@@ -7939,9 +7399,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>535</x>
@@ -7961,9 +7418,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>535</x>
@@ -7983,9 +7437,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>535</x>
@@ -8005,9 +7456,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>535</x>
@@ -8027,9 +7475,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>524</x>
@@ -8049,9 +7494,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>524</x>
@@ -8071,9 +7513,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>524</x>
@@ -8093,9 +7532,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>524</x>
@@ -8115,9 +7551,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>524</x>
@@ -8137,9 +7570,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>513</x>
@@ -8159,9 +7589,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>513</x>
@@ -8181,9 +7608,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>513</x>
@@ -8203,9 +7627,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>513</x>
@@ -8225,9 +7646,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>513</x>
@@ -8247,9 +7665,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_b_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>543</x>
@@ -8269,9 +7684,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>575</x>
@@ -8291,9 +7703,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>575</x>
@@ -8313,9 +7722,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>575</x>
@@ -8335,9 +7741,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>575</x>
@@ -8357,9 +7760,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>575</x>
@@ -8379,9 +7779,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>564</x>
@@ -8401,9 +7798,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>564</x>
@@ -8423,9 +7817,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>564</x>
@@ -8445,9 +7836,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>564</x>
@@ -8467,9 +7855,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>564</x>
@@ -8489,9 +7874,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>553</x>
@@ -8511,9 +7893,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>553</x>
@@ -8533,9 +7912,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>553</x>
@@ -8555,9 +7931,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>553</x>
@@ -8577,9 +7950,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>553</x>
@@ -8599,9 +7969,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_c_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>583</x>
@@ -8621,9 +7988,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>655</x>
@@ -8643,9 +8007,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>655</x>
@@ -8665,9 +8026,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>655</x>
@@ -8687,9 +8045,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>655</x>
@@ -8709,9 +8064,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>655</x>
@@ -8731,9 +8083,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -8753,9 +8102,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -8775,9 +8121,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -8797,9 +8140,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -8819,9 +8159,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -8841,9 +8178,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>633</x>
@@ -8863,9 +8197,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>633</x>
@@ -8885,9 +8216,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>633</x>
@@ -8907,9 +8235,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>633</x>
@@ -8929,9 +8254,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>633</x>
@@ -8951,9 +8273,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_d_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>663</x>
@@ -8973,9 +8292,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>695</x>
@@ -8995,9 +8311,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>695</x>
@@ -9017,9 +8330,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>695</x>
@@ -9039,9 +8349,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>695</x>
@@ -9061,9 +8368,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>695</x>
@@ -9083,9 +8387,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>684</x>
@@ -9105,9 +8406,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>684</x>
@@ -9127,9 +8425,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>684</x>
@@ -9149,9 +8444,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>684</x>
@@ -9171,9 +8463,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>684</x>
@@ -9193,9 +8482,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>673</x>
@@ -9215,9 +8501,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>673</x>
@@ -9237,9 +8520,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>673</x>
@@ -9259,9 +8539,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>673</x>
@@ -9281,9 +8558,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>673</x>
@@ -9303,9 +8577,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_e_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>703</x>
@@ -9325,9 +8596,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_00">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -9347,9 +8615,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_01">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -9369,9 +8634,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_02">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -9391,9 +8653,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_03">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -9413,9 +8672,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_04">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -9435,9 +8691,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_05">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>724</x>
@@ -9457,9 +8710,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_06">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>724</x>
@@ -9479,9 +8729,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_07">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>724</x>
@@ -9501,9 +8748,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_08">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>724</x>
@@ -9523,9 +8767,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_09">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>724</x>
@@ -9545,9 +8786,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_10">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>713</x>
@@ -9567,9 +8805,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_11">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>713</x>
@@ -9589,9 +8824,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_12">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>713</x>
@@ -9611,9 +8843,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_13">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>713</x>
@@ -9633,9 +8862,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_14">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>713</x>
@@ -9655,9 +8881,6 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     </property>
    </widget>
    <widget class="QFrame" name="frame_f_15">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
     <property name="geometry">
      <rect>
       <x>743</x>

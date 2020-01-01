@@ -1,6 +1,6 @@
 // #include "ui_mainwindow.h"
 // #include "Display.h"
-#include <QThread>
+// #include <QThread>
 #include "cpu_8008.h"
 #include "run_CPU.h"
 #include "K1003_sys.h"
@@ -1215,6 +1215,7 @@ void cpu_8008::out_00()  // Call Anzeige
 			}
 
 			if (display_change == true) {
+				myK1003->CPU_hlt(0);
 				stop_CPU();
 				myK1003->set_dispBuffer(dispBuffer);
 				reStart_CPU();

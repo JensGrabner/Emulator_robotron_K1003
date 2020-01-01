@@ -5001,6 +5001,7 @@ void Display::DisplayDigit()
 
 		case 113:  // 'F'
 			clearPoint(xPos + 2, 2);
+			myK1003->CPU_hlt(0);
 			myK1003->stop_CPU();;
 			break;
 
@@ -5045,6 +5046,7 @@ void Display::set_dispBuffer(uint8_t dispBuffer_new[16])
 	}
 
 	if (change_test == true) {
+		myK1003->CPU_hlt(0);
 		myK1003->stop_CPU();
 		DisplayDigit();
 		myK1003->reStart_CPU();
