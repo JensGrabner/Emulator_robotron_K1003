@@ -78,7 +78,7 @@ public:
 
 	void KeyPressed(uint8_t KeyNumber);
 
-	void PiClicked();
+	// void PiClicked();
 	void InitProcessor();
 	void stop_CPU();
 	void reStart_CPU();

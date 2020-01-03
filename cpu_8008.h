@@ -390,7 +390,7 @@ public:
 
 	void KeyPressed(uint8_t KeyNumber);
 
-	void Pi_Clicked();
+	// void Pi_Clicked();
 	void Test();
 
 	void InitProcessor();

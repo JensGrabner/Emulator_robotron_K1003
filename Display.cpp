@@ -5046,12 +5046,12 @@ void Display::set_dispBuffer(uint8_t dispBuffer_new[16])
 	}
 
 	if (change_test == true) {
-		myK1003->CPU_hlt(0);
+		// myK1003->CPU_hlt(0);
 		myK1003->stop_CPU();
 		DisplayDigit();
 		myK1003->reStart_CPU();
 	}
-	change_test = false;	
+	change_test = false;
 }
 
 void Display::KeyPressed(uint8_t KeyNumber_m)
@@ -5270,7 +5270,7 @@ void Display::clear()
 		// myCalculator->clear();
 	}
 	*/
-	
+
 }
 /*
 void Display::changeSignClicked()

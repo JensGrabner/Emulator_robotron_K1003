@@ -49,7 +49,7 @@ void cpu_8008::KeyPressed(uint8_t KeyNumber_n) {
 	Key_number = KeyNumber_n;
 	// _sleep(2);
 }
-
+/*
 void cpu_8008::Pi_Clicked()
 {
 	// my_runCPU->Pi_Clicked(); // o.k.
@@ -60,7 +60,7 @@ void cpu_8008::Pi_Clicked()
 	// myK1003->Test();  // o.k.
 	// ui->label->setText("PiClicked");  // defekt 
 }
-
+*/
 void cpu_8008::getKey()
 {
 	if (Key_number > 0) {

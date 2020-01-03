@@ -30,9 +30,9 @@ void K1003_sys::setDisplay(Display* m_display)
 void K1003_sys::KeyPressed(uint8_t KeyNumber_n)
 {
 	myCPU->KeyPressed(KeyNumber_n);  //  o.k.
-	// _sleep(2);
+	_sleep(1);
 }
-
+/*
 void K1003_sys::PiClicked()
 {
 	// my_runCPU->Pi_Clicked(); // defekt
@@ -40,7 +40,7 @@ void K1003_sys::PiClicked()
 	// myCPU->iSet(0);  // HLT - Test o.k.
 	// ui->label->setText("Pi_Clicked"); // o.k.
 }
-
+*/
 void K1003_sys::InitProcessor()
 {
 	myCPU->InitProcessor();

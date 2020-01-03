@@ -36,8 +36,8 @@ private:
 	run_CPU* my_runCPU;
 
 	bool abort = true;
-	// uint8_t instruction = 0;
 	uint16_t PC_runCPU = 0;
+	uint32_t slow_down = 0;
 
 public:
 	run_CPU(QObject* parent = nullptr);
@@ -2118,7 +2118,7 @@ public:
 	void set_K1003(K1003_sys* m_K1003);
 	void set_cpu_8008(cpu_8008* n_myCPU);
 
-	void Pi_Clicked();
+	// void Pi_Clicked();
 
 
 };

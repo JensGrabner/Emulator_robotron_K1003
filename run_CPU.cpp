@@ -8,7 +8,6 @@
 run_CPU::run_CPU(QObject* parent) : QThread(parent)
 {
 	abort = true;
-	// instruction = 0;
 	PC_runCPU = 0;	// program counter
 
 	// my_runCPU = this;
@@ -29,19 +28,23 @@ void run_CPU::run()
 {
 	forever
 	{
-		if (abort == false)
+		if (slow_down >= 15000) 
 		{
-			// instruction = memory(PC_runCPU);
-			PC_runCPU = myCPU->iSet(memory(PC_runCPU));
+			if (abort == false)
+			{
+				PC_runCPU = myCPU->iSet(memory(PC_runCPU));
+				slow_down = 0;
+			}
 		}
+		slow_down += 1;
 	}
 }
 
 void run_CPU::start_CPU(cpu_8008* myCPU_n)
 {
 	abort = false;
-	// instruction = 0;
 	PC_runCPU = 0;	// program counter
+	slow_down = 0;
 	this->myCPU = myCPU_n;
 }
 
@@ -93,7 +96,7 @@ uint8_t run_CPU::memory(uint16_t PC_n)
 		return 0;  // failure
 	}
 }
-
+/*
 void run_CPU::Pi_Clicked()
 {
 	
@@ -105,3 +108,4 @@ void run_CPU::Pi_Clicked()
 	// PC = myCPU->iSet(81);  // Display Test - 
 	// ui->label->setText("PiClicked");  // defekt 
 }
+*/
