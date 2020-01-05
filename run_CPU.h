@@ -2,6 +2,7 @@
 #define __HEADER_RUN_CPU__
 #include <cstdint>
 #include <QThread> 
+// #include <QMutex>
 
 #include "Display.h"
 #include "K1003_sys.h"
@@ -34,8 +35,9 @@ private:
 	K1003_sys* myK1003;
 	cpu_8008* myCPU;
 	run_CPU* my_runCPU;
+	// QMutex* mutex;
 
-	bool abort = true;
+	volatile bool abort = true;
 	uint16_t PC_runCPU = 0;
 	uint32_t slow_down = 0;
 

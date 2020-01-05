@@ -40,7 +40,7 @@ private:
 	uint16_t ColRow = 0;
 	uint8_t	scanKeyb = 0;
 	uint8_t r, c  = 0;
-	uint8_t Key_number = 0;	// a key is pressed currently
+	volatile uint8_t Key_number = 0;	// a key is pressed currently
 
 	bool ioRelease = true;	// keyboard I/O released or locked
 	bool start = true;

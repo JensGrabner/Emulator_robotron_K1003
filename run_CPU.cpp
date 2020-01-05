@@ -1,10 +1,12 @@
 #include "run_CPU.h"
 #include <QThread>
+// #include <QMutex>
+
 // #include "ui_mainwindow.h"
 // #include "Display.h"
 // #include "K1003_sys.h"
 // #include "cpu_8008.h"
-  
+
 run_CPU::run_CPU(QObject* parent) : QThread(parent)
 {
 	abort = true;
@@ -28,13 +30,16 @@ void run_CPU::run()
 {
 	forever
 	{
-		if (slow_down >= 15000) 
+		if (slow_down >= 250) 
 		{
+			// mutex->lock();
 			if (abort == false)
-			{
+			{				
 				PC_runCPU = myCPU->iSet(memory(PC_runCPU));
+				// mutex->unlock();
 				slow_down = 0;
 			}
+			// mutex->unlock();
 		}
 		slow_down += 1;
 	}

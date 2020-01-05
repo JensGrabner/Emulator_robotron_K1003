@@ -78,7 +78,7 @@ void K1003_sys::set_dispBuffer(uint8_t dispBuffer_new[16])
 	for (uint8_t i = 0; i < 16; i++) {
 		dispBuffer[display_sort[i]] = reverse[dispBuffer_new[i]];
 	}
-	CPU_hlt(0);
+	// CPU_hlt(0);
 	stop_CPU();
 	myDisplay->set_dispBuffer(dispBuffer);
 	reStart_CPU();
