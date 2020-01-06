@@ -2,7 +2,6 @@
 #define __HEADER_RUN_CPU__
 #include <cstdint>
 #include <QThread> 
-// #include <QMutex>
 
 #include "Display.h"
 #include "K1003_sys.h"

@@ -1,6 +1,5 @@
 #include "run_CPU.h"
 #include <QThread>
-// #include <QMutex>
 
 // #include "ui_mainwindow.h"
 // #include "Display.h"
@@ -30,7 +29,7 @@ void run_CPU::run()
 {
 	forever
 	{
-		if (slow_down >= 250) 
+		if (slow_down >= 330) 
 		{
 			// mutex->lock();
 			if (abort == false)

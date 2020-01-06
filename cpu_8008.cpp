@@ -10,6 +10,9 @@ cpu_8008::cpu_8008()
 	my_runCPU = new run_CPU();
 
 	Key_number = 0;
+	Key_write = 0;
+	Key_read = 0;
+
 	start = true;
 
 	my_runCPU->LowestPriority;
@@ -46,7 +49,9 @@ void cpu_8008::set_run_CPU(run_CPU* n_runCPU)
 }
 
 void cpu_8008::KeyPressed(uint8_t KeyNumber_n) {
-	Key_number = KeyNumber_n;
+	Key_buffer[Key_write] = KeyNumber_n;
+	Key_write += 1;
+	// Key_number = KeyNumber_n;
 	// _sleep(2);
 }
 /*
@@ -61,6 +66,7 @@ void cpu_8008::Pi_Clicked()
 	// ui->label->setText("PiClicked");  // defekt 
 }
 */
+/*
 void cpu_8008::getKey()
 {
 	if (Key_number > 0) {
@@ -70,6 +76,7 @@ void cpu_8008::getKey()
 		Key_number = 0;
 	}
 }
+*/
 
 void cpu_8008::Test()
 {
@@ -91,6 +98,8 @@ void cpu_8008::InitProcessor()
 	keyRow = 0;		// 2^row of pressed key 
 	scanKeyb = 0;
 	Key_number = 0;
+	Key_write = 0;
+	Key_read = 0;
 	start = true;
 	ioRelease = true;
 	ioCount = 0;
@@ -1292,6 +1301,11 @@ void cpu_8008::out_09()
 {
 	OUTreg[9] = Areg;   // store also in VBA variable
 
+	if (Key_read != Key_write) {
+		Key_number = Key_buffer[Key_read];
+		Key_read += 1;
+	}
+
 	if (Key_number == 0) {
 		if (Areg == keyRow) {
 			scanKeyb = 0;	// end scan mode if key found
@@ -1303,7 +1317,12 @@ void cpu_8008::out_09()
 	else {
 		if (Areg == 255) {
 			scanKeyb = 4;	// OUT 0,255 initiates a key scan
-			getKey();		// into global vars keyRow, keyCol
+			keyCol = keymap[Key_number] >> 8;
+			keyRow = keymap[Key_number] & 0xFF;
+			// end of keyboard layout transformation
+			Key_number = 0;
+
+			// getKey();		// into global vars keyRow, keyCol
 		}
 	}
 

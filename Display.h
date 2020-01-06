@@ -34,7 +34,7 @@ private:
 	   83, 103,  49,  45,   7,  28,  42,  60,  73, 110,  27,  57, 100,  15,  35,   8,     //  ¦PQRSTUVWXYZ[\]^_¦
 	   32,  95, 124,  88,  94, 123,  43, 111, 116,  16,  14, 120,  24,  21,  84,  92,     //  ¦`abcdefghijklmno¦
 	   83,  53,  80, 108,  70,  29,  43, 106,   9, 102,   3,  24,  29,   5,   1,  54 };   //  ¦pqrstuvwxyz{|}~ ¦
-
+	
 	volatile bool pixel_0_00 = false;
 	volatile bool pixel_0_01 = false;
 	volatile bool pixel_0_02 = false;
@@ -291,7 +291,7 @@ private:
 	volatile bool pixel_f_13 = false;
 	volatile bool pixel_f_14 = false;
 	volatile bool pixel_f_15 = false;
-
+	
 	volatile bool change_test = false;
 
 public:
