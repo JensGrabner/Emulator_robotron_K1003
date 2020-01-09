@@ -1188,8 +1188,6 @@ void Display::setPoint(uint8_t x, uint8_t y) {
 					ui->frame_5_10->setGeometry(QRect(273, 20, 8, 8));
 					ui->frame_5_10->setStyleSheet(QString::fromUtf8("background-color: darkRed;"));
 					ui->frame_5_10->setAutoFillBackground(true);
-					ui->frame_5_10->setFrameShape(QFrame::StyledPanel);
-					ui->frame_5_10->setFrameShadow(QFrame::Raised);
 					pixel_5_10 = true;
 				}
 				break;
@@ -7608,7 +7606,7 @@ void Display::set_dispBuffer(uint8_t dispBuffer_new[16])
 	if (change_test == true) {
 		// myK1003->CPU_hlt(0);
 		myK1003->stop_CPU();
-		DisplayDigit();
+		DisplayDigit();		
 		myK1003->reStart_CPU();
 	}
 	change_test = false;
@@ -7910,6 +7908,7 @@ void Display::PiClicked()
 
 void Display::InitProcessor()
 {
+	/*
 	pixel_0_00 = false;
 	pixel_0_01 = false;
 	pixel_0_02 = false;
@@ -8166,7 +8165,7 @@ void Display::InitProcessor()
 	pixel_f_13 = false;
 	pixel_f_14 = false;
 	pixel_f_15 = false;
-
+	*/
 	myK1003->InitProcessor();
 }
 

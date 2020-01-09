@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "Display.h"
+// #include "mytimer.h"
 // #include "Calculator.h"
 
 MainWindow::MainWindow(QWidget* parent) :
@@ -10,6 +11,12 @@ MainWindow::MainWindow(QWidget* parent) :
 {
 	myDisplay = new Display(ui);
 	ui->setupUi(this);
+
+	/*
+	timer = new QTimer();
+	connect(timer, SIGNAL(timeout()), this, SLOT(slotTimerAlarm()));
+	timer->start(1000);
+	*/
 
 	QObject::connect(
 		ui->toolButton_003, SIGNAL(pressed()),
@@ -682,6 +689,16 @@ MainWindow::~MainWindow()
 {
 	delete ui;
 }
+
+/*
+void MainWindow::slotTimerAlarm()
+{
+	// * Every second update data on the current time
+	// * Restart timer is not required
+	// * 
+	ui->label->setText(QTime::currentTime().toString("hh:mm:ss"));
+}
+*/
 
 void MainWindow::Button_003_pressed()
 {

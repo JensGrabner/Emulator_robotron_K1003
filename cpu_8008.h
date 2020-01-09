@@ -5,6 +5,7 @@
 #include "Display.h"
 #include "K1003_sys.h"
 #include "run_CPU.h"
+// #include "mytimer.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ using namespace std;
 class Display;
 class K1003_sys;
 class run_CPU;
+// class MyTimer;
 
 class cpu_8008
 {
@@ -43,7 +45,7 @@ private:
 	volatile uint8_t Key_write = 0;
 	volatile uint8_t Key_read = 0;
 	volatile uint8_t Key_number = 0;	// a key is pressed currently
-	volatile uint8_t Key_buffer[256] = { 
+	volatile uint8_t Key_buffer[256] = {
 		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

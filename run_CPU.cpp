@@ -8,6 +8,12 @@
 
 run_CPU::run_CPU(QObject* parent) : QThread(parent)
 {
+	// my_Timer = new MyTimer();
+
+	timer = new QTimer();
+	connect(timer, SIGNAL(timeout()), this, SLOT(slotTimerAlarm()));
+	timer->start(1);  // 1ms
+
 	abort = true;
 	PC_runCPU = 0;	// program counter
 
@@ -27,28 +33,29 @@ run_CPU::~run_CPU()
 
 void run_CPU::run()
 {
-	forever
-	{
-		if (slow_down >= 330) 
+	for (uint16_t count = 0; count < 2000; count++) {  // 2000 Khz
+		if (abort == false)
 		{
-			// mutex->lock();
-			if (abort == false)
-			{				
-				PC_runCPU = myCPU->iSet(memory(PC_runCPU));
-				// mutex->unlock();
-				slow_down = 0;
-			}
-			// mutex->unlock();
+			PC_runCPU = myCPU->iSet(memory(PC_runCPU));
 		}
-		slow_down += 1;
 	}
 }
+
+void run_CPU::slotTimerAlarm()
+{
+	/* Every second update data on the current time
+	 * Restart timer is not required
+	 * */
+	// ui->label->setText(QTime::currentTime().toString("hh:mm:ss"));
+	run();
+}
+
 
 void run_CPU::start_CPU(cpu_8008* myCPU_n)
 {
 	abort = false;
 	PC_runCPU = 0;	// program counter
-	slow_down = 0;
+	// slow_down = 0;
 	this->myCPU = myCPU_n;
 }
 

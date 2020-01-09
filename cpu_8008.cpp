@@ -5,6 +5,7 @@
 #include "run_CPU.h"
 #include "K1003_sys.h"
 
+
 cpu_8008::cpu_8008()
 {
 	my_runCPU = new run_CPU();
@@ -15,7 +16,7 @@ cpu_8008::cpu_8008()
 
 	start = true;
 
-	my_runCPU->LowestPriority;
+	my_runCPU->IdlePriority; // LowestPriority;
 	my_runCPU->start();
 
 	// my_runCPU->set_Display(myDisplay);
@@ -1304,6 +1305,7 @@ void cpu_8008::out_09()
 	if (Key_read != Key_write) {
 		Key_number = Key_buffer[Key_read];
 		Key_read += 1;
+		// my_runCPU->slow_down = 0;
 	}
 
 	if (Key_number == 0) {

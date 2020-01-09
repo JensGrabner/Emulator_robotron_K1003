@@ -1,11 +1,15 @@
 #ifndef __HEADER_RUN_CPU__
 #define __HEADER_RUN_CPU__
-#include <cstdint>
+
 #include <QThread> 
+#include <QTimer>
+// #include <QTime>
+#include <cstdint>
 
 #include "Display.h"
 #include "K1003_sys.h"
 #include "cpu_8008.h"
+// #include "mytimer.h"
 
 using namespace std;
 
@@ -16,6 +20,7 @@ using namespace std;
 class Display;
 class K1003_sys;
 class cpu_8008;
+// class MyTimer;
 
 class run_CPU : public QThread
 {
@@ -27,6 +32,7 @@ protected:
 signals:
 
 private slots:
+	void slotTimerAlarm();
 
 private:
 	// Ui::MainWindow* ui;
@@ -34,15 +40,18 @@ private:
 	K1003_sys* myK1003;
 	cpu_8008* myCPU;
 	run_CPU* my_runCPU;
-	// QMutex* mutex;
+	QTimer* timer;
+	// MyTimer* my_Timer;
 
-	volatile bool abort = true;
+	bool abort = true;
+	uint8_t instruction = 0;
 	uint16_t PC_runCPU = 0;
-	uint32_t slow_down = 0;
 
 public:
 	run_CPU(QObject* parent = nullptr);
 	~run_CPU();
+
+	// uint16_t slow_down = 0;
 
 	void set_run_CPU(run_CPU* n_runCPU);
 
@@ -2119,7 +2128,7 @@ public:
 	void set_K1003(K1003_sys* m_K1003);
 	void set_cpu_8008(cpu_8008* n_myCPU);
 
-	// void Pi_Clicked();
+	void Pi_Clicked();
 
 
 };

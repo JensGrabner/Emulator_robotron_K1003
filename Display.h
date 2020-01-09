@@ -5,6 +5,7 @@
 #include "ui_mainwindow.h"
 // #include "Calculator.h"
 #include "K1003_sys.h"
+// #include "mytimer.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ using namespace std;
 
 // class Calculator;
 class K1003_sys;
+// class MyTimer;
 
 class Display
 {
@@ -24,7 +26,7 @@ private:
 	K1003_sys* myK1003;
 
 	void setPoint(uint8_t x, uint8_t y);
-	void clearPoint(uint8_t x, uint8_t y);
+	void clearPoint(uint8_t x, uint8_t y); 
 
 	const uint8_t led_font[112] = {
 		0,  64,  68,  76,  92, 124, 125, 127, 111, 103,  99,  97,  96,  64,   0,   0,     //  ¦                ¦
@@ -34,7 +36,7 @@ private:
 	   83, 103,  49,  45,   7,  28,  42,  60,  73, 110,  27,  57, 100,  15,  35,   8,     //  ¦PQRSTUVWXYZ[\]^_¦
 	   32,  95, 124,  88,  94, 123,  43, 111, 116,  16,  14, 120,  24,  21,  84,  92,     //  ¦`abcdefghijklmno¦
 	   83,  53,  80, 108,  70,  29,  43, 106,   9, 102,   3,  24,  29,   5,   1,  54 };   //  ¦pqrstuvwxyz{|}~ ¦
-	
+
 	volatile bool pixel_0_00 = false;
 	volatile bool pixel_0_01 = false;
 	volatile bool pixel_0_02 = false;
@@ -291,7 +293,7 @@ private:
 	volatile bool pixel_f_13 = false;
 	volatile bool pixel_f_14 = false;
 	volatile bool pixel_f_15 = false;
-	
+
 	volatile bool change_test = false;
 
 public:
@@ -308,31 +310,31 @@ public:
 
 	void set_dispBuffer(uint8_t dispBuffer_new[16]);
 	void clear();
+	/*
+	void changeSignClicked();
+	void digitClicked_0();
+	void digitClicked_1();
+	void digitClicked_2();
+	void digitClicked_3();
+	void digitClicked_4();
+	void digitClicked_5();
+	void digitClicked_6();
+	void digitClicked_7();
+	void digitClicked_8();
+	void digitClicked_9();
+	void pointClicked();
 
-	// void changeSignClicked();
-	// void digitClicked_0();
-	// void digitClicked_1();
-	// void digitClicked_2();
-	// void digitClicked_3();
-	// void digitClicked_4();
-	// void digitClicked_5();
-	// void digitClicked_6();
-	// void digitClicked_7();
-	// void digitClicked_8();
-	// void digitClicked_9();
-	// void pointClicked();
+	void unaryOperatorClicked_1_x();
+	void unaryOperatorClicked_pow_2();
+	void unaryOperatorClicked_sqrt();
 
-	// void unaryOperatorClicked_1_x();
-	// void unaryOperatorClicked_pow_2();
-	// void unaryOperatorClicked_sqrt();
+	void OperatorClicked_Div();
+	void OperatorClicked_Mul();
+	void OperatorClicked_Sub();
+	void OperatorClicked_Add();
 
-	// void OperatorClicked_Div();
-	// void OperatorClicked_Mul();
-	// void OperatorClicked_Sub();
-	// void OperatorClicked_Add();
-
-	// void equalClicked();
-
+	void equalClicked();
+	*/
 	void KeyPressed(uint8_t KeyNumber);
 
 	// void PiClicked();  // myK1003

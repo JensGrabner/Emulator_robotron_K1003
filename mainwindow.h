@@ -2,10 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+// #include <QTimer>
+// #include <QTime>
 #include "Display.h"
 #include "K1003_sys.h"
 // #include "Calculator.h"
 #include "ui_mainwindow.h"
+// #include "mytimer.h"
 
 namespace Ui {
 	class MainWindow;
@@ -22,7 +25,6 @@ public:
 	uint8_t Button_007_count = 0;
 	uint8_t Button_017_count = 0;
 	uint8_t Button_167_count = 0;
-
 
 private slots:
 	void Button_003_pressed();
@@ -174,12 +176,15 @@ private slots:
 	void Button_on_off_pressed();
 	void Button_on_off_released();
 
+private slots:
+	// void slotTimerAlarm();
 
 private:
 	Ui::MainWindow* ui;
 	Display* myDisplay;
 	// Calculator* myCalculator;
 	K1003_sys* myK1003;
+	// QTimer* timer;
 };
 
 #endif // MAINWINDOW_H
