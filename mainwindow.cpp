@@ -1327,13 +1327,7 @@ void MainWindow::Button_074_pressed()
 	ui->toolButton_074->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_074p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(53); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_7();
 
 	// ui->label->setText("Pressed");
@@ -1358,13 +1352,7 @@ void MainWindow::Button_075_pressed()
 	ui->toolButton_075->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_075p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(65); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_4();   // 65
 
 	// ui->label->setText("Pressed");
@@ -1389,13 +1377,7 @@ void MainWindow::Button_076_pressed()
 	ui->toolButton_076->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_076p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(77); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_1(); // 77
 
 	// ui->label->setText("Pressed");
@@ -1476,13 +1458,7 @@ void MainWindow::Button_104_pressed()
 	ui->toolButton_104->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_104p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		// _sleep(2);
-	}
-
 	myDisplay->KeyPressed(54); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_8();
 
 	// ui->label->setText("Pressed");
@@ -1507,13 +1483,7 @@ void MainWindow::Button_105_pressed()
 	ui->toolButton_105->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_105p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		// _sleep(2);
-	}
-
 	myDisplay->KeyPressed(66); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_5();  // 66
 
 	// ui->label->setText("Pressed");
@@ -1538,13 +1508,7 @@ void MainWindow::Button_106_pressed()
 	ui->toolButton_106->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_106p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(78); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_2(); // 78
 
 	// ui->label->setText("Pressed");
@@ -1569,13 +1533,7 @@ void MainWindow::Button_107_pressed()
 	ui->toolButton_107->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_107p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(90); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_0();  // 90
 
 	// ui->label->setText("Pressed");
@@ -1636,13 +1594,7 @@ void MainWindow::Button_114_pressed()
 	ui->toolButton_114->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_114p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		// _sleep(2);
-	}
-
 	myDisplay->KeyPressed(55); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_9();
 
 	// ui->label->setText("Pressed");
@@ -1667,13 +1619,7 @@ void MainWindow::Button_115_pressed()
 	ui->toolButton_115->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_115p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(67); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_6();  // 67
 
 	// ui->label->setText("Pressed");
@@ -1698,13 +1644,7 @@ void MainWindow::Button_116_pressed()
 	ui->toolButton_116->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_116p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(79); // o.k.
-	// _sleep(2);
 	// myDisplay->digitClicked_3(); // 79
 
 	// ui->label->setText("Pressed");
@@ -1729,13 +1669,7 @@ void MainWindow::Button_117_pressed()
 	ui->toolButton_117->setStyleSheet(QString::fromUtf8(
 		"background-image: url(:/images/images/button_117p_920.png)"));
 
-	if (Button_167_count > 0) {
-		myDisplay->KeyPressed(95);  // 95
-		_sleep(5);
-	}
-
 	myDisplay->KeyPressed(91); // o.k.
-	// _sleep(2);
 	// myDisplay->pointClicked();  // 91
 
 	// ui->label->setText("Pressed");
@@ -2316,7 +2250,6 @@ void MainWindow::Button_167_pressed()
 		"background-image: url(:/images/images/button_167p_920.png)"));
 
 	myDisplay->KeyPressed(95);  // 95
-	// _sleep(2);
 
 	// ui->label->setText("Pressed");
 };

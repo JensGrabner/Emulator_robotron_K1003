@@ -38,9 +38,9 @@
    <widget class="QGraphicsView" name="graphicsView_txt">
     <property name="geometry">
      <rect>
-      <x>770</x>
+      <x>784</x>
       <y>10</y>
-      <width>141</width>
+      <width>129</width>
       <height>51</height>
      </rect>
     </property>
@@ -676,7 +676,7 @@ border-image: url(:/images/images/txt_163_920.png);</string>
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>753</width>
+      <width>767</width>
       <height>82</height>
      </rect>
     </property>
@@ -3374,8 +3374,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QCheckBox" name="checkBox_bes">
     <property name="geometry">
      <rect>
-      <x>778</x>
-      <y>73</y>
+      <x>792</x>
+      <y>69</y>
       <width>19</width>
       <height>16</height>
      </rect>
@@ -3393,8 +3393,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QCheckBox" name="checkBox_komp">
     <property name="geometry">
      <rect>
-      <x>832</x>
-      <y>73</y>
+      <x>840</x>
+      <y>69</y>
       <width>19</width>
       <height>16</height>
      </rect>
@@ -3412,8 +3412,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QCheckBox" name="checkBox_stop">
     <property name="geometry">
      <rect>
-      <x>887</x>
-      <y>73</y>
+      <x>889</x>
+      <y>69</y>
       <width>19</width>
       <height>16</height>
      </rect>
@@ -3431,8 +3431,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QGraphicsView" name="graphicsView_21">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>70</y>
+      <x>784</x>
+      <y>66</y>
       <width>32</width>
       <height>22</height>
      </rect>
@@ -3444,8 +3444,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QGraphicsView" name="graphicsView_22">
     <property name="geometry">
      <rect>
-      <x>824</x>
-      <y>70</y>
+      <x>832</x>
+      <y>66</y>
       <width>32</width>
       <height>22</height>
      </rect>
@@ -3457,8 +3457,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QGraphicsView" name="graphicsView_23">
     <property name="geometry">
      <rect>
-      <x>879</x>
-      <y>70</y>
+      <x>881</x>
+      <y>66</y>
       <width>32</width>
       <height>22</height>
      </rect>
@@ -3470,9 +3470,9 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QGraphicsView" name="graphicsView_bes_komp_stop">
     <property name="geometry">
      <rect>
-      <x>766</x>
-      <y>94</y>
-      <width>150</width>
+      <x>780</x>
+      <y>93</y>
+      <width>136</width>
       <height>13</height>
      </rect>
     </property>
@@ -3849,8 +3849,8 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <rect>
       <x>638</x>
       <y>139</y>
-      <width>41</width>
-      <height>41</height>
+      <width>40</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -3905,10 +3905,10 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QCommandLinkButton" name="commandLink_Button_on_off">
     <property name="geometry">
      <rect>
-      <x>641</x>
-      <y>137</y>
-      <width>41</width>
-      <height>41</height>
+      <x>640</x>
+      <y>138</y>
+      <width>39</width>
+      <height>39</height>
      </rect>
     </property>
     <property name="font">
@@ -3961,10 +3961,10 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>70</y>
-      <width>141</width>
-      <height>21</height>
+      <x>780</x>
+      <y>60</y>
+      <width>131</width>
+      <height>28</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -4054,6 +4054,25 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
+   <widget class="QFrame" name="frame_0_aa">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
    <widget class="QFrame" name="frame_0_b">
     <property name="geometry">
      <rect>
@@ -4096,6 +4115,25 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>22</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_0_dd">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4168,10 +4206,48 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
-   <widget class="QFrame" name="frame_0_dp">
+   <widget class="QFrame" name="frame_0_gg">
     <property name="geometry">
      <rect>
       <x>46</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_0_dp">
+    <property name="geometry">
+     <rect>
+      <x>48</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_0_pp">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4190,7 +4266,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_a">
     <property name="geometry">
      <rect>
-      <x>66</x>
+      <x>70</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_1_aa">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -4209,7 +4304,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_b">
     <property name="geometry">
      <rect>
-      <x>82</x>
+      <x>86</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4228,7 +4323,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_c">
     <property name="geometry">
      <rect>
-      <x>82</x>
+      <x>86</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4247,7 +4342,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_d">
     <property name="geometry">
      <rect>
-      <x>66</x>
+      <x>70</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_1_dd">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4266,7 +4380,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_e">
     <property name="geometry">
      <rect>
-      <x>58</x>
+      <x>62</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4285,7 +4399,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_f">
     <property name="geometry">
      <rect>
-      <x>58</x>
+      <x>62</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4304,7 +4418,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_g">
     <property name="geometry">
      <rect>
-      <x>66</x>
+      <x>70</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_1_gg">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -4323,7 +4456,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_1_dp">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>96</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_1_pp">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4342,7 +4494,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_a">
     <property name="geometry">
      <rect>
-      <x>134</x>
+      <x>118</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2_aa">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -4361,7 +4532,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_b">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>134</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4380,7 +4551,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_c">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>134</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4399,7 +4570,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_d">
     <property name="geometry">
      <rect>
-      <x>134</x>
+      <x>118</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2_dd">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4418,7 +4608,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_e">
     <property name="geometry">
      <rect>
-      <x>126</x>
+      <x>110</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4437,7 +4627,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_f">
     <property name="geometry">
      <rect>
-      <x>126</x>
+      <x>110</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4456,7 +4646,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_g">
     <property name="geometry">
      <rect>
-      <x>134</x>
+      <x>118</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2_gg">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -4475,7 +4684,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_2_dp">
     <property name="geometry">
      <rect>
-      <x>158</x>
+      <x>144</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2_pp">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4494,7 +4722,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_a">
     <property name="geometry">
      <rect>
-      <x>178</x>
+      <x>166</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3_aa">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -4513,7 +4760,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_b">
     <property name="geometry">
      <rect>
-      <x>194</x>
+      <x>182</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4532,7 +4779,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_c">
     <property name="geometry">
      <rect>
-      <x>194</x>
+      <x>182</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4551,7 +4798,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_d">
     <property name="geometry">
      <rect>
-      <x>178</x>
+      <x>166</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3_dd">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4570,7 +4836,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_e">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>158</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4589,7 +4855,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_f">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>158</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4608,7 +4874,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_g">
     <property name="geometry">
      <rect>
-      <x>178</x>
+      <x>166</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3_gg">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -4627,7 +4912,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_3_dp">
     <property name="geometry">
      <rect>
-      <x>202</x>
+      <x>192</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3_pp">
+    <property name="geometry">
+     <rect>
+      <x>216</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4646,7 +4950,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_a">
     <property name="geometry">
      <rect>
-      <x>222</x>
+      <x>214</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4_aa">
+    <property name="geometry">
+     <rect>
+      <x>238</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -4665,7 +4988,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_b">
     <property name="geometry">
      <rect>
-      <x>238</x>
+      <x>230</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4684,7 +5007,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_c">
     <property name="geometry">
      <rect>
-      <x>238</x>
+      <x>230</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4703,7 +5026,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_d">
     <property name="geometry">
      <rect>
-      <x>222</x>
+      <x>214</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4_dd">
+    <property name="geometry">
+     <rect>
+      <x>238</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4722,7 +5064,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_e">
     <property name="geometry">
      <rect>
-      <x>214</x>
+      <x>206</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4741,7 +5083,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_f">
     <property name="geometry">
      <rect>
-      <x>214</x>
+      <x>206</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4760,7 +5102,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_g">
     <property name="geometry">
      <rect>
-      <x>222</x>
+      <x>214</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4_gg">
+    <property name="geometry">
+     <rect>
+      <x>238</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -4779,7 +5140,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_4_dp">
     <property name="geometry">
      <rect>
-      <x>246</x>
+      <x>240</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4_pp">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4798,7 +5178,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_a">
     <property name="geometry">
      <rect>
-      <x>266</x>
+      <x>262</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5_aa">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -4817,7 +5216,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_b">
     <property name="geometry">
      <rect>
-      <x>282</x>
+      <x>278</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4836,7 +5235,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_c">
     <property name="geometry">
      <rect>
-      <x>282</x>
+      <x>278</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4855,7 +5254,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_d">
     <property name="geometry">
      <rect>
-      <x>266</x>
+      <x>262</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5_dd">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -4874,7 +5292,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_e">
     <property name="geometry">
      <rect>
-      <x>258</x>
+      <x>254</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -4893,7 +5311,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_f">
     <property name="geometry">
      <rect>
-      <x>258</x>
+      <x>254</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -4912,7 +5330,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_g">
     <property name="geometry">
      <rect>
-      <x>266</x>
+      <x>262</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5_gg">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -4931,7 +5368,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_5_dp">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>288</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5_pp">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -4951,6 +5407,25 @@ border-image: url(:/images/images/txt_133_920.png);</string>
     <property name="geometry">
      <rect>
       <x>310</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_6_aa">
+    <property name="geometry">
+     <rect>
+      <x>334</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5023,6 +5498,25 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
+   <widget class="QFrame" name="frame_6_dd">
+    <property name="geometry">
+     <rect>
+      <x>334</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
    <widget class="QFrame" name="frame_6_e">
     <property name="geometry">
      <rect>
@@ -5080,10 +5574,48 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
-   <widget class="QFrame" name="frame_6_dp">
+   <widget class="QFrame" name="frame_6_gg">
     <property name="geometry">
      <rect>
       <x>334</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_6_dp">
+    <property name="geometry">
+     <rect>
+      <x>336</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_6_pp">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5102,7 +5634,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_a">
     <property name="geometry">
      <rect>
-      <x>354</x>
+      <x>358</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_7_aa">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5121,7 +5672,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_b">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>374</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5140,7 +5691,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_c">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>374</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5159,7 +5710,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_d">
     <property name="geometry">
      <rect>
-      <x>354</x>
+      <x>358</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_7_dd">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5178,7 +5748,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_e">
     <property name="geometry">
      <rect>
-      <x>346</x>
+      <x>350</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5197,7 +5767,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_f">
     <property name="geometry">
      <rect>
-      <x>346</x>
+      <x>350</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5216,7 +5786,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_g">
     <property name="geometry">
      <rect>
-      <x>354</x>
+      <x>358</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_7_gg">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5235,7 +5824,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_7_dp">
     <property name="geometry">
      <rect>
-      <x>378</x>
+      <x>384</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_7_pp">
+    <property name="geometry">
+     <rect>
+      <x>408</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5254,7 +5862,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_a">
     <property name="geometry">
      <rect>
-      <x>398</x>
+      <x>406</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_8_aa">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5273,7 +5900,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_b">
     <property name="geometry">
      <rect>
-      <x>414</x>
+      <x>422</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5292,7 +5919,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_c">
     <property name="geometry">
      <rect>
-      <x>414</x>
+      <x>422</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5311,7 +5938,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_d">
     <property name="geometry">
      <rect>
-      <x>398</x>
+      <x>406</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_8_dd">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5330,7 +5976,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_e">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>398</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5349,7 +5995,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_f">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>398</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5368,7 +6014,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_g">
     <property name="geometry">
      <rect>
-      <x>398</x>
+      <x>406</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_8_gg">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5387,7 +6052,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_8_dp">
     <property name="geometry">
      <rect>
-      <x>422</x>
+      <x>432</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_8_pp">
+    <property name="geometry">
+     <rect>
+      <x>456</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5406,7 +6090,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_a">
     <property name="geometry">
      <rect>
-      <x>442</x>
+      <x>454</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_9_aa">
+    <property name="geometry">
+     <rect>
+      <x>478</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5425,7 +6128,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_b">
     <property name="geometry">
      <rect>
-      <x>458</x>
+      <x>470</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5444,7 +6147,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_c">
     <property name="geometry">
      <rect>
-      <x>458</x>
+      <x>470</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5463,7 +6166,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_d">
     <property name="geometry">
      <rect>
-      <x>442</x>
+      <x>454</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_9_dd">
+    <property name="geometry">
+     <rect>
+      <x>478</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5482,7 +6204,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_e">
     <property name="geometry">
      <rect>
-      <x>434</x>
+      <x>446</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5501,7 +6223,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_f">
     <property name="geometry">
      <rect>
-      <x>434</x>
+      <x>446</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5520,7 +6242,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_g">
     <property name="geometry">
      <rect>
-      <x>442</x>
+      <x>454</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_9_gg">
+    <property name="geometry">
+     <rect>
+      <x>478</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5539,7 +6280,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_9_dp">
     <property name="geometry">
      <rect>
-      <x>466</x>
+      <x>480</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_9_pp">
+    <property name="geometry">
+     <rect>
+      <x>504</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5558,7 +6318,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_a">
     <property name="geometry">
      <rect>
-      <x>486</x>
+      <x>502</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_10_aa">
+    <property name="geometry">
+     <rect>
+      <x>526</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5577,7 +6356,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_b">
     <property name="geometry">
      <rect>
-      <x>502</x>
+      <x>518</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5596,7 +6375,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_c">
     <property name="geometry">
      <rect>
-      <x>502</x>
+      <x>518</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5615,7 +6394,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_d">
     <property name="geometry">
      <rect>
-      <x>486</x>
+      <x>502</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_10_dd">
+    <property name="geometry">
+     <rect>
+      <x>526</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5634,7 +6432,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_e">
     <property name="geometry">
      <rect>
-      <x>478</x>
+      <x>494</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5653,7 +6451,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_f">
     <property name="geometry">
      <rect>
-      <x>478</x>
+      <x>494</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5672,7 +6470,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_g">
     <property name="geometry">
      <rect>
-      <x>486</x>
+      <x>502</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_10_gg">
+    <property name="geometry">
+     <rect>
+      <x>526</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5691,7 +6508,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_10_dp">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>528</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_10_pp">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5710,7 +6546,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_a">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>550</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_11_aa">
+    <property name="geometry">
+     <rect>
+      <x>574</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5729,7 +6584,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_b">
     <property name="geometry">
      <rect>
-      <x>546</x>
+      <x>566</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5748,7 +6603,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_c">
     <property name="geometry">
      <rect>
-      <x>546</x>
+      <x>566</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5767,7 +6622,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_d">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>550</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_11_dd">
+    <property name="geometry">
+     <rect>
+      <x>574</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5786,7 +6660,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_e">
     <property name="geometry">
      <rect>
-      <x>522</x>
+      <x>542</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5805,7 +6679,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_f">
     <property name="geometry">
      <rect>
-      <x>522</x>
+      <x>542</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5824,7 +6698,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_g">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>550</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_11_gg">
+    <property name="geometry">
+     <rect>
+      <x>574</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5843,7 +6736,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_11_dp">
     <property name="geometry">
      <rect>
-      <x>554</x>
+      <x>576</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_11_pp">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -5862,7 +6774,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_a">
     <property name="geometry">
      <rect>
-      <x>574</x>
+      <x>598</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_12_aa">
+    <property name="geometry">
+     <rect>
+      <x>622</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -5881,7 +6812,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_b">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>614</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5900,7 +6831,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_c">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>614</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5919,7 +6850,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_d">
     <property name="geometry">
      <rect>
-      <x>574</x>
+      <x>598</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_12_dd">
+    <property name="geometry">
+     <rect>
+      <x>622</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -5938,7 +6888,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_e">
     <property name="geometry">
      <rect>
-      <x>566</x>
+      <x>590</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -5957,7 +6907,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_f">
     <property name="geometry">
      <rect>
-      <x>566</x>
+      <x>590</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -5976,7 +6926,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_g">
     <property name="geometry">
      <rect>
-      <x>574</x>
+      <x>598</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_12_gg">
+    <property name="geometry">
+     <rect>
+      <x>622</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -5995,7 +6964,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_12_dp">
     <property name="geometry">
      <rect>
-      <x>598</x>
+      <x>624</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_12_pp">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -6014,7 +7002,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_a">
     <property name="geometry">
      <rect>
-      <x>638</x>
+      <x>646</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_13_aa">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -6033,7 +7040,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_b">
     <property name="geometry">
      <rect>
-      <x>654</x>
+      <x>662</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6052,7 +7059,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_c">
     <property name="geometry">
      <rect>
-      <x>654</x>
+      <x>662</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6071,7 +7078,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_d">
     <property name="geometry">
      <rect>
-      <x>638</x>
+      <x>646</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_13_dd">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -6090,7 +7116,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_e">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>638</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6109,7 +7135,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_f">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>638</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6128,7 +7154,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_g">
     <property name="geometry">
      <rect>
-      <x>638</x>
+      <x>646</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_13_gg">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -6147,7 +7192,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_13_dp">
     <property name="geometry">
      <rect>
-      <x>662</x>
+      <x>672</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_13_pp">
+    <property name="geometry">
+     <rect>
+      <x>696</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -6166,7 +7230,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_a">
     <property name="geometry">
      <rect>
-      <x>682</x>
+      <x>694</x>
+      <y>17</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_14_aa">
+    <property name="geometry">
+     <rect>
+      <x>718</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -6185,7 +7268,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_b">
     <property name="geometry">
      <rect>
-      <x>698</x>
+      <x>710</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6204,7 +7287,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_c">
     <property name="geometry">
      <rect>
-      <x>698</x>
+      <x>710</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6223,7 +7306,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_d">
     <property name="geometry">
      <rect>
-      <x>682</x>
+      <x>694</x>
+      <y>65</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_14_dd">
+    <property name="geometry">
+     <rect>
+      <x>718</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -6242,7 +7344,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_e">
     <property name="geometry">
      <rect>
-      <x>674</x>
+      <x>686</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6261,7 +7363,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_f">
     <property name="geometry">
      <rect>
-      <x>674</x>
+      <x>686</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6280,7 +7382,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_g">
     <property name="geometry">
      <rect>
-      <x>682</x>
+      <x>694</x>
+      <y>41</y>
+      <width>16</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_14_gg">
+    <property name="geometry">
+     <rect>
+      <x>718</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -6299,7 +7420,26 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_14_dp">
     <property name="geometry">
      <rect>
-      <x>706</x>
+      <x>720</x>
+      <y>75</y>
+      <width>8</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 193, 200);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_14_pp">
+    <property name="geometry">
+     <rect>
+      <x>744</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -6318,7 +7458,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_a">
     <property name="geometry">
      <rect>
-      <x>726</x>
+      <x>742</x>
       <y>17</y>
       <width>16</width>
       <height>10</height>
@@ -6337,7 +7477,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_b">
     <property name="geometry">
      <rect>
-      <x>742</x>
+      <x>758</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6356,7 +7496,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_c">
     <property name="geometry">
      <rect>
-      <x>742</x>
+      <x>758</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6375,7 +7515,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_d">
     <property name="geometry">
      <rect>
-      <x>726</x>
+      <x>742</x>
       <y>65</y>
       <width>16</width>
       <height>10</height>
@@ -6394,7 +7534,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_e">
     <property name="geometry">
      <rect>
-      <x>718</x>
+      <x>734</x>
       <y>49</y>
       <width>8</width>
       <height>20</height>
@@ -6413,7 +7553,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_f">
     <property name="geometry">
      <rect>
-      <x>718</x>
+      <x>734</x>
       <y>23</y>
       <width>8</width>
       <height>20</height>
@@ -6432,7 +7572,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_g">
     <property name="geometry">
      <rect>
-      <x>726</x>
+      <x>742</x>
       <y>41</y>
       <width>16</width>
       <height>10</height>
@@ -6451,7 +7591,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <widget class="QFrame" name="frame_15_dp">
     <property name="geometry">
      <rect>
-      <x>750</x>
+      <x>766</x>
       <y>75</y>
       <width>8</width>
       <height>10</height>
@@ -6467,11 +7607,11 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
+   <zorder>graphicsView_2</zorder>
    <zorder>graphicsView_133</zorder>
    <zorder>graphicsView_on_off</zorder>
    <zorder>graphicsView_5</zorder>
    <zorder>graphicsView_4</zorder>
-   <zorder>graphicsView_2</zorder>
    <zorder>graphicsView_9</zorder>
    <zorder>openGLWidget_126</zorder>
    <zorder>toolButton_126</zorder>
@@ -6713,125 +7853,185 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>lineEdit</zorder>
    <zorder>frame_5</zorder>
    <zorder>frame_0_a</zorder>
+   <zorder>frame_0_aa</zorder>
    <zorder>frame_0_b</zorder>
    <zorder>frame_0_c</zorder>
    <zorder>frame_0_d</zorder>
+   <zorder>frame_0_dd</zorder>
    <zorder>frame_0_e</zorder>
    <zorder>frame_0_f</zorder>
    <zorder>frame_0_g</zorder>
+   <zorder>frame_0_gg</zorder>
    <zorder>frame_0_dp</zorder>
+   <zorder>frame_0_pp</zorder>
    <zorder>frame_1_a</zorder>
+   <zorder>frame_1_aa</zorder>
    <zorder>frame_1_b</zorder>
    <zorder>frame_1_c</zorder>
    <zorder>frame_1_d</zorder>
+   <zorder>frame_1_dd</zorder>
    <zorder>frame_1_e</zorder>
    <zorder>frame_1_f</zorder>
    <zorder>frame_1_g</zorder>
+   <zorder>frame_1_gg</zorder>
    <zorder>frame_1_dp</zorder>
+   <zorder>frame_1_pp</zorder>
    <zorder>frame_2_a</zorder>
+   <zorder>frame_2_aa</zorder>
    <zorder>frame_2_b</zorder>
    <zorder>frame_2_c</zorder>
    <zorder>frame_2_d</zorder>
+   <zorder>frame_2_dd</zorder>
    <zorder>frame_2_e</zorder>
    <zorder>frame_2_f</zorder>
    <zorder>frame_2_g</zorder>
+   <zorder>frame_2_gg</zorder>
    <zorder>frame_2_dp</zorder>
+   <zorder>frame_2_pp</zorder>
    <zorder>frame_3_a</zorder>
+   <zorder>frame_3_aa</zorder>
    <zorder>frame_3_b</zorder>
    <zorder>frame_3_c</zorder>
    <zorder>frame_3_d</zorder>
+   <zorder>frame_3_dd</zorder>
    <zorder>frame_3_e</zorder>
    <zorder>frame_3_f</zorder>
    <zorder>frame_3_g</zorder>
+   <zorder>frame_3_gg</zorder>
    <zorder>frame_3_dp</zorder>
+   <zorder>frame_3_pp</zorder>
    <zorder>frame_4_a</zorder>
+   <zorder>frame_4_aa</zorder>
    <zorder>frame_4_b</zorder>
    <zorder>frame_4_c</zorder>
    <zorder>frame_4_d</zorder>
+   <zorder>frame_4_dd</zorder>
    <zorder>frame_4_e</zorder>
    <zorder>frame_4_f</zorder>
    <zorder>frame_4_g</zorder>
+   <zorder>frame_4_gg</zorder>
    <zorder>frame_4_dp</zorder>
+   <zorder>frame_4_pp</zorder>
    <zorder>frame_5_a</zorder>
+   <zorder>frame_5_aa</zorder>
    <zorder>frame_5_b</zorder>
    <zorder>frame_5_c</zorder>
    <zorder>frame_5_d</zorder>
+   <zorder>frame_5_dd</zorder>
    <zorder>frame_5_e</zorder>
    <zorder>frame_5_f</zorder>
    <zorder>frame_5_g</zorder>
+   <zorder>frame_5_gg</zorder>
    <zorder>frame_5_dp</zorder>
+   <zorder>frame_5_pp</zorder>
    <zorder>frame_6_a</zorder>
+   <zorder>frame_6_aa</zorder>
    <zorder>frame_6_b</zorder>
    <zorder>frame_6_c</zorder>
+   <zorder>frame_6_dd</zorder>
    <zorder>frame_6_d</zorder>
    <zorder>frame_6_e</zorder>
    <zorder>frame_6_f</zorder>
    <zorder>frame_6_g</zorder>
+   <zorder>frame_6_gg</zorder>
    <zorder>frame_6_dp</zorder>
+   <zorder>frame_6_pp</zorder>
    <zorder>frame_7_a</zorder>
+   <zorder>frame_7_aa</zorder>
    <zorder>frame_7_b</zorder>
    <zorder>frame_7_c</zorder>
    <zorder>frame_7_d</zorder>
+   <zorder>frame_7_dd</zorder>
    <zorder>frame_7_e</zorder>
    <zorder>frame_7_f</zorder>
    <zorder>frame_7_g</zorder>
+   <zorder>frame_7_gg</zorder>
    <zorder>frame_7_dp</zorder>
+   <zorder>frame_7_pp</zorder>
    <zorder>frame_8_a</zorder>
+   <zorder>frame_8_aa</zorder>
    <zorder>frame_8_b</zorder>
    <zorder>frame_8_c</zorder>
    <zorder>frame_8_d</zorder>
+   <zorder>frame_8_dd</zorder>
    <zorder>frame_8_e</zorder>
    <zorder>frame_8_f</zorder>
    <zorder>frame_8_g</zorder>
+   <zorder>frame_8_gg</zorder>
    <zorder>frame_8_dp</zorder>
+   <zorder>frame_8_pp</zorder>
    <zorder>frame_9_a</zorder>
+   <zorder>frame_9_aa</zorder>
    <zorder>frame_9_b</zorder>
    <zorder>frame_9_c</zorder>
    <zorder>frame_9_d</zorder>
+   <zorder>frame_9_dd</zorder>
    <zorder>frame_9_e</zorder>
    <zorder>frame_9_f</zorder>
    <zorder>frame_9_g</zorder>
+   <zorder>frame_9_gg</zorder>
    <zorder>frame_9_dp</zorder>
+   <zorder>frame_9_pp</zorder>
    <zorder>frame_10_a</zorder>
+   <zorder>frame_10_aa</zorder>
    <zorder>frame_10_b</zorder>
    <zorder>frame_10_c</zorder>
    <zorder>frame_10_d</zorder>
+   <zorder>frame_10_dd</zorder>
    <zorder>frame_10_e</zorder>
    <zorder>frame_10_f</zorder>
    <zorder>frame_10_g</zorder>
+   <zorder>frame_10_gg</zorder>
    <zorder>frame_10_dp</zorder>
+   <zorder>frame_10_pp</zorder>
    <zorder>frame_11_a</zorder>
+   <zorder>frame_11_aa</zorder>
    <zorder>frame_11_b</zorder>
    <zorder>frame_11_c</zorder>
    <zorder>frame_11_d</zorder>
+   <zorder>frame_11_dd</zorder>
    <zorder>frame_11_e</zorder>
    <zorder>frame_11_f</zorder>
    <zorder>frame_11_g</zorder>
+   <zorder>frame_11_gg</zorder>
    <zorder>frame_11_dp</zorder>
+   <zorder>frame_11_pp</zorder>
    <zorder>frame_12_a</zorder>
+   <zorder>frame_12_aa</zorder>
    <zorder>frame_12_b</zorder>
    <zorder>frame_12_c</zorder>
    <zorder>frame_12_d</zorder>
+   <zorder>frame_12_dd</zorder>
    <zorder>frame_12_e</zorder>
    <zorder>frame_12_f</zorder>
    <zorder>frame_12_g</zorder>
+   <zorder>frame_12_gg</zorder>
    <zorder>frame_12_dp</zorder>
+   <zorder>frame_12_pp</zorder>
    <zorder>frame_13_a</zorder>
+   <zorder>frame_13_aa</zorder>
    <zorder>frame_13_b</zorder>
    <zorder>frame_13_c</zorder>
    <zorder>frame_13_d</zorder>
+   <zorder>frame_13_dd</zorder>
    <zorder>frame_13_e</zorder>
    <zorder>frame_13_f</zorder>
    <zorder>frame_13_g</zorder>
+   <zorder>frame_13_gg</zorder>
    <zorder>frame_13_dp</zorder>
+   <zorder>frame_13_pp</zorder>
    <zorder>frame_14_a</zorder>
+   <zorder>frame_14_aa</zorder>
    <zorder>frame_14_b</zorder>
    <zorder>frame_14_c</zorder>
    <zorder>frame_14_d</zorder>
+   <zorder>frame_14_dd</zorder>
    <zorder>frame_14_e</zorder>
    <zorder>frame_14_f</zorder>
    <zorder>frame_14_g</zorder>
+   <zorder>frame_14_gg</zorder>
    <zorder>frame_14_dp</zorder>
+   <zorder>frame_14_pp</zorder>
    <zorder>frame_15_a</zorder>
    <zorder>frame_15_b</zorder>
    <zorder>frame_15_c</zorder>
