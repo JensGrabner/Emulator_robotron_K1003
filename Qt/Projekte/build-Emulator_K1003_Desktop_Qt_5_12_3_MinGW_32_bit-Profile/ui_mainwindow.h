@@ -462,6 +462,7 @@ public:
     QFrame *frame_15_f;
     QFrame *frame_15_g;
     QFrame *frame_15_dp;
+    QFrame *frame_4;
     QMenuBar *menuBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -2746,6 +2747,11 @@ public:
         frame_15_dp->setStyleSheet(QString::fromUtf8("background-color: rgb(193, 193, 200);"));
         frame_15_dp->setFrameShape(QFrame::StyledPanel);
         frame_15_dp->setFrameShadow(QFrame::Raised);
+        frame_4 = new QFrame(centralWidget);
+        frame_4->setObjectName(QString::fromUtf8("frame_4"));
+        frame_4->setGeometry(QRect(150, 170, 91, 21));
+        frame_4->setFrameShape(QFrame::StyledPanel);
+        frame_4->setFrameShadow(QFrame::Raised);
         MainWindow->setCentralWidget(centralWidget);
         graphicsView_2->raise();
         graphicsView_133->raise();
@@ -3180,6 +3186,7 @@ public:
         frame_15_f->raise();
         frame_15_g->raise();
         frame_15_dp->raise();
+        frame_4->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 921, 26));

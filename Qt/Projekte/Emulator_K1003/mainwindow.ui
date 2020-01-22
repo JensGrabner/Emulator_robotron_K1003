@@ -7607,6 +7607,22 @@ border-image: url(:/images/images/txt_133_920.png);</string>
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>170</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
    <zorder>graphicsView_2</zorder>
    <zorder>graphicsView_133</zorder>
    <zorder>graphicsView_on_off</zorder>
@@ -8040,6 +8056,7 @@ border-image: url(:/images/images/txt_133_920.png);</string>
    <zorder>frame_15_f</zorder>
    <zorder>frame_15_g</zorder>
    <zorder>frame_15_dp</zorder>
+   <zorder>frame_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
