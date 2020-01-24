@@ -31,7 +31,8 @@ private:
 	*/
 
 	void setPoint_new(uint8_t x_all);
-	void clearPoint_new(uint8_t x_all); 
+	void clearPoint_new(uint8_t x_all);
+
 /*
 	const uint8_t led_font[112] = {
 		0,  64,  68,  76,  92, 124, 125, 127, 111, 103,  99,  97,  96,  64,   0,   0,     //  ¦                ¦
@@ -246,6 +247,17 @@ public:
 	void DisplayDigit_new();
 	// void dispBufferTest();
 
+	void checkBox_komp_on();
+	void checkBox_komp_off();
+	void checkBox_bes_on();
+	void checkBox_bes_off();
+	void checkBox_stop_on();
+	void checkBox_stop_off();
+	void checkBox_grd__on();
+	void checkBox_grd__off();
+	void checkBox_ngrd__on();
+	void checkBox_ngrd__off();
+
 	void set_dispBuffer(uint8_t dispBuffer_new[16]);
 	void clear();
 	/*
@@ -277,6 +289,7 @@ public:
 
 	// void PiClicked();  // myK1003
 	void InitProcessor();
+	void run_K1000_Anztest();
 	void stop_CPU();
 	void reStart_CPU();
 };

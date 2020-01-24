@@ -5831,6 +5831,13 @@ void Display::PiClicked()
 void Display::InitProcessor()
 {
 	myK1003->InitProcessor();
+	// checkBox_komp_on();
+}
+
+void Display::run_K1000_Anztest()
+{
+	myK1003->run_K1000_Anztest();
+	// checkBox_komp_on();
 }
 
 void Display::stop_CPU()
@@ -5846,4 +5853,71 @@ void Display::stop_CPU()
 void Display::reStart_CPU()
 {
 	myK1003->reStart_CPU();
+}
+
+void Display::checkBox_komp_on() {
+	if (ui->checkBox_komp->isChecked() == false) {
+		ui->checkBox_komp->click();
+	}
+}
+
+void Display::checkBox_komp_off() {
+	if (ui->checkBox_komp->isChecked() == true) {
+		ui->checkBox_komp->click();
+		ui->checkBox_komp->click();
+	}
+}
+
+void Display::checkBox_bes_on() {
+	if (ui->checkBox_komp->isChecked() == false) {
+		if (ui->checkBox_bes->isChecked() == false) {
+			ui->checkBox_bes->click();
+		}
+	}
+}
+
+void Display::checkBox_bes_off() {
+	if (ui->checkBox_bes->isChecked() == true) {
+		ui->checkBox_bes->click();
+		ui->checkBox_bes->click();
+	}
+}
+
+void Display::checkBox_stop_on() {
+	if (ui->checkBox_stop->isChecked() == false) {
+		ui->checkBox_stop->click();
+	}
+}
+
+void Display::checkBox_stop_off() {
+	if (ui->checkBox_stop->isChecked() == true) {
+		ui->checkBox_stop->click();
+		ui->checkBox_stop->click();
+	}
+}
+
+void Display::checkBox_grd__on() {
+	if (ui->checkBox_grd_on->isChecked() == false) {
+		ui->checkBox_grd_on->click();
+	}
+}
+
+void Display::checkBox_grd__off() {
+	if (ui->checkBox_grd_on->isChecked() == true) {
+		ui->checkBox_grd_on->click();
+		ui->checkBox_grd_on->click();
+	}
+}
+
+void Display::checkBox_ngrd__on() {
+	if (ui->checkBox_ngrd_on->isChecked() == false) {
+		ui->checkBox_ngrd_on->click();
+	}
+}
+
+void Display::checkBox_ngrd__off() {
+	if (ui->checkBox_ngrd_on->isChecked() == true) {
+		ui->checkBox_ngrd_on->click();
+		ui->checkBox_ngrd_on->click();
+	}
 }

@@ -24,6 +24,8 @@ public:
 
 	uint8_t Button_007_count = 0;
 	uint8_t Button_017_count = 0;
+	uint8_t Button_113_count = 0;
+	uint8_t Button_157_count = 0 ;
 	uint8_t Button_167_count = 0;
 
 private slots:
@@ -39,10 +41,10 @@ private slots:
 	void Button_014_released();
 	void Button_024_pressed();
 	void Button_024_released();
-	void Button_005_pressed();
 	void Button_005_released();
 	void Button_015_pressed();
 	void Button_015_released();
+	void Button_005_pressed();
 	void Button_025_pressed();
 	void Button_025_released();
 	void Button_006_pressed();

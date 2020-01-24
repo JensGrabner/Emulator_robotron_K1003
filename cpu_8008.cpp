@@ -120,6 +120,19 @@ void cpu_8008::InitProcessor()
 	my_runCPU->start_CPU(this);
 }
 
+void cpu_8008::run_K1000_Anztest()
+{
+	uint16_t count = 2;
+	uint16_t PC_counter = my_runCPU->K1000_Anztest[0];
+	PC_counter *= 256;
+	PC_counter += my_runCPU->K1000_Anztest[1];
+	while (my_runCPU->K1000_Anztest[count] != 0xFF) {
+		my_runCPU->KRom_KRam[count] = my_runCPU->K1000_Anztest[count];
+		count += 1;
+	}
+	// myK1003->Test();  // o.k.
+};
+
 void cpu_8008::stop_CPU()
 {
 	my_runCPU->stop_CPU();
@@ -1225,7 +1238,7 @@ void cpu_8008::out_00()  // Call Anzeige
 			}
 
 			if (display_change == true) {
-				myK1003->CPU_hlt(0);
+				// myK1003->CPU_hlt(0);
 				stop_CPU();
 				myK1003->set_dispBuffer(dispBuffer);
 				reStart_CPU();
@@ -1263,6 +1276,10 @@ void cpu_8008::out_03() // statusLEDs
 	// ((Areg << 2) & 0b11011100);
 	Areg = Areg << 2;
 	Areg = Areg & 0b11011100;
+
+	myK1003->statusLEDs(Areg);
+	// myK1003->CPU_hlt(Areg);
+	// ui->label->setText("Areg " + QString::number(Areg, 10)); // defekt
 
 	PC += 1;
 }

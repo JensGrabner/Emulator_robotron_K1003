@@ -100,10 +100,12 @@ public:
 
 	// void PiClicked();
 	void InitProcessor();
+	void run_K1000_Anztest();
 	void stop_CPU();
 	void reStart_CPU();
 	void K1003_is_on();
 	void CPU_hlt(uint16_t PC_n);
+	void statusLEDs(uint8_t PC_n);
 	void Test();
 	void set_dispBuffer(uint8_t dispBuffer_new[16]);
 

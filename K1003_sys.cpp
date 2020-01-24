@@ -46,9 +46,15 @@ void K1003_sys::InitProcessor()
 	myCPU->InitProcessor();
 }
 
+void K1003_sys::run_K1000_Anztest()
+{
+	myCPU->run_K1000_Anztest();
+}
+
 void K1003_sys::stop_CPU()
 {
 	myCPU->stop_CPU();
+
 }
 
 void K1003_sys::reStart_CPU()
@@ -61,6 +67,46 @@ void K1003_sys::CPU_hlt(uint16_t PC_n)
 	ui->label->setText("hlt " + QString::number(PC_n, 10)); // o.k.
 }
 
+void K1003_sys::statusLEDs(uint8_t Led_out)
+{
+	// Areg & 0b11011100
+
+	if ((Led_out & 0b00000100) == 4) {
+		myDisplay->checkBox_komp_on();
+	}
+	else {
+		myDisplay->checkBox_komp_off();
+	}
+
+	if ((Led_out & 0b00001000) == 8) {
+		myDisplay->checkBox_stop_on();
+	}
+	else {
+		myDisplay->checkBox_stop_off();
+	}
+
+	if ((Led_out & 0b00010000) == 16) {
+		myDisplay->checkBox_bes_on();
+	}
+	else {
+		myDisplay->checkBox_bes_off();
+	}
+
+	if ((Led_out & 0b01000000) == 64) {
+		myDisplay->checkBox_grd__on();
+	}
+	else {
+		myDisplay->checkBox_grd__off();
+	}
+
+	if ((Led_out & 0b10000000) == 128) {
+		myDisplay->checkBox_ngrd__on();
+	}
+	else {
+		myDisplay->checkBox_ngrd__off();
+	}
+}
+
 void K1003_sys::K1003_is_on()
 {
 	ui->label->setText("K1003_on");
@@ -70,7 +116,7 @@ void K1003_sys::Test()
 {
 	// myDisplay->DisplayDigit();  // o.k.
 	// myCPU->iSet(0);  // HLT - Test
-	// ui->label->setText("PiClicked");  // o.k.
+	ui->label->setText("Test_STM");  // o.k.
 }
 
 void K1003_sys::set_dispBuffer(uint8_t dispBuffer_new[16])

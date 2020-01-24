@@ -407,6 +407,7 @@ public:
 	void Test();
 
 	void InitProcessor();
+	void run_K1000_Anztest();
 	void stop_CPU();
 	void reStart_CPU();
 	uint16_t iSet(uint8_t m_nxt);
